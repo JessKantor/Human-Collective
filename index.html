@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Collective</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Source+Sans+3:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0a;
+      --bg-elevated: #141414;
+      --text: #f0ebe3;
+      --text-muted: #9a948a;
+      --accent: #c4a574;
+      --accent-dim: rgba(196, 165, 116, 0.25);
+      --border: rgba(255, 255, 255, 0.08);
+      --font-display: "Cormorant Garamond", "Georgia", serif;
+      --font-body: "Source Sans 3", system-ui, sans-serif;
+    }
+
+    html { font-size: 16px; }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(196, 165, 116, 0.06), transparent),
+        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(196, 165, 116, 0.03), transparent);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .app {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 2rem 4rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .museum-label {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      line-height: 1.1;
+      margin-bottom: 0.75rem;
+    }
+
+    .subtitle {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 32rem;
+      margin: 0 auto;
+    }
+
+    .screen { display: none; animation: fadeIn 0.6s ease; }
+    .screen.active { display: block; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Welcome */
+    .welcome-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.25rem;
+      margin-top: 3rem;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 1.1rem 2.5rem;
+      cursor: pointer;
+      transition: border-color 0.25s, background 0.25s, color 0.25s;
+      min-width: 260px;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .btn-primary {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .btn-primary:hover {
+      background: rgba(196, 165, 116, 0.4);
+    }
+
+    .btn-ghost {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      padding: 0.75rem 1.5rem;
+      min-width: auto;
+      color: var(--text-muted);
+    }
+
+    .btn-ghost:hover { color: var(--text); }
+
+    /* Camera */
+    .camera-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .camera-frame {
+      position: relative;
+      width: min(100%, 480px);
+      aspect-ratio: 3 / 4;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .camera-frame video,
+    .camera-frame canvas {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scaleX(-1);
+    }
+
+    .camera-hint {
+      font-family: var(--font-display);
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    /* Processing */
+    .processing {
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+      animation: spin 0.9s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .processing p {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    /* Results */
+    .face-result {
+      text-align: center;
+      max-width: 36rem;
+      margin: 0 auto 3rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .face-shape-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .face-shape-name {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 300;
+      letter-spacing: 0.06em;
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+    }
+
+    .face-shape-poem {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-style: italic;
+      font-weight: 300;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .gallery-heading {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: var(--text);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .art-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.3s;
+    }
+
+    .art-card:hover { border-color: var(--accent-dim); }
+
+    .art-card-image {
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      background: #1a1a1a;
+    }
+
+    .art-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .art-card:hover .art-card-image img { transform: scale(1.03); }
+
+    .art-card-body {
+      padding: 1.25rem 1.25rem 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .art-title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 400;
+      line-height: 1.35;
+    }
+
+    .art-artist {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .art-date {
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      opacity: 0.8;
+    }
+
+    .art-meta {
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      opacity: 0.7;
+      margin-top: 0.25rem;
+    }
+
+    .art-link {
+      margin-top: auto;
+      padding-top: 0.75rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .art-link:hover { color: var(--accent); }
+
+    .results-footer {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .empty-gallery {
+      text-align: center;
+      padding: 3rem 1rem;
+      font-family: var(--font-display);
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    .error-banner {
+      background: rgba(180, 60, 60, 0.12);
+      border: 1px solid rgba(180, 60, 60, 0.3);
+      color: #e8b4b4;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .hidden { display: none !important; }
+
+    #file-input { display: none; }
+
+    @media (max-width: 600px) {
+      .app { padding: 2rem 1.25rem 3rem; }
+      .gallery { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <p class="museum-label">The Metropolitan Museum of Art</p>
+      <h1>Beauty Collective</h1>
+      <p class="subtitle">Discover portraits across centuries that share the geometry of your face</p>
+    </header>
+
+    <div id="error-banner" class="error-banner hidden"></div>
+
+    <!-- Welcome -->
+    <section id="screen-welcome" class="screen active">
+      <div class="welcome-actions">
+        <button class="btn btn-primary" id="btn-camera">Take a Photo</button>
+        <button class="btn" id="btn-upload">Upload a Photo</button>
+      </div>
+      <input type="file" id="file-input" accept="image/*" capture="environment">
+    </section>
+
+    <!-- Camera -->
+    <section id="screen-camera" class="screen">
+      <div class="camera-wrap">
+        <div class="camera-frame">
+          <video id="camera-video" playsinline autoplay muted></video>
+        </div>
+        <p class="camera-hint">Center your face within the frame</p>
+        <button class="btn btn-primary" id="btn-capture">Capture</button>
+        <button class="btn btn-ghost" id="btn-camera-cancel">Cancel</button>
+      </div>
+    </section>
+
+    <!-- Processing -->
+    <section id="screen-processing" class="screen">
+      <div class="processing">
+        <div class="spinner"></div>
+        <p>Reading the contours of your face&hellip;</p>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="screen-results" class="screen">
+      <div class="face-result">
+        <p class="face-shape-label">Your face shape</p>
+        <h2 class="face-shape-name" id="result-shape"></h2>
+        <p class="face-shape-poem" id="result-poem"></p>
+      </div>
+      <h3 class="gallery-heading">Portraits that mirror your form</h3>
+      <div class="gallery" id="gallery"></div>
+      <div class="results-footer">
+        <button class="btn" id="btn-try-again">Try Again</button>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // -----------------------------------------------------------------------
+    // Landmark indices (MediaPipe Face Mesh) — matches build_database.py
+    // -----------------------------------------------------------------------
+    const LANDMARK_FOREHEAD_TOP = 10;
+    const LANDMARK_CHIN = 152;
+    const LANDMARK_LEFT_CHEEK = 234;
+    const LANDMARK_RIGHT_CHEEK = 454;
+    const LANDMARK_LEFT_TEMPLE = 67;
+    const LANDMARK_RIGHT_TEMPLE = 297;
+    const LANDMARK_LEFT_JAW = 172;
+    const LANDMARK_RIGHT_JAW = 397;
+
+    const FACE_SHAPE_POEMS = {
+      oval: "The oval face — gently elongated, balanced in every proportion — has been the quiet ideal of Western portraiture since the Renaissance. Botticelli's Madonnas, Ingres's sitters, and countless anonymous masters chose this harmonious form to suggest grace without severity.",
+      round: "The round face, soft at the jaw and nearly equal in height and breadth, appears throughout art history as emblem of youth, warmth, and divine innocence — from Byzantine icons to Rococo cherubs, where fullness reads as abundance and life.",
+      square: "The square face, with its broad forehead and strong, angular jaw, conveys authority and presence. Sculptors of ancient Rome and portraitists of the Dutch Golden Age alike sought this geometry to render character as architecture — firm, grounded, unmistakable.",
+      heart: "The heart-shaped face, wide at the temples and narrowing to a delicate chin, carries a romantic lineage. From Persian miniature heroines to Pre-Raphaelite muses, artists have traced this tapering silhouette to suggest ardor, refinement, and a certain luminous vulnerability.",
+      oblong: "The oblong face, marked by vertical elegance and widths that hold steady from brow to jaw, evokes the elongated proportions of Gothic panels and Edo-period ukiyo-e. In its length lies a classical restraint — the face as column, the gaze as horizon."
+    };
+
+    let artDatabase = [];
+    let faceMesh = null;
+    let camera = null;
+    let analyzeCallback = null;
+
+    const $ = (sel) => document.querySelector(sel);
+    const screens = {
+      welcome: $("#screen-welcome"),
+      camera: $("#screen-camera"),
+      processing: $("#screen-processing"),
+      results: $("#screen-results")
+    };
+
+    function showScreen(name) {
+      Object.values(screens).forEach((el) => el.classList.remove("active"));
+      screens[name].classList.add("active");
+    }
+
+    function showError(msg) {
+      const banner = $("#error-banner");
+      banner.textContent = msg;
+      banner.classList.remove("hidden");
+    }
+
+    function hideError() {
+      $("#error-banner").classList.add("hidden");
+    }
+
+    // -----------------------------------------------------------------------
+    // Face shape classification — port of build_database.classify_face_shape
+    // -----------------------------------------------------------------------
+
+    function landmarkDistance(landmarks, idxA, idxB, width, height) {
+      const a = landmarks[idxA];
+      const b = landmarks[idxB];
+      const ax = a.x * width, ay = a.y * height;
+      const bx = b.x * width, by = b.y * height;
+      return Math.hypot(ax - bx, ay - by);
+    }
+
+    function angleAtVertex(landmarks, vertexIdx, armAIdx, armBIdx, width, height) {
+      const vertex = landmarks[vertexIdx];
+      const armA = landmarks[armAIdx];
+      const armB = landmarks[armBIdx];
+      const vx = vertex.x * width, vy = vertex.y * height;
+      const ax = armA.x * width, ay = armA.y * height;
+      const bx = armB.x * width, by = armB.y * height;
+      const vecA = [ax - vx, ay - vy];
+      const vecB = [bx - vx, by - vy];
+      const magA = Math.hypot(...vecA);
+      const magB = Math.hypot(...vecB);
+      if (magA === 0 || magB === 0) return 0;
+      let cosAngle = (vecA[0] * vecB[0] + vecA[1] * vecB[1]) / (magA * magB);
+      cosAngle = Math.max(-1, Math.min(1, cosAngle));
+      return Math.acos(cosAngle) * (180 / Math.PI);
+    }
+
+    function classifyFaceShape(landmarks, imageWidth, imageHeight) {
+      const faceHeight = landmarkDistance(
+        landmarks, LANDMARK_FOREHEAD_TOP, LANDMARK_CHIN, imageWidth, imageHeight
+      );
+      const cheekWidth = landmarkDistance(
+        landmarks, LANDMARK_LEFT_CHEEK, LANDMARK_RIGHT_CHEEK, imageWidth, imageHeight
+      );
+      const foreheadWidth = landmarkDistance(
+        landmarks, LANDMARK_LEFT_TEMPLE, LANDMARK_RIGHT_TEMPLE, imageWidth, imageHeight
+      );
+      const jawWidth = landmarkDistance(
+        landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, imageWidth, imageHeight
+      );
+
+      if (cheekWidth === 0 || foreheadWidth === 0 || jawWidth === 0) return "oval";
+
+      const lengthToWidth = faceHeight / cheekWidth;
+      const jawToForehead = jawWidth / foreheadWidth;
+      const cheekToJaw = cheekWidth / jawWidth;
+
+      const leftJawAngle = angleAtVertex(
+        landmarks, LANDMARK_LEFT_JAW, LANDMARK_CHIN, LANDMARK_LEFT_CHEEK, imageWidth, imageHeight
+      );
+      const rightJawAngle = angleAtVertex(
+        landmarks, LANDMARK_RIGHT_JAW, LANDMARK_CHIN, LANDMARK_RIGHT_CHEEK, imageWidth, imageHeight
+      );
+      const jawAngleDeg = (leftJawAngle + rightJawAngle) / 2;
+
+      if (jawToForehead < 0.82 && cheekToJaw > 1.05) return "heart";
+      if (lengthToWidth > 1.45 && jawToForehead >= 0.85 && jawToForehead <= 1.05) return "oblong";
+      if (lengthToWidth >= 0.92 && lengthToWidth <= 1.12 && jawToForehead >= 0.88 && jawAngleDeg > 125) return "round";
+      if (lengthToWidth >= 1.0 && lengthToWidth <= 1.35 && jawToForehead >= 0.88 && jawToForehead <= 1.08 && jawAngleDeg <= 120) return "square";
+      return "oval";
+    }
+
+    function pickLargestFace(faces, width, height) {
+      if (faces.length === 1) return faces[0];
+      let best = faces[0];
+      let bestArea = 0;
+      for (const lm of faces) {
+        const xs = lm.map((p) => p.x * width);
+        const ys = lm.map((p) => p.y * height);
+        const area = (Math.max(...xs) - Math.min(...xs)) * (Math.max(...ys) - Math.min(...ys));
+        if (area > bestArea) { bestArea = area; best = lm; }
+      }
+      return best;
+    }
+
+    // -----------------------------------------------------------------------
+    // Diverse artwork sampling
+    // -----------------------------------------------------------------------
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function parseYear(dateStr) {
+      if (!dateStr) return null;
+      const m = dateStr.match(/\b(1[0-9]{3}|20[0-9]{2})\b/);
+      return m ? parseInt(m[1], 10) : null;
+    }
+
+    function regionKey(art) {
+      if (art.culture) return art.culture;
+      if (art.department) return art.department;
+      return "Unknown";
+    }
+
+    function sampleDiverseArtworks(artworks, count = 6) {
+      if (artworks.length <= count) return shuffle(artworks);
+
+      const pool = shuffle(artworks);
+      const selected = [];
+      const usedDepts = new Set();
+      const usedRegions = new Set();
+      const usedEras = new Set();
+
+      function eraBucket(year) {
+        if (year === null) return "unknown";
+        if (year < 1000) return "ancient";
+        if (year < 1400) return "medieval";
+        if (year < 1600) return "renaissance";
+        if (year < 1800) return "early_modern";
+        if (year < 1900) return "modern";
+        return "contemporary";
+      }
+
+      function tryAdd(art, predicate) {
+        if (selected.length >= count) return;
+        if (selected.some((s) => s.id === art.id)) return;
+        if (predicate(art)) selected.push(art);
+      }
+
+      // Pass 1: one per department
+      for (const art of pool) {
+        const dept = art.department || "Unknown";
+        if (!usedDepts.has(dept)) {
+          tryAdd(art, () => { usedDepts.add(dept); usedRegions.add(regionKey(art)); return true; });
+        }
+      }
+
+      // Pass 2: one per culture / region not yet represented
+      for (const art of pool) {
+        const region = regionKey(art);
+        if (!usedRegions.has(region)) {
+          tryAdd(art, () => { usedRegions.add(region); return true; });
+        }
+      }
+
+      // Pass 3: spread across time periods
+      for (const art of pool) {
+        const era = eraBucket(parseYear(art.date));
+        if (!usedEras.has(era)) {
+          tryAdd(art, () => { usedEras.add(era); return true; });
+        }
+      }
+
+      // Fill remaining slots
+      for (const art of pool) {
+        if (selected.length >= count) break;
+        tryAdd(art, () => true);
+      }
+
+      return selected.slice(0, count);
+    }
+
+    // -----------------------------------------------------------------------
+    // MediaPipe FaceMesh
+    // -----------------------------------------------------------------------
+
+    function initFaceMesh() {
+      faceMesh = new FaceMesh({
+        locateFile: (file) =>
+          `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/${file}`
+      });
+
+      faceMesh.setOptions({
+        maxNumFaces: 5,
+        refineLandmarks: true,
+        minDetectionConfidence: 0.35,
+        minTrackingConfidence: 0.35
+      });
+
+      faceMesh.onResults((results) => {
+        if (analyzeCallback) {
+          const cb = analyzeCallback;
+          analyzeCallback = null;
+          cb(results);
+        }
+      });
+    }
+
+    function analyzeImage(imageSource, width, height) {
+      return new Promise((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          analyzeCallback = null;
+          reject(new Error("Face analysis timed out"));
+        }, 30000);
+
+        analyzeCallback = (results) => {
+          clearTimeout(timeout);
+          if (!results.multiFaceLandmarks || results.multiFaceLandmarks.length === 0) {
+            resolve(null);
+            return;
+          }
+          const landmarks = pickLargestFace(results.multiFaceLandmarks, width, height);
+          resolve(classifyFaceShape(landmarks, width, height));
+        };
+
+        faceMesh.send({ image: imageSource }).catch((err) => {
+          clearTimeout(timeout);
+          analyzeCallback = null;
+          reject(err);
+        });
+      });
+    }
+
+    // -----------------------------------------------------------------------
+    // Camera
+    // -----------------------------------------------------------------------
+
+    async function startCamera() {
+      hideError();
+      showScreen("camera");
+      const video = $("#camera-video");
+
+      if (camera) {
+        camera.stop();
+        camera = null;
+      }
+
+      camera = new Camera(video, {
+        onFrame: async () => {},
+        width: 720,
+        height: 960
+      });
+
+      try {
+        await camera.start();
+      } catch (err) {
+        showError("Camera access was denied. Please allow camera permissions or upload a photo instead.");
+        showScreen("welcome");
+      }
+    }
+
+    function stopCamera() {
+      if (camera) {
+        camera.stop();
+        camera = null;
+      }
+    }
+
+    async function capturePhoto() {
+      const video = $("#camera-video");
+      if (!video.videoWidth) return;
+
+      stopCamera();
+      showScreen("processing");
+
+      const canvas = document.createElement("canvas");
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      const ctx = canvas.getContext("2d");
+      ctx.translate(canvas.width, 0);
+      ctx.scale(-1, 1);
+      ctx.drawImage(video, 0, 0);
+
+      await processImage(canvas, canvas.width, canvas.height);
+    }
+
+    // -----------------------------------------------------------------------
+    // Upload
+    // -----------------------------------------------------------------------
+
+    async function handleFileUpload(file) {
+      if (!file || !file.type.startsWith("image/")) {
+        showError("Please choose a valid image file.");
+        return;
+      }
+
+      hideError();
+      showScreen("processing");
+
+      const url = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = async () => {
+        await processImage(img, img.naturalWidth, img.naturalHeight);
+        URL.revokeObjectURL(url);
+      };
+      img.onerror = () => {
+        URL.revokeObjectURL(url);
+        showError("Could not read that image. Please try another.");
+        showScreen("welcome");
+      };
+      img.src = url;
+    }
+
+    // -----------------------------------------------------------------------
+    // Results
+    // -----------------------------------------------------------------------
+
+    async function processImage(imageSource, width, height) {
+      hideError();
+      try {
+        const shape = await analyzeImage(imageSource, width, height);
+        if (!shape) {
+          showError("No face detected. Please try again with a clear, front-facing portrait.");
+          showScreen("welcome");
+          return;
+        }
+        showResults(shape);
+      } catch (err) {
+        showError("Face analysis failed. Please try again.");
+        showScreen("welcome");
+      }
+    }
+
+    function showResults(shape) {
+      hideError();
+      const matches = artDatabase.filter((a) => a.faceShape === shape);
+      const picks = sampleDiverseArtworks(matches, 6);
+
+      $("#result-shape").textContent = shape;
+      $("#result-poem").textContent = FACE_SHAPE_POEMS[shape] || "";
+
+      const gallery = $("#gallery");
+      gallery.innerHTML = "";
+
+      if (picks.length === 0) {
+        gallery.innerHTML = '<p class="empty-gallery">No portraits in our collection match this shape yet — but your geometry belongs to a lineage artists have sought for millennia.</p>';
+      } else {
+        for (const art of picks) {
+          const card = document.createElement("article");
+          card.className = "art-card";
+
+          const meta = [art.department, art.culture].filter(Boolean).join(" · ");
+
+          card.innerHTML = `
+            <div class="art-card-image">
+              <img src="${escapeHtml(art.imageUrl)}" alt="${escapeHtml(art.title)}" loading="lazy">
+            </div>
+            <div class="art-card-body">
+              <h4 class="art-title">${escapeHtml(art.title)}</h4>
+              <p class="art-artist">${escapeHtml(art.artist || "Unknown artist")}</p>
+              ${art.date ? `<p class="art-date">${escapeHtml(art.date)}</p>` : ""}
+              ${meta ? `<p class="art-meta">${escapeHtml(meta)}</p>` : ""}
+              <a class="art-link" href="${escapeHtml(art.metUrl)}" target="_blank" rel="noopener noreferrer">View at The Met &rarr;</a>
+            </div>
+          `;
+          gallery.appendChild(card);
+        }
+      }
+
+      showScreen("results");
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function reset() {
+      hideError();
+      stopCamera();
+      showScreen("welcome");
+      $("#file-input").value = "";
+    }
+
+    // -----------------------------------------------------------------------
+    // Database load
+    // -----------------------------------------------------------------------
+
+    function loadDatabaseXHR() {
+      return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.overrideMimeType("application/json");
+        xhr.open("GET", "art_database.json", true);
+        xhr.onload = () => {
+          if (xhr.status === 0 || xhr.status === 200) {
+            try { resolve(JSON.parse(xhr.responseText)); }
+            catch (e) { reject(e); }
+          } else {
+            reject(new Error(`HTTP ${xhr.status}`));
+          }
+        };
+        xhr.onerror = () => reject(new Error("Network error"));
+        xhr.send();
+      });
+    }
+
+    async function loadDatabase() {
+      try {
+        const resp = await fetch("art_database.json");
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        artDatabase = await resp.json();
+      } catch {
+        try {
+          artDatabase = await loadDatabaseXHR();
+        } catch {
+          showError(
+            "Could not load art_database.json. Place it beside index.html, then either run " +
+            "python3 -m http.server in this folder, or launch Chrome with --allow-file-access-from-files."
+          );
+        }
+      }
+    }
+
+    // -----------------------------------------------------------------------
+    // Init
+    // -----------------------------------------------------------------------
+
+    $("#btn-camera").addEventListener("click", startCamera);
+    $("#btn-upload").addEventListener("click", () => $("#file-input").click());
+    $("#file-input").addEventListener("change", (e) => {
+      if (e.target.files[0]) handleFileUpload(e.target.files[0]);
+    });
+    $("#btn-capture").addEventListener("click", capturePhoto);
+    $("#btn-camera-cancel").addEventListener("click", () => { stopCamera(); showScreen("welcome"); });
+    $("#btn-try-again").addEventListener("click", reset);
+
+    initFaceMesh();
+    loadDatabase();
+  </script>
+</body>
+</html>

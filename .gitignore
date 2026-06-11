@@ -1,0 +1,6 @@
+__pycache__/
+.mplconfig/
+*.pyc
+face_landmarker.task
+art_database.partial.json
+build_*.json
