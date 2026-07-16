@@ -15,16 +15,6 @@
       "jaw_to_forehead": 1.661,
       "cheek_to_jaw": 1.24,
       "jaw_angle_deg": 140.199
-    },
-    "faceValidation": {
-      "bbox_width": 850.689,
-      "bbox_height": 951.839,
-      "bbox_area": 809719.182,
-      "face_area_ratio": 0.065,
-      "face_aspect_ratio": 1.119,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -32.465
     }
   },
   {
@@ -43,16 +33,6 @@
       "jaw_to_forehead": 1.476,
       "cheek_to_jaw": 1.31,
       "jaw_angle_deg": 139.787
-    },
-    "faceValidation": {
-      "bbox_width": 800.495,
-      "bbox_height": 764.254,
-      "bbox_area": 611782.047,
-      "face_area_ratio": 0.058,
-      "face_aspect_ratio": 0.955,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 23.971
     }
   },
   {
@@ -71,16 +51,6 @@
       "jaw_to_forehead": 1.708,
       "cheek_to_jaw": 1.183,
       "jaw_angle_deg": 133.106
-    },
-    "faceValidation": {
-      "bbox_width": 495.422,
-      "bbox_height": 583.917,
-      "bbox_area": 289284.957,
-      "face_area_ratio": 0.108,
-      "face_aspect_ratio": 1.179,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -4.235
     }
   },
   {
@@ -99,16 +69,6 @@
       "jaw_to_forehead": 1.686,
       "cheek_to_jaw": 1.209,
       "jaw_angle_deg": 130.827
-    },
-    "faceValidation": {
-      "bbox_width": 818.119,
-      "bbox_height": 978.913,
-      "bbox_area": 800867.381,
-      "face_area_ratio": 0.068,
-      "face_aspect_ratio": 1.197,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 2.63
     }
   },
   {
@@ -127,16 +87,6 @@
       "jaw_to_forehead": 1.553,
       "cheek_to_jaw": 1.273,
       "jaw_angle_deg": 138.018
-    },
-    "faceValidation": {
-      "bbox_width": 828.176,
-      "bbox_height": 1084.005,
-      "bbox_area": 897746.855,
-      "face_area_ratio": 0.063,
-      "face_aspect_ratio": 1.309,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -10.971
     }
   },
   {
@@ -155,324 +105,6 @@
       "jaw_to_forehead": 1.474,
       "cheek_to_jaw": 1.228,
       "jaw_angle_deg": 144.393
-    },
-    "faceValidation": {
-      "bbox_width": 788.663,
-      "bbox_height": 962.852,
-      "bbox_area": 759365.857,
-      "face_area_ratio": 0.063,
-      "face_aspect_ratio": 1.221,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 33.555
-    }
-  },
-  {
-    "id": 437508,
-    "title": "Self-Portrait",
-    "artist": "Salvator Rosa",
-    "date": "ca. 1647",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323414.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437508",
-    "faceShape": "round",
-    "shapeConfidence": 0.284,
-    "faceMetrics": {
-      "length_to_width": 0.969,
-      "jaw_to_forehead": 1.64,
-      "cheek_to_jaw": 1.164,
-      "jaw_angle_deg": 130.117
-    },
-    "faceValidation": {
-      "bbox_width": 171.93,
-      "bbox_height": 159.179,
-      "bbox_area": 27367.539,
-      "face_area_ratio": 0.088,
-      "face_aspect_ratio": 0.926,
-      "face_count": 2.0,
-      "dominant_face_ratio": 0.755,
-      "yaw_deg": 14.592
-    }
-  },
-  {
-    "id": 712539,
-    "title": "Saint Philip Neri (1515–1595)",
-    "artist": "Carlo Dolci",
-    "date": "1645 or 1646",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-944-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/712539",
-    "faceShape": "heart",
-    "shapeConfidence": 0.302,
-    "faceMetrics": {
-      "length_to_width": 1.233,
-      "jaw_to_forehead": 1.54,
-      "cheek_to_jaw": 1.24,
-      "jaw_angle_deg": 139.415
-    },
-    "faceValidation": {
-      "bbox_width": 1167.121,
-      "bbox_height": 1361.703,
-      "bbox_area": 1589272.309,
-      "face_area_ratio": 0.118,
-      "face_aspect_ratio": 1.167,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -22.445
-    }
-  },
-  {
-    "id": 436638,
-    "title": "Jacob Willemsz van Veen (1456–1535), the Artist's Father",
-    "artist": "Maarten van Heemskerck",
-    "date": "1532",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38857-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436638",
-    "faceShape": "heart",
-    "shapeConfidence": 0.328,
-    "faceMetrics": {
-      "length_to_width": 1.368,
-      "jaw_to_forehead": 1.599,
-      "cheek_to_jaw": 1.198,
-      "jaw_angle_deg": 142.488
-    },
-    "faceValidation": {
-      "bbox_width": 138.581,
-      "bbox_height": 171.301,
-      "bbox_area": 23739.022,
-      "face_area_ratio": 0.089,
-      "face_aspect_ratio": 1.236,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -33.695
-    }
-  },
-  {
-    "id": 436872,
-    "title": "Study for a Portrait of a Woman",
-    "artist": "Sir Peter Lely (Pieter van der Faes)",
-    "date": "1670s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP143151.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436872",
-    "faceShape": "heart",
-    "shapeConfidence": 0.257,
-    "faceMetrics": {
-      "length_to_width": 1.201,
-      "jaw_to_forehead": 1.6,
-      "cheek_to_jaw": 1.263,
-      "jaw_angle_deg": 135.617
-    },
-    "faceValidation": {
-      "bbox_width": 708.895,
-      "bbox_height": 812.548,
-      "bbox_area": 576010.678,
-      "face_area_ratio": 0.052,
-      "face_aspect_ratio": 1.146,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 22.302
-    }
-  },
-  {
-    "id": 436581,
-    "title": "Charles Claude de Flahaut (1730–1809), Comte d'Angiviller",
-    "artist": "Jean-Baptiste Greuze",
-    "date": "1763",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19779-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436581",
-    "faceShape": "oval",
-    "shapeConfidence": 0.315,
-    "faceMetrics": {
-      "length_to_width": 1.285,
-      "jaw_to_forehead": 1.748,
-      "cheek_to_jaw": 1.21,
-      "jaw_angle_deg": 135.633
-    },
-    "faceValidation": {
-      "bbox_width": 803.012,
-      "bbox_height": 991.665,
-      "bbox_area": 796318.865,
-      "face_area_ratio": 0.058,
-      "face_aspect_ratio": 1.235,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 24.524
-    }
-  },
-  {
-    "id": 435897,
-    "title": "Head of Christ (Ecce Homo)",
-    "artist": "Petrus Christus",
-    "date": "ca. 1445",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT229079.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435897",
-    "faceShape": "heart",
-    "shapeConfidence": 0.327,
-    "faceMetrics": {
-      "length_to_width": 1.243,
-      "jaw_to_forehead": 1.662,
-      "cheek_to_jaw": 1.209,
-      "jaw_angle_deg": 133.403
-    },
-    "faceValidation": {
-      "bbox_width": 992.505,
-      "bbox_height": 1228.74,
-      "bbox_area": 1219530.273,
-      "face_area_ratio": 0.119,
-      "face_aspect_ratio": 1.238,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 1.683
-    }
-  },
-  {
-    "id": 436834,
-    "title": "Portrait of a Young Man; (reverse) Girl Making a Garland",
-    "artist": "Hans Süss von Kulmbach",
-    "date": "ca. 1508",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164793.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436834",
-    "faceShape": "heart",
-    "shapeConfidence": 0.349,
-    "faceMetrics": {
-      "length_to_width": 1.305,
-      "jaw_to_forehead": 1.654,
-      "cheek_to_jaw": 1.158,
-      "jaw_angle_deg": 136.733
-    },
-    "faceValidation": {
-      "bbox_width": 814.04,
-      "bbox_height": 977.502,
-      "bbox_area": 795725.221,
-      "face_area_ratio": 0.068,
-      "face_aspect_ratio": 1.201,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -23.802
-    }
-  },
-  {
-    "id": 436432,
-    "title": "Queen Charlotte",
-    "artist": "Thomas Gainsborough",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP162155.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436432",
-    "faceShape": "oval",
-    "shapeConfidence": 0.34,
-    "faceMetrics": {
-      "length_to_width": 1.268,
-      "jaw_to_forehead": 1.512,
-      "cheek_to_jaw": 1.262,
-      "jaw_angle_deg": 138.278
-    },
-    "faceValidation": {
-      "bbox_width": 776.269,
-      "bbox_height": 959.472,
-      "bbox_area": 744808.674,
-      "face_area_ratio": 0.067,
-      "face_aspect_ratio": 1.236,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -7.747
-    }
-  },
-  {
-    "id": 437021,
-    "title": "Head of Christ",
-    "artist": "Master of the Orcagnesque Misericordia",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19581-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437021",
-    "faceShape": "heart",
-    "shapeConfidence": 0.248,
-    "faceMetrics": {
-      "length_to_width": 1.192,
-      "jaw_to_forehead": 1.648,
-      "cheek_to_jaw": 1.275,
-      "jaw_angle_deg": 136.765
-    },
-    "faceValidation": {
-      "bbox_width": 995.844,
-      "bbox_height": 1181.706,
-      "bbox_area": 1176795.45,
-      "face_area_ratio": 0.103,
-      "face_aspect_ratio": 1.187,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.493
-    }
-  },
-  {
-    "id": 435664,
-    "title": "Portrait of a Young Man",
-    "artist": "Biagio d'Antonio",
-    "date": "probably ca. 1470",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP161258.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435664",
-    "faceShape": "oval",
-    "shapeConfidence": 0.337,
-    "faceMetrics": {
-      "length_to_width": 1.309,
-      "jaw_to_forehead": 1.646,
-      "cheek_to_jaw": 1.226,
-      "jaw_angle_deg": 138.88
-    },
-    "faceValidation": {
-      "bbox_width": 782.384,
-      "bbox_height": 932.361,
-      "bbox_area": 729464.569,
-      "face_area_ratio": 0.068,
-      "face_aspect_ratio": 1.192,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -33.465
-    }
-  },
-  {
-    "id": 439327,
-    "title": "Christ Blessing",
-    "artist": "Gerard David",
-    "date": "ca. 1500–1505",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP218061.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/439327",
-    "faceShape": "heart",
-    "shapeConfidence": 0.364,
-    "faceMetrics": {
-      "length_to_width": 1.171,
-      "jaw_to_forehead": 1.752,
-      "cheek_to_jaw": 1.191,
-      "jaw_angle_deg": 125.659
-    },
-    "faceValidation": {
-      "bbox_width": 1124.586,
-      "bbox_height": 1309.312,
-      "bbox_area": 1472433.462,
-      "face_area_ratio": 0.142,
-      "face_aspect_ratio": 1.164,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -0.714
     }
   },
   {
@@ -491,16 +123,204 @@
       "jaw_to_forehead": 1.497,
       "cheek_to_jaw": 1.29,
       "jaw_angle_deg": 143.094
-    },
-    "faceValidation": {
-      "bbox_width": 1779.718,
-      "bbox_height": 1748.176,
-      "bbox_area": 3111261.539,
-      "face_area_ratio": 0.199,
-      "face_aspect_ratio": 0.982,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -16.283
+    }
+  },
+  {
+    "id": 437508,
+    "title": "Self-Portrait",
+    "artist": "Salvator Rosa",
+    "date": "ca. 1647",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323414.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/437508",
+    "faceShape": "round",
+    "shapeConfidence": 0.284,
+    "faceMetrics": {
+      "length_to_width": 0.969,
+      "jaw_to_forehead": 1.64,
+      "cheek_to_jaw": 1.164,
+      "jaw_angle_deg": 130.117
+    }
+  },
+  {
+    "id": 712539,
+    "title": "Saint Philip Neri (1515–1595)",
+    "artist": "Carlo Dolci",
+    "date": "1645 or 1646",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-944-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/712539",
+    "faceShape": "heart",
+    "shapeConfidence": 0.302,
+    "faceMetrics": {
+      "length_to_width": 1.233,
+      "jaw_to_forehead": 1.54,
+      "cheek_to_jaw": 1.24,
+      "jaw_angle_deg": 139.415
+    }
+  },
+  {
+    "id": 436638,
+    "title": "Jacob Willemsz van Veen (1456–1535), the Artist's Father",
+    "artist": "Maarten van Heemskerck",
+    "date": "1532",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38857-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/436638",
+    "faceShape": "heart",
+    "shapeConfidence": 0.328,
+    "faceMetrics": {
+      "length_to_width": 1.368,
+      "jaw_to_forehead": 1.599,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 142.488
+    }
+  },
+  {
+    "id": 436872,
+    "title": "Study for a Portrait of a Woman",
+    "artist": "Sir Peter Lely (Pieter van der Faes)",
+    "date": "1670s",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP143151.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/436872",
+    "faceShape": "heart",
+    "shapeConfidence": 0.257,
+    "faceMetrics": {
+      "length_to_width": 1.201,
+      "jaw_to_forehead": 1.6,
+      "cheek_to_jaw": 1.263,
+      "jaw_angle_deg": 135.617
+    }
+  },
+  {
+    "id": 436581,
+    "title": "Charles Claude de Flahaut (1730–1809), Comte d'Angiviller",
+    "artist": "Jean-Baptiste Greuze",
+    "date": "1763",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19779-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/436581",
+    "faceShape": "oval",
+    "shapeConfidence": 0.315,
+    "faceMetrics": {
+      "length_to_width": 1.285,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.21,
+      "jaw_angle_deg": 135.633
+    }
+  },
+  {
+    "id": 435897,
+    "title": "Head of Christ (Ecce Homo)",
+    "artist": "Petrus Christus",
+    "date": "ca. 1445",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT229079.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/435897",
+    "faceShape": "heart",
+    "shapeConfidence": 0.327,
+    "faceMetrics": {
+      "length_to_width": 1.243,
+      "jaw_to_forehead": 1.662,
+      "cheek_to_jaw": 1.209,
+      "jaw_angle_deg": 133.403
+    }
+  },
+  {
+    "id": 436834,
+    "title": "Portrait of a Young Man; (reverse) Girl Making a Garland",
+    "artist": "Hans Süss von Kulmbach",
+    "date": "ca. 1508",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164793.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/436834",
+    "faceShape": "heart",
+    "shapeConfidence": 0.349,
+    "faceMetrics": {
+      "length_to_width": 1.305,
+      "jaw_to_forehead": 1.654,
+      "cheek_to_jaw": 1.158,
+      "jaw_angle_deg": 136.733
+    }
+  },
+  {
+    "id": 436432,
+    "title": "Queen Charlotte",
+    "artist": "Thomas Gainsborough",
+    "date": "",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP162155.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/436432",
+    "faceShape": "oval",
+    "shapeConfidence": 0.34,
+    "faceMetrics": {
+      "length_to_width": 1.268,
+      "jaw_to_forehead": 1.512,
+      "cheek_to_jaw": 1.262,
+      "jaw_angle_deg": 138.278
+    }
+  },
+  {
+    "id": 437021,
+    "title": "Head of Christ",
+    "artist": "Master of the Orcagnesque Misericordia",
+    "date": "",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19581-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/437021",
+    "faceShape": "heart",
+    "shapeConfidence": 0.248,
+    "faceMetrics": {
+      "length_to_width": 1.192,
+      "jaw_to_forehead": 1.648,
+      "cheek_to_jaw": 1.275,
+      "jaw_angle_deg": 136.765
+    }
+  },
+  {
+    "id": 435664,
+    "title": "Portrait of a Young Man",
+    "artist": "Biagio d'Antonio",
+    "date": "probably ca. 1470",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP161258.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/435664",
+    "faceShape": "oval",
+    "shapeConfidence": 0.337,
+    "faceMetrics": {
+      "length_to_width": 1.309,
+      "jaw_to_forehead": 1.646,
+      "cheek_to_jaw": 1.226,
+      "jaw_angle_deg": 138.88
+    }
+  },
+  {
+    "id": 439327,
+    "title": "Christ Blessing",
+    "artist": "Gerard David",
+    "date": "ca. 1500–1505",
+    "culture": "",
+    "department": "European Paintings",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP218061.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/439327",
+    "faceShape": "heart",
+    "shapeConfidence": 0.364,
+    "faceMetrics": {
+      "length_to_width": 1.171,
+      "jaw_to_forehead": 1.752,
+      "cheek_to_jaw": 1.191,
+      "jaw_angle_deg": 125.659
     }
   },
   {
@@ -519,16 +339,6 @@
       "jaw_to_forehead": 1.529,
       "cheek_to_jaw": 1.203,
       "jaw_angle_deg": 134.807
-    },
-    "faceValidation": {
-      "bbox_width": 928.103,
-      "bbox_height": 1165.657,
-      "bbox_area": 1081850.442,
-      "face_area_ratio": 0.084,
-      "face_aspect_ratio": 1.256,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -25.582
     }
   },
   {
@@ -547,16 +357,6 @@
       "jaw_to_forehead": 1.55,
       "cheek_to_jaw": 1.214,
       "jaw_angle_deg": 131.07
-    },
-    "faceValidation": {
-      "bbox_width": 1032.489,
-      "bbox_height": 1018.333,
-      "bbox_area": 1051417.951,
-      "face_area_ratio": 0.066,
-      "face_aspect_ratio": 0.986,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.558
     }
   },
   {
@@ -575,16 +375,6 @@
       "jaw_to_forehead": 1.68,
       "cheek_to_jaw": 1.159,
       "jaw_angle_deg": 129.87
-    },
-    "faceValidation": {
-      "bbox_width": 425.625,
-      "bbox_height": 517.729,
-      "bbox_area": 220358.41,
-      "face_area_ratio": 0.077,
-      "face_aspect_ratio": 1.216,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -0.697
     }
   },
   {
@@ -603,16 +393,6 @@
       "jaw_to_forehead": 1.684,
       "cheek_to_jaw": 1.215,
       "jaw_angle_deg": 136.278
-    },
-    "faceValidation": {
-      "bbox_width": 280.477,
-      "bbox_height": 334.725,
-      "bbox_area": 93882.494,
-      "face_area_ratio": 0.054,
-      "face_aspect_ratio": 1.193,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 23.507
     }
   },
   {
@@ -631,16 +411,6 @@
       "jaw_to_forehead": 1.748,
       "cheek_to_jaw": 1.202,
       "jaw_angle_deg": 137.893
-    },
-    "faceValidation": {
-      "bbox_width": 957.018,
-      "bbox_height": 1132.644,
-      "bbox_area": 1083960.361,
-      "face_area_ratio": 0.086,
-      "face_aspect_ratio": 1.184,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 30.229
     }
   },
   {
@@ -659,16 +429,6 @@
       "jaw_to_forehead": 1.607,
       "cheek_to_jaw": 1.234,
       "jaw_angle_deg": 138.041
-    },
-    "faceValidation": {
-      "bbox_width": 450.54,
-      "bbox_height": 484.778,
-      "bbox_area": 218411.757,
-      "face_area_ratio": 0.093,
-      "face_aspect_ratio": 1.076,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 14.924
     }
   },
   {
@@ -687,16 +447,6 @@
       "jaw_to_forehead": 1.64,
       "cheek_to_jaw": 1.252,
       "jaw_angle_deg": 130.055
-    },
-    "faceValidation": {
-      "bbox_width": 188.237,
-      "bbox_height": 201.766,
-      "bbox_area": 37979.804,
-      "face_area_ratio": 0.129,
-      "face_aspect_ratio": 1.072,
-      "face_count": 2.0,
-      "dominant_face_ratio": 0.639,
-      "yaw_deg": 7.938
     }
   },
   {
@@ -715,44 +465,6 @@
       "jaw_to_forehead": 1.503,
       "cheek_to_jaw": 1.232,
       "jaw_angle_deg": 136.903
-    },
-    "faceValidation": {
-      "bbox_width": 3657.267,
-      "bbox_height": 4289.319,
-      "bbox_area": 15687185.46,
-      "face_area_ratio": 0.52,
-      "face_aspect_ratio": 1.173,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -17.908
-    }
-  },
-  {
-    "id": 436803,
-    "title": "The Adoration of the Magi",
-    "artist": "Joos van Wassenhove",
-    "date": "1472–74",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-41_190_21-13.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436803",
-    "faceShape": "oval",
-    "shapeConfidence": 0.34,
-    "faceMetrics": {
-      "length_to_width": 1.256,
-      "jaw_to_forehead": 1.549,
-      "cheek_to_jaw": 1.27,
-      "jaw_angle_deg": 142.279
-    },
-    "faceValidation": {
-      "bbox_width": 259.771,
-      "bbox_height": 260.531,
-      "bbox_area": 67678.406,
-      "face_area_ratio": 0.166,
-      "face_aspect_ratio": 1.003,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -16.04
     }
   },
   {
@@ -771,44 +483,6 @@
       "jaw_to_forehead": 1.733,
       "cheek_to_jaw": 1.189,
       "jaw_angle_deg": 138.892
-    },
-    "faceValidation": {
-      "bbox_width": 137.62,
-      "bbox_height": 164.82,
-      "bbox_area": 22682.446,
-      "face_area_ratio": 0.069,
-      "face_aspect_ratio": 1.198,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -34.627
-    }
-  },
-  {
-    "id": 437202,
-    "title": "Christ Bearing the Cross",
-    "artist": "North Netherlandish (Bruges) Painter",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-43_95-12.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437202",
-    "faceShape": "heart",
-    "shapeConfidence": 0.334,
-    "faceMetrics": {
-      "length_to_width": 1.314,
-      "jaw_to_forehead": 1.706,
-      "cheek_to_jaw": 1.179,
-      "jaw_angle_deg": 135.673
-    },
-    "faceValidation": {
-      "bbox_width": 1754.561,
-      "bbox_height": 1646.728,
-      "bbox_area": 2889286.1,
-      "face_area_ratio": 0.271,
-      "face_aspect_ratio": 0.939,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -22.618
     }
   },
   {
@@ -827,16 +501,6 @@
       "jaw_to_forehead": 1.624,
       "cheek_to_jaw": 1.229,
       "jaw_angle_deg": 134.496
-    },
-    "faceValidation": {
-      "bbox_width": 702.627,
-      "bbox_height": 764.992,
-      "bbox_area": 537503.989,
-      "face_area_ratio": 0.051,
-      "face_aspect_ratio": 1.089,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 22.153
     }
   },
   {
@@ -855,16 +519,6 @@
       "jaw_to_forehead": 1.515,
       "cheek_to_jaw": 1.248,
       "jaw_angle_deg": 136.941
-    },
-    "faceValidation": {
-      "bbox_width": 1074.017,
-      "bbox_height": 1256.19,
-      "bbox_area": 1349169.813,
-      "face_area_ratio": 0.092,
-      "face_aspect_ratio": 1.17,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -17.639
     }
   },
   {
@@ -883,16 +537,6 @@
       "jaw_to_forehead": 1.614,
       "cheek_to_jaw": 1.222,
       "jaw_angle_deg": 132.514
-    },
-    "faceValidation": {
-      "bbox_width": 1348.339,
-      "bbox_height": 1556.296,
-      "bbox_area": 2098413.757,
-      "face_area_ratio": 0.146,
-      "face_aspect_ratio": 1.154,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -0.944
     }
   },
   {
@@ -911,16 +555,6 @@
       "jaw_to_forehead": 1.774,
       "cheek_to_jaw": 1.169,
       "jaw_angle_deg": 136.35
-    },
-    "faceValidation": {
-      "bbox_width": 1248.135,
-      "bbox_height": 1463.533,
-      "bbox_area": 1826686.679,
-      "face_area_ratio": 0.166,
-      "face_aspect_ratio": 1.173,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 25.625
     }
   },
   {
@@ -939,16 +573,6 @@
       "jaw_to_forehead": 1.502,
       "cheek_to_jaw": 1.355,
       "jaw_angle_deg": 143.847
-    },
-    "faceValidation": {
-      "bbox_width": 758.168,
-      "bbox_height": 805.648,
-      "bbox_area": 610816.342,
-      "face_area_ratio": 0.061,
-      "face_aspect_ratio": 1.063,
-      "face_count": 2.0,
-      "dominant_face_ratio": 0.755,
-      "yaw_deg": 12.654
     }
   },
   {
@@ -967,16 +591,6 @@
       "jaw_to_forehead": 1.399,
       "cheek_to_jaw": 1.31,
       "jaw_angle_deg": 147.249
-    },
-    "faceValidation": {
-      "bbox_width": 1033.357,
-      "bbox_height": 1093.064,
-      "bbox_area": 1129525.555,
-      "face_area_ratio": 0.085,
-      "face_aspect_ratio": 1.058,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -32.934
     }
   },
   {
@@ -995,16 +609,6 @@
       "jaw_to_forehead": 1.847,
       "cheek_to_jaw": 1.142,
       "jaw_angle_deg": 127.948
-    },
-    "faceValidation": {
-      "bbox_width": 746.73,
-      "bbox_height": 830.1,
-      "bbox_area": 619861.093,
-      "face_area_ratio": 0.06,
-      "face_aspect_ratio": 1.112,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 29.675
     }
   },
   {
@@ -1023,16 +627,6 @@
       "jaw_to_forehead": 1.601,
       "cheek_to_jaw": 1.25,
       "jaw_angle_deg": 136.221
-    },
-    "faceValidation": {
-      "bbox_width": 942.974,
-      "bbox_height": 1095.68,
-      "bbox_area": 1033197.337,
-      "face_area_ratio": 0.091,
-      "face_aspect_ratio": 1.162,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 24.033
     }
   },
   {
@@ -1051,16 +645,6 @@
       "jaw_to_forehead": 1.422,
       "cheek_to_jaw": 1.277,
       "jaw_angle_deg": 133.791
-    },
-    "faceValidation": {
-      "bbox_width": 3232.952,
-      "bbox_height": 2953.153,
-      "bbox_area": 9547401.686,
-      "face_area_ratio": 0.65,
-      "face_aspect_ratio": 0.913,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 22.914
     }
   },
   {
@@ -1079,16 +663,6 @@
       "jaw_to_forehead": 1.544,
       "cheek_to_jaw": 1.229,
       "jaw_angle_deg": 138.557
-    },
-    "faceValidation": {
-      "bbox_width": 996.856,
-      "bbox_height": 1300.643,
-      "bbox_area": 1296553.505,
-      "face_area_ratio": 0.095,
-      "face_aspect_ratio": 1.305,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -31.236
     }
   },
   {
@@ -1107,44 +681,6 @@
       "jaw_to_forehead": 1.561,
       "cheek_to_jaw": 1.25,
       "jaw_angle_deg": 134.842
-    },
-    "faceValidation": {
-      "bbox_width": 770.065,
-      "bbox_height": 993.262,
-      "bbox_area": 764876.281,
-      "face_area_ratio": 0.062,
-      "face_aspect_ratio": 1.29,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -0.361
-    }
-  },
-  {
-    "id": 435724,
-    "title": "The Adoration of the Magi",
-    "artist": "Hieronymus Bosch",
-    "date": "ca. 1475",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Bosch_13_26_Fig3.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435724",
-    "faceShape": "heart",
-    "shapeConfidence": 0.318,
-    "faceMetrics": {
-      "length_to_width": 1.155,
-      "jaw_to_forehead": 1.52,
-      "cheek_to_jaw": 1.16,
-      "jaw_angle_deg": 135.64
-    },
-    "faceValidation": {
-      "bbox_width": 1464.425,
-      "bbox_height": 1649.255,
-      "bbox_area": 2415210.118,
-      "face_area_ratio": 0.768,
-      "face_aspect_ratio": 1.126,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 1.318
     }
   },
   {
@@ -1163,16 +699,6 @@
       "jaw_to_forehead": 1.757,
       "cheek_to_jaw": 1.192,
       "jaw_angle_deg": 125.596
-    },
-    "faceValidation": {
-      "bbox_width": 884.867,
-      "bbox_height": 1034.609,
-      "bbox_area": 915491.748,
-      "face_area_ratio": 0.078,
-      "face_aspect_ratio": 1.169,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -9.813
     }
   },
   {
@@ -1191,16 +717,6 @@
       "jaw_to_forehead": 1.733,
       "cheek_to_jaw": 1.199,
       "jaw_angle_deg": 132.931
-    },
-    "faceValidation": {
-      "bbox_width": 1503.55,
-      "bbox_height": 1871.171,
-      "bbox_area": 2813399.198,
-      "face_area_ratio": 0.133,
-      "face_aspect_ratio": 1.245,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 0.247
     }
   },
   {
@@ -1219,16 +735,6 @@
       "jaw_to_forehead": 1.633,
       "cheek_to_jaw": 1.221,
       "jaw_angle_deg": 137.46
-    },
-    "faceValidation": {
-      "bbox_width": 117.914,
-      "bbox_height": 131.55,
-      "bbox_area": 15511.498,
-      "face_area_ratio": 0.052,
-      "face_aspect_ratio": 1.116,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 31.558
     }
   },
   {
@@ -1247,16 +753,6 @@
       "jaw_to_forehead": 1.658,
       "cheek_to_jaw": 1.225,
       "jaw_angle_deg": 133.374
-    },
-    "faceValidation": {
-      "bbox_width": 683.048,
-      "bbox_height": 839.893,
-      "bbox_area": 573687.147,
-      "face_area_ratio": 0.051,
-      "face_aspect_ratio": 1.23,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 9.895
     }
   },
   {
@@ -1275,16 +771,6 @@
       "jaw_to_forehead": 1.826,
       "cheek_to_jaw": 1.174,
       "jaw_angle_deg": 135.736
-    },
-    "faceValidation": {
-      "bbox_width": 593.174,
-      "bbox_height": 668.002,
-      "bbox_area": 396241.751,
-      "face_area_ratio": 0.153,
-      "face_aspect_ratio": 1.126,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 31.6
     }
   },
   {
@@ -1303,16 +789,6 @@
       "jaw_to_forehead": 1.59,
       "cheek_to_jaw": 1.234,
       "jaw_angle_deg": 139.072
-    },
-    "faceValidation": {
-      "bbox_width": 526.672,
-      "bbox_height": 595.093,
-      "bbox_area": 313419.054,
-      "face_area_ratio": 0.053,
-      "face_aspect_ratio": 1.13,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -7.376
     }
   },
   {
@@ -1331,16 +807,6 @@
       "jaw_to_forehead": 1.66,
       "cheek_to_jaw": 1.198,
       "jaw_angle_deg": 134.701
-    },
-    "faceValidation": {
-      "bbox_width": 723.445,
-      "bbox_height": 863.845,
-      "bbox_area": 624944.965,
-      "face_area_ratio": 0.052,
-      "face_aspect_ratio": 1.194,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -25.993
     }
   },
   {
@@ -1359,16 +825,6 @@
       "jaw_to_forehead": 1.551,
       "cheek_to_jaw": 1.264,
       "jaw_angle_deg": 139.461
-    },
-    "faceValidation": {
-      "bbox_width": 1087.742,
-      "bbox_height": 1330.973,
-      "bbox_area": 1447754.846,
-      "face_area_ratio": 0.333,
-      "face_aspect_ratio": 1.224,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -26.277
     }
   },
   {
@@ -1387,16 +843,6 @@
       "jaw_to_forehead": 1.639,
       "cheek_to_jaw": 1.122,
       "jaw_angle_deg": 134.786
-    },
-    "faceValidation": {
-      "bbox_width": 703.137,
-      "bbox_height": 811.714,
-      "bbox_area": 570745.988,
-      "face_area_ratio": 0.053,
-      "face_aspect_ratio": 1.154,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -31.903
     }
   },
   {
@@ -1415,16 +861,6 @@
       "jaw_to_forehead": 1.683,
       "cheek_to_jaw": 1.192,
       "jaw_angle_deg": 136.388
-    },
-    "faceValidation": {
-      "bbox_width": 1136.613,
-      "bbox_height": 1296.029,
-      "bbox_area": 1473082.64,
-      "face_area_ratio": 0.134,
-      "face_aspect_ratio": 1.14,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 28.646
     }
   },
   {
@@ -1443,16 +879,6 @@
       "jaw_to_forehead": 1.688,
       "cheek_to_jaw": 1.213,
       "jaw_angle_deg": 134.73
-    },
-    "faceValidation": {
-      "bbox_width": 167.789,
-      "bbox_height": 190.833,
-      "bbox_area": 32019.62,
-      "face_area_ratio": 0.123,
-      "face_aspect_ratio": 1.137,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 5.717
     }
   },
   {
@@ -1471,16 +897,6 @@
       "jaw_to_forehead": 1.497,
       "cheek_to_jaw": 1.296,
       "jaw_angle_deg": 145.778
-    },
-    "faceValidation": {
-      "bbox_width": 864.674,
-      "bbox_height": 920.228,
-      "bbox_area": 795696.904,
-      "face_area_ratio": 0.068,
-      "face_aspect_ratio": 1.064,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 28.303
     }
   },
   {
@@ -1499,16 +915,6 @@
       "jaw_to_forehead": 1.732,
       "cheek_to_jaw": 1.198,
       "jaw_angle_deg": 139.198
-    },
-    "faceValidation": {
-      "bbox_width": 1166.524,
-      "bbox_height": 1454.641,
-      "bbox_area": 1696873.134,
-      "face_area_ratio": 0.11,
-      "face_aspect_ratio": 1.247,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -29.359
     }
   },
   {
@@ -1527,16 +933,6 @@
       "jaw_to_forehead": 2.176,
       "cheek_to_jaw": 1.113,
       "jaw_angle_deg": 109.984
-    },
-    "faceValidation": {
-      "bbox_width": 930.6,
-      "bbox_height": 831.721,
-      "bbox_area": 773999.907,
-      "face_area_ratio": 0.064,
-      "face_aspect_ratio": 0.894,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -20.365
     }
   },
   {
@@ -1555,44 +951,6 @@
       "jaw_to_forehead": 1.539,
       "cheek_to_jaw": 1.274,
       "jaw_angle_deg": 143.426
-    },
-    "faceValidation": {
-      "bbox_width": 232.084,
-      "bbox_height": 231.137,
-      "bbox_area": 53643.334,
-      "face_area_ratio": 0.134,
-      "face_aspect_ratio": 0.996,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -24.929
-    }
-  },
-  {
-    "id": 437015,
-    "title": "Madonna and Child",
-    "artist": "Master of the Magdalen",
-    "date": "ca. 1280",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT279163.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437015",
-    "faceShape": "round",
-    "shapeConfidence": 0.244,
-    "faceMetrics": {
-      "length_to_width": 1.186,
-      "jaw_to_forehead": 1.516,
-      "cheek_to_jaw": 1.286,
-      "jaw_angle_deg": 138.203
-    },
-    "faceValidation": {
-      "bbox_width": 835.921,
-      "bbox_height": 871.439,
-      "bbox_area": 728453.99,
-      "face_area_ratio": 0.081,
-      "face_aspect_ratio": 1.042,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 16.647
     }
   },
   {
@@ -1611,44 +969,6 @@
       "jaw_to_forehead": 1.898,
       "cheek_to_jaw": 1.229,
       "jaw_angle_deg": 103.818
-    },
-    "faceValidation": {
-      "bbox_width": 733.35,
-      "bbox_height": 862.639,
-      "bbox_area": 632616.596,
-      "face_area_ratio": 0.052,
-      "face_aspect_ratio": 1.176,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 7.57
-    }
-  },
-  {
-    "id": 437028,
-    "title": "Abner's Messenger before David; The Queen of Sheba Bringing Gifts to Solomon; The Annunciation",
-    "artist": "Master of the Saint Barbara Legend",
-    "date": "ca. 1480",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_56-3.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437028",
-    "faceShape": "heart",
-    "shapeConfidence": 0.282,
-    "faceMetrics": {
-      "length_to_width": 1.222,
-      "jaw_to_forehead": 1.488,
-      "cheek_to_jaw": 1.301,
-      "jaw_angle_deg": 141.941
-    },
-    "faceValidation": {
-      "bbox_width": 316.236,
-      "bbox_height": 361.522,
-      "bbox_area": 114326.158,
-      "face_area_ratio": 0.072,
-      "face_aspect_ratio": 1.143,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -11.739
     }
   },
   {
@@ -1667,16 +987,6 @@
       "jaw_to_forehead": 1.421,
       "cheek_to_jaw": 1.332,
       "jaw_angle_deg": 145.098
-    },
-    "faceValidation": {
-      "bbox_width": 1254.224,
-      "bbox_height": 1433.889,
-      "bbox_area": 1798417.868,
-      "face_area_ratio": 0.138,
-      "face_aspect_ratio": 1.143,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 27.937
     }
   },
   {
@@ -1695,16 +1005,6 @@
       "jaw_to_forehead": 1.482,
       "cheek_to_jaw": 1.254,
       "jaw_angle_deg": 137.944
-    },
-    "faceValidation": {
-      "bbox_width": 449.558,
-      "bbox_height": 405.004,
-      "bbox_area": 182072.954,
-      "face_area_ratio": 0.152,
-      "face_aspect_ratio": 0.901,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 18.437
     }
   },
   {
@@ -1723,16 +1023,6 @@
       "jaw_to_forehead": 1.712,
       "cheek_to_jaw": 1.181,
       "jaw_angle_deg": 121.337
-    },
-    "faceValidation": {
-      "bbox_width": 2851.78,
-      "bbox_height": 2482.685,
-      "bbox_area": 7080070.121,
-      "face_area_ratio": 0.478,
-      "face_aspect_ratio": 0.871,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 2.647
     }
   },
   {
@@ -1751,16 +1041,6 @@
       "jaw_to_forehead": 1.502,
       "cheek_to_jaw": 1.311,
       "jaw_angle_deg": 139.921
-    },
-    "faceValidation": {
-      "bbox_width": 424.007,
-      "bbox_height": 421.31,
-      "bbox_area": 178638.273,
-      "face_area_ratio": 0.063,
-      "face_aspect_ratio": 0.994,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 12.862
     }
   },
   {
@@ -1779,16 +1059,6 @@
       "jaw_to_forehead": 1.652,
       "cheek_to_jaw": 1.169,
       "jaw_angle_deg": 126.981
-    },
-    "faceValidation": {
-      "bbox_width": 1411.038,
-      "bbox_height": 1434.757,
-      "bbox_area": 2024496.311,
-      "face_area_ratio": 0.342,
-      "face_aspect_ratio": 1.017,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 6.76
     }
   },
   {
@@ -1807,16 +1077,6 @@
       "jaw_to_forehead": 1.623,
       "cheek_to_jaw": 1.272,
       "jaw_angle_deg": 124.439
-    },
-    "faceValidation": {
-      "bbox_width": 1262.371,
-      "bbox_height": 1230.329,
-      "bbox_area": 1553131.069,
-      "face_area_ratio": 0.402,
-      "face_aspect_ratio": 0.975,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 2.086
     }
   },
   {
@@ -1835,16 +1095,6 @@
       "jaw_to_forehead": 1.577,
       "cheek_to_jaw": 1.246,
       "jaw_angle_deg": 137.391
-    },
-    "faceValidation": {
-      "bbox_width": 966.608,
-      "bbox_height": 1057.866,
-      "bbox_area": 1022541.66,
-      "face_area_ratio": 0.085,
-      "face_aspect_ratio": 1.094,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -29.789
     }
   },
   {
@@ -1863,16 +1113,6 @@
       "jaw_to_forehead": 1.536,
       "cheek_to_jaw": 1.269,
       "jaw_angle_deg": 137.24
-    },
-    "faceValidation": {
-      "bbox_width": 836.459,
-      "bbox_height": 1043.071,
-      "bbox_area": 872485.788,
-      "face_area_ratio": 0.076,
-      "face_aspect_ratio": 1.247,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -31.042
     }
   },
   {
@@ -1891,16 +1131,6 @@
       "jaw_to_forehead": 1.619,
       "cheek_to_jaw": 1.236,
       "jaw_angle_deg": 139.853
-    },
-    "faceValidation": {
-      "bbox_width": 758.526,
-      "bbox_height": 826.234,
-      "bbox_area": 626719.879,
-      "face_area_ratio": 0.077,
-      "face_aspect_ratio": 1.089,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -22.743
     }
   },
   {
@@ -1919,16 +1149,6 @@
       "jaw_to_forehead": 1.779,
       "cheek_to_jaw": 1.218,
       "jaw_angle_deg": 133.86
-    },
-    "faceValidation": {
-      "bbox_width": 1099.513,
-      "bbox_height": 1170.48,
-      "bbox_area": 1286957.443,
-      "face_area_ratio": 0.107,
-      "face_aspect_ratio": 1.065,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -6.599
     }
   },
   {
@@ -1947,16 +1167,6 @@
       "jaw_to_forehead": 1.581,
       "cheek_to_jaw": 1.222,
       "jaw_angle_deg": 127.992
-    },
-    "faceValidation": {
-      "bbox_width": 940.72,
-      "bbox_height": 913.233,
-      "bbox_area": 859096.581,
-      "face_area_ratio": 0.064,
-      "face_aspect_ratio": 0.971,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -1.915
     }
   },
   {
@@ -1975,16 +1185,6 @@
       "jaw_to_forehead": 1.731,
       "cheek_to_jaw": 1.183,
       "jaw_angle_deg": 124.289
-    },
-    "faceValidation": {
-      "bbox_width": 1660.516,
-      "bbox_height": 1730.585,
-      "bbox_area": 2873664.896,
-      "face_area_ratio": 0.239,
-      "face_aspect_ratio": 1.042,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -14.042
     }
   },
   {
@@ -2003,16 +1203,6 @@
       "jaw_to_forehead": 1.583,
       "cheek_to_jaw": 1.205,
       "jaw_angle_deg": 123.036
-    },
-    "faceValidation": {
-      "bbox_width": 288.202,
-      "bbox_height": 285.681,
-      "bbox_area": 82333.978,
-      "face_area_ratio": 0.099,
-      "face_aspect_ratio": 0.991,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 18.941
     }
   },
   {
@@ -2031,16 +1221,6 @@
       "jaw_to_forehead": 1.454,
       "cheek_to_jaw": 1.282,
       "jaw_angle_deg": 143.765
-    },
-    "faceValidation": {
-      "bbox_width": 701.45,
-      "bbox_height": 814.203,
-      "bbox_area": 571122.731,
-      "face_area_ratio": 0.05,
-      "face_aspect_ratio": 1.161,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -28.146
     }
   },
   {
@@ -2059,16 +1239,6 @@
       "jaw_to_forehead": 1.484,
       "cheek_to_jaw": 1.266,
       "jaw_angle_deg": 132.023
-    },
-    "faceValidation": {
-      "bbox_width": 1490.876,
-      "bbox_height": 1576.697,
-      "bbox_area": 2350659.63,
-      "face_area_ratio": 0.147,
-      "face_aspect_ratio": 1.058,
-      "face_count": 2.0,
-      "dominant_face_ratio": 0.665,
-      "yaw_deg": -0.264
     }
   },
   {
@@ -2087,16 +1257,6 @@
       "jaw_to_forehead": 1.552,
       "cheek_to_jaw": 1.271,
       "jaw_angle_deg": 136.283
-    },
-    "faceValidation": {
-      "bbox_width": 1333.269,
-      "bbox_height": 1407.213,
-      "bbox_area": 1876193.391,
-      "face_area_ratio": 0.156,
-      "face_aspect_ratio": 1.055,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -0.389
     }
   },
   {
@@ -2115,16 +1275,6 @@
       "jaw_to_forehead": 1.559,
       "cheek_to_jaw": 1.247,
       "jaw_angle_deg": 132.488
-    },
-    "faceValidation": {
-      "bbox_width": 675.864,
-      "bbox_height": 641.963,
-      "bbox_area": 433879.564,
-      "face_area_ratio": 0.273,
-      "face_aspect_ratio": 0.95,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -8.796
     }
   },
   {
@@ -2143,16 +1293,6 @@
       "jaw_to_forehead": 1.676,
       "cheek_to_jaw": 1.226,
       "jaw_angle_deg": 134.815
-    },
-    "faceValidation": {
-      "bbox_width": 694.312,
-      "bbox_height": 654.589,
-      "bbox_area": 454488.89,
-      "face_area_ratio": 0.162,
-      "face_aspect_ratio": 0.943,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -1.467
     }
   },
   {
@@ -2171,72 +1311,6 @@
       "jaw_to_forehead": 1.746,
       "cheek_to_jaw": 1.186,
       "jaw_angle_deg": 127.181
-    },
-    "faceValidation": {
-      "bbox_width": 159.04,
-      "bbox_height": 185.151,
-      "bbox_area": 29446.461,
-      "face_area_ratio": 0.108,
-      "face_aspect_ratio": 1.164,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -13.494
-    }
-  },
-  {
-    "id": 447118,
-    "title": "Kalamkari Hanging with Figures in an Architectural Setting",
-    "artist": "",
-    "date": "ca. 1640–50",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP216120.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/447118",
-    "faceShape": "heart",
-    "shapeConfidence": 0.306,
-    "faceMetrics": {
-      "length_to_width": 1.034,
-      "jaw_to_forehead": 1.701,
-      "cheek_to_jaw": 1.173,
-      "jaw_angle_deg": 126.029
-    },
-    "faceValidation": {
-      "bbox_width": 2432.959,
-      "bbox_height": 2488.294,
-      "bbox_area": 6053918.538,
-      "face_area_ratio": 0.459,
-      "face_aspect_ratio": 1.023,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -13.504
-    }
-  },
-  {
-    "id": 453673,
-    "title": "Nan va Halva (Breads and Sweets)",
-    "artist": "Muhammad Baha' al-Din al-'Amili",
-    "date": "ca. 1690",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/266006_1999.157.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/453673",
-    "faceShape": "round",
-    "shapeConfidence": 0.313,
-    "faceMetrics": {
-      "length_to_width": 1.023,
-      "jaw_to_forehead": 1.535,
-      "cheek_to_jaw": 1.209,
-      "jaw_angle_deg": 129.564
-    },
-    "faceValidation": {
-      "bbox_width": 440.918,
-      "bbox_height": 447.206,
-      "bbox_area": 197181.043,
-      "face_area_ratio": 0.085,
-      "face_aspect_ratio": 1.014,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -3.236
     }
   },
   {
@@ -2255,16 +1329,6 @@
       "jaw_to_forehead": 1.694,
       "cheek_to_jaw": 1.188,
       "jaw_angle_deg": 129.748
-    },
-    "faceValidation": {
-      "bbox_width": 1025.669,
-      "bbox_height": 976.654,
-      "bbox_area": 1001724.048,
-      "face_area_ratio": 0.089,
-      "face_aspect_ratio": 0.952,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 1.776
     }
   },
   {
@@ -2283,16 +1347,6 @@
       "jaw_to_forehead": 1.748,
       "cheek_to_jaw": 1.172,
       "jaw_angle_deg": 126.583
-    },
-    "faceValidation": {
-      "bbox_width": 579.844,
-      "bbox_height": 499.372,
-      "bbox_area": 289558.135,
-      "face_area_ratio": 0.119,
-      "face_aspect_ratio": 0.861,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -3.036
     }
   },
   {
@@ -2311,44 +1365,6 @@
       "jaw_to_forehead": 1.596,
       "cheek_to_jaw": 1.256,
       "jaw_angle_deg": 129.627
-    },
-    "faceValidation": {
-      "bbox_width": 582.103,
-      "bbox_height": 507.678,
-      "bbox_area": 295520.772,
-      "face_area_ratio": 0.317,
-      "face_aspect_ratio": 0.872,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 5.788
-    }
-  },
-  {
-    "id": 444327,
-    "title": "Tabula (Square) with the Head of Spring",
-    "artist": "",
-    "date": "5th–7th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP291561.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/444327",
-    "faceShape": "round",
-    "shapeConfidence": 0.374,
-    "faceMetrics": {
-      "length_to_width": 1.053,
-      "jaw_to_forehead": 1.577,
-      "cheek_to_jaw": 1.222,
-      "jaw_angle_deg": 134.51
-    },
-    "faceValidation": {
-      "bbox_width": 472.99,
-      "bbox_height": 459.753,
-      "bbox_area": 217458.361,
-      "face_area_ratio": 0.062,
-      "face_aspect_ratio": 0.972,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 21.55
     }
   },
   {
@@ -2367,16 +1383,6 @@
       "jaw_to_forehead": 1.525,
       "cheek_to_jaw": 1.226,
       "jaw_angle_deg": 138.76
-    },
-    "faceValidation": {
-      "bbox_width": 636.794,
-      "bbox_height": 602.129,
-      "bbox_area": 383431.935,
-      "face_area_ratio": 0.467,
-      "face_aspect_ratio": 0.946,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -33.932
     }
   },
   {
@@ -2395,16 +1401,6 @@
       "jaw_to_forehead": 1.356,
       "cheek_to_jaw": 1.274,
       "jaw_angle_deg": 134.277
-    },
-    "faceValidation": {
-      "bbox_width": 2167.075,
-      "bbox_height": 2085.314,
-      "bbox_area": 4519030.462,
-      "face_area_ratio": 0.282,
-      "face_aspect_ratio": 0.962,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.249
     }
   },
   {
@@ -2423,16 +1419,6 @@
       "jaw_to_forehead": 1.676,
       "cheek_to_jaw": 1.193,
       "jaw_angle_deg": 127.188
-    },
-    "faceValidation": {
-      "bbox_width": 1995.155,
-      "bbox_height": 1939.141,
-      "bbox_area": 3868886.9,
-      "face_area_ratio": 0.336,
-      "face_aspect_ratio": 0.972,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -3.489
     }
   },
   {
@@ -2451,72 +1437,6 @@
       "jaw_to_forehead": 1.444,
       "cheek_to_jaw": 1.235,
       "jaw_angle_deg": 132.27
-    },
-    "faceValidation": {
-      "bbox_width": 1804.759,
-      "bbox_height": 1798.509,
-      "bbox_area": 3245875.682,
-      "face_area_ratio": 0.285,
-      "face_aspect_ratio": 0.997,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 23.053
-    }
-  },
-  {
-    "id": 447009,
-    "title": "Tray with Sun Symbol",
-    "artist": "",
-    "date": "14th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP201.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/447009",
-    "faceShape": "round",
-    "shapeConfidence": 0.491,
-    "faceMetrics": {
-      "length_to_width": 0.989,
-      "jaw_to_forehead": 1.409,
-      "cheek_to_jaw": 1.309,
-      "jaw_angle_deg": 136.823
-    },
-    "faceValidation": {
-      "bbox_width": 1087.529,
-      "bbox_height": 1013.162,
-      "bbox_area": 1101843.237,
-      "face_area_ratio": 0.262,
-      "face_aspect_ratio": 0.932,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 18.914
-    }
-  },
-  {
-    "id": 450492,
-    "title": "Mirror",
-    "artist": "",
-    "date": "12th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP119718.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/450492",
-    "faceShape": "round",
-    "shapeConfidence": 0.412,
-    "faceMetrics": {
-      "length_to_width": 0.97,
-      "jaw_to_forehead": 1.463,
-      "cheek_to_jaw": 1.29,
-      "jaw_angle_deg": 133.008
-    },
-    "faceValidation": {
-      "bbox_width": 2240.558,
-      "bbox_height": 2188.247,
-      "bbox_area": 4902894.553,
-      "face_area_ratio": 0.341,
-      "face_aspect_ratio": 0.977,
-      "face_count": 2.0,
-      "dominant_face_ratio": 0.614,
-      "yaw_deg": 16.782
     }
   },
   {
@@ -2535,16 +1455,6 @@
       "jaw_to_forehead": 1.498,
       "cheek_to_jaw": 1.287,
       "jaw_angle_deg": 139.469
-    },
-    "faceValidation": {
-      "bbox_width": 485.654,
-      "bbox_height": 509.894,
-      "bbox_area": 247632.349,
-      "face_area_ratio": 0.095,
-      "face_aspect_ratio": 1.05,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -8.974
     }
   },
   {
@@ -2563,16 +1473,6 @@
       "jaw_to_forehead": 1.575,
       "cheek_to_jaw": 1.129,
       "jaw_angle_deg": 124.206
-    },
-    "faceValidation": {
-      "bbox_width": 840.18,
-      "bbox_height": 777.106,
-      "bbox_area": 652909.143,
-      "face_area_ratio": 0.202,
-      "face_aspect_ratio": 0.925,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 10.469
     }
   },
   {
@@ -2591,44 +1491,6 @@
       "jaw_to_forehead": 1.405,
       "cheek_to_jaw": 1.317,
       "jaw_angle_deg": 143.291
-    },
-    "faceValidation": {
-      "bbox_width": 1080.026,
-      "bbox_height": 1355.321,
-      "bbox_area": 1463781.943,
-      "face_area_ratio": 0.169,
-      "face_aspect_ratio": 1.255,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 6.801
-    }
-  },
-  {
-    "id": 545108,
-    "title": "Head from a Large Statue of a Priest or Dignitary",
-    "artist": "",
-    "date": "ca. 1700–1600 B.C.",
-    "culture": "",
-    "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/262108.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/545108",
-    "faceShape": "round",
-    "shapeConfidence": 0.322,
-    "faceMetrics": {
-      "length_to_width": 1.079,
-      "jaw_to_forehead": 1.523,
-      "cheek_to_jaw": 1.212,
-      "jaw_angle_deg": 134.086
-    },
-    "faceValidation": {
-      "bbox_width": 1855.874,
-      "bbox_height": 1991.696,
-      "bbox_area": 3696336.773,
-      "face_area_ratio": 0.293,
-      "face_aspect_ratio": 1.073,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -1.15
     }
   },
   {
@@ -2647,16 +1509,24 @@
       "jaw_to_forehead": 1.542,
       "cheek_to_jaw": 1.238,
       "jaw_angle_deg": 132.291
-    },
-    "faceValidation": {
-      "bbox_width": 1292.177,
-      "bbox_height": 1261.177,
-      "bbox_area": 1629664.173,
-      "face_area_ratio": 0.115,
-      "face_aspect_ratio": 0.976,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 2.465
+    }
+  },
+  {
+    "id": 545108,
+    "title": "Head from a Large Statue of a Priest or Dignitary",
+    "artist": "",
+    "date": "ca. 1700–1600 B.C.",
+    "culture": "",
+    "department": "Egyptian Art",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/262108.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/545108",
+    "faceShape": "round",
+    "shapeConfidence": 0.322,
+    "faceMetrics": {
+      "length_to_width": 1.079,
+      "jaw_to_forehead": 1.523,
+      "cheek_to_jaw": 1.212,
+      "jaw_angle_deg": 134.086
     }
   },
   {
@@ -2675,16 +1545,6 @@
       "jaw_to_forehead": 1.603,
       "cheek_to_jaw": 1.239,
       "jaw_angle_deg": 132.673
-    },
-    "faceValidation": {
-      "bbox_width": 1274.929,
-      "bbox_height": 1289.072,
-      "bbox_area": 1643475.342,
-      "face_area_ratio": 0.134,
-      "face_aspect_ratio": 1.011,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.018
     }
   },
   {
@@ -2703,16 +1563,6 @@
       "jaw_to_forehead": 1.506,
       "cheek_to_jaw": 1.258,
       "jaw_angle_deg": 137.034
-    },
-    "faceValidation": {
-      "bbox_width": 148.036,
-      "bbox_height": 166.813,
-      "bbox_area": 24694.297,
-      "face_area_ratio": 0.092,
-      "face_aspect_ratio": 1.127,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -1.221
     }
   },
   {
@@ -2731,16 +1581,6 @@
       "jaw_to_forehead": 1.546,
       "cheek_to_jaw": 1.283,
       "jaw_angle_deg": 135.871
-    },
-    "faceValidation": {
-      "bbox_width": 951.229,
-      "bbox_height": 1099.225,
-      "bbox_area": 1045614.725,
-      "face_area_ratio": 0.119,
-      "face_aspect_ratio": 1.156,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 11.982
     }
   },
   {
@@ -2759,16 +1599,6 @@
       "jaw_to_forehead": 1.503,
       "cheek_to_jaw": 1.247,
       "jaw_angle_deg": 141.458
-    },
-    "faceValidation": {
-      "bbox_width": 1156.084,
-      "bbox_height": 1331.059,
-      "bbox_area": 1538815.558,
-      "face_area_ratio": 0.181,
-      "face_aspect_ratio": 1.151,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -9.575
     }
   },
   {
@@ -2787,16 +1617,6 @@
       "jaw_to_forehead": 1.605,
       "cheek_to_jaw": 1.212,
       "jaw_angle_deg": 137.067
-    },
-    "faceValidation": {
-      "bbox_width": 921.665,
-      "bbox_height": 969.385,
-      "bbox_area": 893448.336,
-      "face_area_ratio": 0.08,
-      "face_aspect_ratio": 1.052,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -4.862
     }
   },
   {
@@ -2815,16 +1635,6 @@
       "jaw_to_forehead": 1.638,
       "cheek_to_jaw": 1.207,
       "jaw_angle_deg": 135.089
-    },
-    "faceValidation": {
-      "bbox_width": 717.516,
-      "bbox_height": 829.964,
-      "bbox_area": 595512.696,
-      "face_area_ratio": 0.053,
-      "face_aspect_ratio": 1.157,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 23.241
     }
   },
   {
@@ -2843,16 +1653,6 @@
       "jaw_to_forehead": 1.748,
       "cheek_to_jaw": 1.201,
       "jaw_angle_deg": 133.884
-    },
-    "faceValidation": {
-      "bbox_width": 1195.009,
-      "bbox_height": 1371.117,
-      "bbox_area": 1638496.752,
-      "face_area_ratio": 0.137,
-      "face_aspect_ratio": 1.147,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 1.477
     }
   },
   {
@@ -2871,44 +1671,6 @@
       "jaw_to_forehead": 1.503,
       "cheek_to_jaw": 1.215,
       "jaw_angle_deg": 137.204
-    },
-    "faceValidation": {
-      "bbox_width": 1554.331,
-      "bbox_height": 1750.184,
-      "bbox_area": 2720365.11,
-      "face_area_ratio": 0.241,
-      "face_aspect_ratio": 1.126,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -15.341
-    }
-  },
-  {
-    "id": 256163,
-    "title": "Marble sarcophagus lid with reclining couple",
-    "artist": "",
-    "date": "ca. 220 CE",
-    "culture": "Roman",
-    "department": "Greek and Roman Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP-14287-153.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/256163",
-    "faceShape": "heart",
-    "shapeConfidence": 0.316,
-    "faceMetrics": {
-      "length_to_width": 1.223,
-      "jaw_to_forehead": 1.601,
-      "cheek_to_jaw": 1.223,
-      "jaw_angle_deg": 134.582
-    },
-    "faceValidation": {
-      "bbox_width": 1618.711,
-      "bbox_height": 1885.187,
-      "bbox_area": 3051572.638,
-      "face_area_ratio": 0.229,
-      "face_aspect_ratio": 1.165,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -19.994
     }
   },
   {
@@ -2927,16 +1689,6 @@
       "jaw_to_forehead": 1.482,
       "cheek_to_jaw": 1.284,
       "jaw_angle_deg": 143.223
-    },
-    "faceValidation": {
-      "bbox_width": 1052.184,
-      "bbox_height": 1198.886,
-      "bbox_area": 1261448.843,
-      "face_area_ratio": 0.112,
-      "face_aspect_ratio": 1.139,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -28.044
     }
   },
   {
@@ -2955,100 +1707,6 @@
       "jaw_to_forehead": 1.5,
       "cheek_to_jaw": 1.22,
       "jaw_angle_deg": 137.138
-    },
-    "faceValidation": {
-      "bbox_width": 789.87,
-      "bbox_height": 886.361,
-      "bbox_area": 700110.216,
-      "face_area_ratio": 0.058,
-      "face_aspect_ratio": 1.122,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 2.605
-    }
-  },
-  {
-    "id": 313256,
-    "title": "Mirror-bearer",
-    "artist": "Maya artist(s)",
-    "date": "410–650 CE",
-    "culture": "Maya",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24340-005.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/313256",
-    "faceShape": "heart",
-    "shapeConfidence": 0.356,
-    "faceMetrics": {
-      "length_to_width": 1.128,
-      "jaw_to_forehead": 1.915,
-      "cheek_to_jaw": 1.191,
-      "jaw_angle_deg": 119.247
-    },
-    "faceValidation": {
-      "bbox_width": 1251.697,
-      "bbox_height": 1420.902,
-      "bbox_area": 1778538.854,
-      "face_area_ratio": 0.112,
-      "face_aspect_ratio": 1.135,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 1.802
-    }
-  },
-  {
-    "id": 315052,
-    "title": "Effigy bottle",
-    "artist": "Wari artist(s)",
-    "date": "650–1000 CE",
-    "culture": "Wari",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24258-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/315052",
-    "faceShape": "round",
-    "shapeConfidence": 0.293,
-    "faceMetrics": {
-      "length_to_width": 1.134,
-      "jaw_to_forehead": 1.408,
-      "cheek_to_jaw": 1.255,
-      "jaw_angle_deg": 137.395
-    },
-    "faceValidation": {
-      "bbox_width": 822.617,
-      "bbox_height": 904.919,
-      "bbox_area": 744401.579,
-      "face_area_ratio": 0.063,
-      "face_aspect_ratio": 1.1,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 11.715
-    }
-  },
-  {
-    "id": 313658,
-    "title": "'Otua fefine (deity figure)",
-    "artist": "Ha'apai Islands artist",
-    "date": "Early 19th century",
-    "culture": "Ha'apai Islands",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-16434-003.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/313658",
-    "faceShape": "round",
-    "shapeConfidence": 0.528,
-    "faceMetrics": {
-      "length_to_width": 1.037,
-      "jaw_to_forehead": 1.651,
-      "cheek_to_jaw": 1.286,
-      "jaw_angle_deg": 141.792
-    },
-    "faceValidation": {
-      "bbox_width": 1788.358,
-      "bbox_height": 1840.723,
-      "bbox_area": 3291872.826,
-      "face_area_ratio": 0.206,
-      "face_aspect_ratio": 1.029,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.037
     }
   },
   {
@@ -3067,100 +1725,24 @@
       "jaw_to_forehead": 1.361,
       "cheek_to_jaw": 1.325,
       "jaw_angle_deg": 137.1
-    },
-    "faceValidation": {
-      "bbox_width": 195.826,
-      "bbox_height": 219.169,
-      "bbox_area": 42919.056,
-      "face_area_ratio": 0.147,
-      "face_aspect_ratio": 1.119,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -3.481
     }
   },
   {
-    "id": 312807,
-    "title": "Guaíza",
-    "artist": "Taíno artist(s)",
-    "date": "1200–1500 CE",
-    "culture": "Taíno",
+    "id": 313256,
+    "title": "Mirror-bearer",
+    "artist": "Maya artist(s)",
+    "date": "410–650 CE",
+    "culture": "Maya",
     "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP102179.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/312807",
-    "faceShape": "round",
-    "shapeConfidence": 0.34,
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24340-005.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/313256",
+    "faceShape": "heart",
+    "shapeConfidence": 0.356,
     "faceMetrics": {
-      "length_to_width": 0.904,
-      "jaw_to_forehead": 1.609,
-      "cheek_to_jaw": 1.25,
-      "jaw_angle_deg": 131.212
-    },
-    "faceValidation": {
-      "bbox_width": 282.383,
-      "bbox_height": 253.266,
-      "bbox_area": 71517.978,
-      "face_area_ratio": 0.203,
-      "face_aspect_ratio": 0.897,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 0.423
-    }
-  },
-  {
-    "id": 308458,
-    "title": "Spout-and-bridge bottle with fox",
-    "artist": "Topará artist(s)",
-    "date": "200 BCE–100 CE",
-    "culture": "Topará",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP234685.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/308458",
-    "faceShape": "square",
-    "shapeConfidence": 0.255,
-    "faceMetrics": {
-      "length_to_width": 1.019,
-      "jaw_to_forehead": 1.88,
-      "cheek_to_jaw": 1.097,
-      "jaw_angle_deg": 117.01
-    },
-    "faceValidation": {
-      "bbox_width": 265.602,
-      "bbox_height": 247.682,
-      "bbox_area": 65784.873,
-      "face_area_ratio": 0.224,
-      "face_aspect_ratio": 0.933,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -10.531
-    }
-  },
-  {
-    "id": 310568,
-    "title": "Bottle with deity",
-    "artist": "Wari artist(s)",
-    "date": "650–1000 CE",
-    "culture": "Wari",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24255-004.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/310568",
-    "faceShape": "round",
-    "shapeConfidence": 0.484,
-    "faceMetrics": {
-      "length_to_width": 1.06,
-      "jaw_to_forehead": 1.415,
-      "cheek_to_jaw": 1.268,
-      "jaw_angle_deg": 142.495
-    },
-    "faceValidation": {
-      "bbox_width": 1711.299,
-      "bbox_height": 1798.407,
-      "bbox_area": 3077612.162,
-      "face_area_ratio": 0.201,
-      "face_aspect_ratio": 1.051,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.007
+      "length_to_width": 1.128,
+      "jaw_to_forehead": 1.915,
+      "cheek_to_jaw": 1.191,
+      "jaw_angle_deg": 119.247
     }
   },
   {
@@ -3179,184 +1761,24 @@
       "jaw_to_forehead": 1.456,
       "cheek_to_jaw": 1.26,
       "jaw_angle_deg": 134.357
-    },
-    "faceValidation": {
-      "bbox_width": 676.807,
-      "bbox_height": 758.691,
-      "bbox_area": 513487.18,
-      "face_area_ratio": 0.051,
-      "face_aspect_ratio": 1.121,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -6.444
     }
   },
   {
-    "id": 733038,
-    "title": "Arganonä Maryam (The Organ of Mary) prayer book",
-    "artist": "Baselyos, also known as \"The Ground Hornbill Master\"",
-    "date": "late 17th century",
-    "culture": "",
+    "id": 313658,
+    "title": "'Otua fefine (deity figure)",
+    "artist": "Ha'apai Islands artist",
+    "date": "Early 19th century",
+    "culture": "Ha'apai Islands",
     "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP367372.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/733038",
-    "faceShape": "heart",
-    "shapeConfidence": 0.361,
-    "faceMetrics": {
-      "length_to_width": 1.212,
-      "jaw_to_forehead": 1.652,
-      "cheek_to_jaw": 1.16,
-      "jaw_angle_deg": 134.325
-    },
-    "faceValidation": {
-      "bbox_width": 881.998,
-      "bbox_height": 1041.067,
-      "bbox_area": 918218.621,
-      "face_area_ratio": 0.076,
-      "face_aspect_ratio": 1.18,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 7.692
-    }
-  },
-  {
-    "id": 313010,
-    "title": "Standing figure",
-    "artist": "Tiwanaku artist(s)",
-    "date": "500–1000 CE",
-    "culture": "Tiwanaku",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-23813-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/313010",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-16434-003.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/313658",
     "faceShape": "round",
-    "shapeConfidence": 0.448,
+    "shapeConfidence": 0.528,
     "faceMetrics": {
-      "length_to_width": 0.909,
-      "jaw_to_forehead": 1.478,
-      "cheek_to_jaw": 1.246,
-      "jaw_angle_deg": 135.414
-    },
-    "faceValidation": {
-      "bbox_width": 872.617,
-      "bbox_height": 778.726,
-      "bbox_area": 679529.509,
-      "face_area_ratio": 0.083,
-      "face_aspect_ratio": 0.892,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 5.433
-    }
-  },
-  {
-    "id": 309717,
-    "title": "Head jar",
-    "artist": "Nasca artist(s)",
-    "date": "100–500 CE",
-    "culture": "Nasca",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24358-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/309717",
-    "faceShape": "round",
-    "shapeConfidence": 0.452,
-    "faceMetrics": {
-      "length_to_width": 0.919,
-      "jaw_to_forehead": 1.408,
-      "cheek_to_jaw": 1.241,
-      "jaw_angle_deg": 135.974
-    },
-    "faceValidation": {
-      "bbox_width": 1955.21,
-      "bbox_height": 1764.76,
-      "bbox_area": 3450476.718,
-      "face_area_ratio": 0.227,
-      "face_aspect_ratio": 0.903,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -2.263
-    }
-  },
-  {
-    "id": 309958,
-    "title": "Bead",
-    "artist": "Moche artist(s)",
-    "date": "3rd–6th century",
-    "culture": "Moche",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-41709-002.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/309958",
-    "faceShape": "heart",
-    "shapeConfidence": 0.364,
-    "faceMetrics": {
-      "length_to_width": 1.066,
-      "jaw_to_forehead": 1.748,
-      "cheek_to_jaw": 1.143,
-      "jaw_angle_deg": 119.041
-    },
-    "faceValidation": {
-      "bbox_width": 1926.212,
-      "bbox_height": 2102.938,
-      "bbox_area": 4050705.55,
-      "face_area_ratio": 0.256,
-      "face_aspect_ratio": 1.092,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -0.743
-    }
-  },
-  {
-    "id": 311024,
-    "title": "Nsodie (memorial head)",
-    "artist": "Akan artist",
-    "date": "17th–mid-18th century",
-    "culture": "Akan peoples",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP231466.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/311024",
-    "faceShape": "round",
-    "shapeConfidence": 0.465,
-    "faceMetrics": {
-      "length_to_width": 0.997,
-      "jaw_to_forehead": 1.526,
-      "cheek_to_jaw": 1.271,
-      "jaw_angle_deg": 134.925
-    },
-    "faceValidation": {
-      "bbox_width": 204.735,
-      "bbox_height": 202.407,
-      "bbox_area": 41439.695,
-      "face_area_ratio": 0.134,
-      "face_aspect_ratio": 0.989,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -4.901
-    }
-  },
-  {
-    "id": 812102,
-    "title": "Memorial head",
-    "artist": "Akan artist",
-    "date": "18th century",
-    "culture": "Akan peoples",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-36767-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/812102",
-    "faceShape": "round",
-    "shapeConfidence": 0.261,
-    "faceMetrics": {
-      "length_to_width": 1.166,
-      "jaw_to_forehead": 1.417,
-      "cheek_to_jaw": 1.315,
-      "jaw_angle_deg": 144.191
-    },
-    "faceValidation": {
-      "bbox_width": 1724.506,
-      "bbox_height": 1969.915,
-      "bbox_area": 3397130.21,
-      "face_area_ratio": 0.286,
-      "face_aspect_ratio": 1.142,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": 0.863
+      "length_to_width": 1.037,
+      "jaw_to_forehead": 1.651,
+      "cheek_to_jaw": 1.286,
+      "jaw_angle_deg": 141.792
     }
   },
   {
@@ -3375,16 +1797,204 @@
       "jaw_to_forehead": 1.573,
       "cheek_to_jaw": 1.249,
       "jaw_angle_deg": 132.212
-    },
-    "faceValidation": {
-      "bbox_width": 380.609,
-      "bbox_height": 429.458,
-      "bbox_area": 163455.686,
-      "face_area_ratio": 0.059,
-      "face_aspect_ratio": 1.128,
-      "face_count": 1.0,
-      "dominant_face_ratio": 1.0,
-      "yaw_deg": -13.829
+    }
+  },
+  {
+    "id": 315052,
+    "title": "Effigy bottle",
+    "artist": "Wari artist(s)",
+    "date": "650–1000 CE",
+    "culture": "Wari",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24258-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/315052",
+    "faceShape": "round",
+    "shapeConfidence": 0.293,
+    "faceMetrics": {
+      "length_to_width": 1.134,
+      "jaw_to_forehead": 1.408,
+      "cheek_to_jaw": 1.255,
+      "jaw_angle_deg": 137.395
+    }
+  },
+  {
+    "id": 310568,
+    "title": "Bottle with deity",
+    "artist": "Wari artist(s)",
+    "date": "650–1000 CE",
+    "culture": "Wari",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24255-004.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/310568",
+    "faceShape": "round",
+    "shapeConfidence": 0.484,
+    "faceMetrics": {
+      "length_to_width": 1.06,
+      "jaw_to_forehead": 1.415,
+      "cheek_to_jaw": 1.268,
+      "jaw_angle_deg": 142.495
+    }
+  },
+  {
+    "id": 312807,
+    "title": "Guaíza",
+    "artist": "Taíno artist(s)",
+    "date": "1200–1500 CE",
+    "culture": "Taíno",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP102179.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/312807",
+    "faceShape": "round",
+    "shapeConfidence": 0.34,
+    "faceMetrics": {
+      "length_to_width": 0.904,
+      "jaw_to_forehead": 1.609,
+      "cheek_to_jaw": 1.25,
+      "jaw_angle_deg": 131.212
+    }
+  },
+  {
+    "id": 313010,
+    "title": "Standing figure",
+    "artist": "Tiwanaku artist(s)",
+    "date": "500–1000 CE",
+    "culture": "Tiwanaku",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-23813-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/313010",
+    "faceShape": "round",
+    "shapeConfidence": 0.448,
+    "faceMetrics": {
+      "length_to_width": 0.909,
+      "jaw_to_forehead": 1.478,
+      "cheek_to_jaw": 1.246,
+      "jaw_angle_deg": 135.414
+    }
+  },
+  {
+    "id": 309958,
+    "title": "Bead",
+    "artist": "Moche artist(s)",
+    "date": "3rd–6th century",
+    "culture": "Moche",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-41709-002.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/309958",
+    "faceShape": "heart",
+    "shapeConfidence": 0.364,
+    "faceMetrics": {
+      "length_to_width": 1.066,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.143,
+      "jaw_angle_deg": 119.041
+    }
+  },
+  {
+    "id": 307602,
+    "title": "Prayer book with case (mahdar)",
+    "artist": "Wäldä Maryam",
+    "date": "19th century",
+    "culture": "",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/vs95.67ab2.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/307602",
+    "faceShape": "heart",
+    "shapeConfidence": 0.417,
+    "faceMetrics": {
+      "length_to_width": 1.309,
+      "jaw_to_forehead": 1.24,
+      "cheek_to_jaw": 1.191,
+      "jaw_angle_deg": 112.843
+    }
+  },
+  {
+    "id": 308458,
+    "title": "Spout-and-bridge bottle with fox",
+    "artist": "Topará artist(s)",
+    "date": "200 BCE–100 CE",
+    "culture": "Topará",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP234685.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/308458",
+    "faceShape": "square",
+    "shapeConfidence": 0.255,
+    "faceMetrics": {
+      "length_to_width": 1.019,
+      "jaw_to_forehead": 1.88,
+      "cheek_to_jaw": 1.097,
+      "jaw_angle_deg": 117.01
+    }
+  },
+  {
+    "id": 733038,
+    "title": "Arganonä Maryam (The Organ of Mary) prayer book",
+    "artist": "Baselyos, also known as \"The Ground Hornbill Master\"",
+    "date": "late 17th century",
+    "culture": "",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP367372.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/733038",
+    "faceShape": "heart",
+    "shapeConfidence": 0.361,
+    "faceMetrics": {
+      "length_to_width": 1.212,
+      "jaw_to_forehead": 1.652,
+      "cheek_to_jaw": 1.16,
+      "jaw_angle_deg": 134.325
+    }
+  },
+  {
+    "id": 309717,
+    "title": "Head jar",
+    "artist": "Nasca artist(s)",
+    "date": "100–500 CE",
+    "culture": "Nasca",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24358-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/309717",
+    "faceShape": "round",
+    "shapeConfidence": 0.452,
+    "faceMetrics": {
+      "length_to_width": 0.919,
+      "jaw_to_forehead": 1.408,
+      "cheek_to_jaw": 1.241,
+      "jaw_angle_deg": 135.974
+    }
+  },
+  {
+    "id": 311024,
+    "title": "Nsodie (memorial head)",
+    "artist": "Akan artist",
+    "date": "17th–mid-18th century",
+    "culture": "Akan peoples",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP231466.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/311024",
+    "faceShape": "round",
+    "shapeConfidence": 0.465,
+    "faceMetrics": {
+      "length_to_width": 0.997,
+      "jaw_to_forehead": 1.526,
+      "cheek_to_jaw": 1.271,
+      "jaw_angle_deg": 134.925
+    }
+  },
+  {
+    "id": 812102,
+    "title": "Memorial head",
+    "artist": "Akan artist",
+    "date": "18th century",
+    "culture": "Akan peoples",
+    "department": "The Michael C. Rockefeller Wing",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-36767-001.jpg",
+    "metUrl": "https://www.metmuseum.org/art/collection/search/812102",
+    "faceShape": "round",
+    "shapeConfidence": 0.261,
+    "faceMetrics": {
+      "length_to_width": 1.166,
+      "jaw_to_forehead": 1.417,
+      "cheek_to_jaw": 1.315,
+      "jaw_angle_deg": 144.191
     }
   }
 ]
