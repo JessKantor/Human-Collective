@@ -6,9 +6,26 @@
     "date": "ca. 1470",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44362-005.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-14_40_627_Suppl_7.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437056",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.302,
+    "faceMetrics": {
+      "length_to_width": 1.238,
+      "jaw_to_forehead": 1.661,
+      "cheek_to_jaw": 1.24,
+      "jaw_angle_deg": 140.199
+    },
+    "faceValidation": {
+      "bbox_width": 850.689,
+      "bbox_height": 951.839,
+      "bbox_area": 809719.182,
+      "face_area_ratio": 0.065,
+      "face_aspect_ratio": 1.119,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -32.465
+    }
   },
   {
     "id": 436543,
@@ -17,9 +34,26 @@
     "date": "1804",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-28011-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-55_145_2-2.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436543",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.458,
+    "faceMetrics": {
+      "length_to_width": 1.054,
+      "jaw_to_forehead": 1.476,
+      "cheek_to_jaw": 1.31,
+      "jaw_angle_deg": 139.787
+    },
+    "faceValidation": {
+      "bbox_width": 800.495,
+      "bbox_height": 764.254,
+      "bbox_area": 611782.047,
+      "face_area_ratio": 0.058,
+      "face_aspect_ratio": 0.955,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 23.971
+    }
   },
   {
     "id": 435580,
@@ -28,20 +62,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT285189.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT285189.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435580",
-    "faceShape": "oval"
-  },
-  {
-    "id": 643540,
-    "title": "Portrait of a Woman",
-    "artist": "Giovanni Battista Gaulli (Il Baciccio)",
-    "date": "ca. 1670s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP341866.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/643540",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.33,
+    "faceMetrics": {
+      "length_to_width": 1.182,
+      "jaw_to_forehead": 1.708,
+      "cheek_to_jaw": 1.183,
+      "jaw_angle_deg": 133.106
+    },
+    "faceValidation": {
+      "bbox_width": 495.422,
+      "bbox_height": 583.917,
+      "bbox_area": 289284.957,
+      "face_area_ratio": 0.108,
+      "face_aspect_ratio": 1.179,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -4.235
+    }
   },
   {
     "id": 436986,
@@ -50,20 +90,26 @@
     "date": "ca. 1520",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1461.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1461.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436986",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436258,
-    "title": "Self-Portrait",
-    "artist": "Anthony van Dyck",
-    "date": "ca. 1620–21",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23705-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436258",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.329,
+    "faceMetrics": {
+      "length_to_width": 1.202,
+      "jaw_to_forehead": 1.686,
+      "cheek_to_jaw": 1.209,
+      "jaw_angle_deg": 130.827
+    },
+    "faceValidation": {
+      "bbox_width": 818.119,
+      "bbox_height": 978.913,
+      "bbox_area": 800867.381,
+      "face_area_ratio": 0.068,
+      "face_aspect_ratio": 1.197,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 2.63
+    }
   },
   {
     "id": 436574,
@@ -72,9 +118,26 @@
     "date": "ca. 1595–1600",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24083-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-24083-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436574",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.36,
+    "faceMetrics": {
+      "length_to_width": 1.325,
+      "jaw_to_forehead": 1.553,
+      "cheek_to_jaw": 1.273,
+      "jaw_angle_deg": 138.018
+    },
+    "faceValidation": {
+      "bbox_width": 828.176,
+      "bbox_height": 1084.005,
+      "bbox_area": 897746.855,
+      "face_area_ratio": 0.063,
+      "face_aspect_ratio": 1.309,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -10.971
+    }
   },
   {
     "id": 435896,
@@ -83,31 +146,26 @@
     "date": "1446",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-44361-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-49_7_19_IRR.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435896",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436542,
-    "title": "Ignacio Garcini y Queralt (1752–1825), Brigadier of Engineers",
-    "artist": "Goya (Francisco de Goya y Lucientes)",
-    "date": "1804",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-28010-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436542",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437487,
-    "title": "Francesco d'Este (born ca. 1429, died after 1486)",
-    "artist": "Rogier van der Weyden",
-    "date": "ca. 1460",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26278-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437487",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.337,
+    "faceMetrics": {
+      "length_to_width": 1.374,
+      "jaw_to_forehead": 1.474,
+      "cheek_to_jaw": 1.228,
+      "jaw_angle_deg": 144.393
+    },
+    "faceValidation": {
+      "bbox_width": 788.663,
+      "bbox_height": 962.852,
+      "bbox_area": 759365.857,
+      "face_area_ratio": 0.063,
+      "face_aspect_ratio": 1.221,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 33.555
+    }
   },
   {
     "id": 437508,
@@ -118,29 +176,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323414.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437508",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436658,
-    "title": "Hermann von Wedigh III (died 1560)",
-    "artist": "Hans Holbein the Younger",
-    "date": "1532",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164836.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436658",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437422,
-    "title": "Charity",
-    "artist": "Guido Reni",
-    "date": "ca. 1630",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10776.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437422",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.284,
+    "faceMetrics": {
+      "length_to_width": 0.969,
+      "jaw_to_forehead": 1.64,
+      "cheek_to_jaw": 1.164,
+      "jaw_angle_deg": 130.117
+    },
+    "faceValidation": {
+      "bbox_width": 171.93,
+      "bbox_height": 159.179,
+      "bbox_area": 27367.539,
+      "face_area_ratio": 0.088,
+      "face_aspect_ratio": 0.926,
+      "face_count": 2.0,
+      "dominant_face_ratio": 0.755,
+      "yaw_deg": 14.592
+    }
   },
   {
     "id": 712539,
@@ -149,31 +202,26 @@
     "date": "1645 or 1646",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-944-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-944-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/712539",
-    "faceShape": "oval"
-  },
-  {
-    "id": 441115,
-    "title": "Self-Portrait",
-    "artist": "Anton Raphael Mengs",
-    "date": "1776",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240926.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/441115",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435864,
-    "title": "A Woman with a Dog",
-    "artist": "Giacomo Ceruti",
-    "date": "1740s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29214-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435864",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.302,
+    "faceMetrics": {
+      "length_to_width": 1.233,
+      "jaw_to_forehead": 1.54,
+      "cheek_to_jaw": 1.24,
+      "jaw_angle_deg": 139.415
+    },
+    "faceValidation": {
+      "bbox_width": 1167.121,
+      "bbox_height": 1361.703,
+      "bbox_area": 1589272.309,
+      "face_area_ratio": 0.118,
+      "face_aspect_ratio": 1.167,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -22.445
+    }
   },
   {
     "id": 436638,
@@ -184,29 +232,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38857-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436638",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437531,
-    "title": "Portrait of a Woman, Probably Susanna Lunden (Susanna Fourment, 1599–1628)",
-    "artist": "Peter Paul Rubens",
-    "date": "ca. 1625–27",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20395-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437531",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435837,
-    "title": "Man in Prayer",
-    "artist": "Rogier van der Weyden",
-    "date": "ca. 1440",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP347297.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435837",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.328,
+    "faceMetrics": {
+      "length_to_width": 1.368,
+      "jaw_to_forehead": 1.599,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 142.488
+    },
+    "faceValidation": {
+      "bbox_width": 138.581,
+      "bbox_height": 171.301,
+      "bbox_area": 23739.022,
+      "face_area_ratio": 0.089,
+      "face_aspect_ratio": 1.236,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -33.695
+    }
   },
   {
     "id": 436872,
@@ -215,31 +258,26 @@
     "date": "1670s",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143151.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP143151.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436872",
-    "faceShape": "oval"
-  },
-  {
-    "id": 438688,
-    "title": "Saint Francis",
-    "artist": "Federico Barocci",
-    "date": "ca. 1600–1604",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP104367.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/438688",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437325,
-    "title": "Margherita Gonzaga (1591–1632), Princess of Mantua",
-    "artist": "Frans Pourbus the Younger",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24151-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437325",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.257,
+    "faceMetrics": {
+      "length_to_width": 1.201,
+      "jaw_to_forehead": 1.6,
+      "cheek_to_jaw": 1.263,
+      "jaw_angle_deg": 135.617
+    },
+    "faceValidation": {
+      "bbox_width": 708.895,
+      "bbox_height": 812.548,
+      "bbox_area": 576010.678,
+      "face_area_ratio": 0.052,
+      "face_aspect_ratio": 1.146,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 22.302
+    }
   },
   {
     "id": 436581,
@@ -248,9 +286,26 @@
     "date": "1763",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19779-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19779-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436581",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.315,
+    "faceMetrics": {
+      "length_to_width": 1.285,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.21,
+      "jaw_angle_deg": 135.633
+    },
+    "faceValidation": {
+      "bbox_width": 803.012,
+      "bbox_height": 991.665,
+      "bbox_area": 796318.865,
+      "face_area_ratio": 0.058,
+      "face_aspect_ratio": 1.235,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 24.524
+    }
   },
   {
     "id": 435897,
@@ -259,42 +314,26 @@
     "date": "ca. 1445",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT229079.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT229079.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435897",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437396,
-    "title": "Hendrickje Stoffels (1626–1663)",
-    "artist": "Rembrandt (Rembrandt van Rijn)",
-    "date": "mid-1650s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145920.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437396",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437488,
-    "title": "Portrait of a Man in a Chaperon",
-    "artist": "Netherlandish Painter",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200207.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437488",
-    "faceShape": "oval"
-  },
-  {
-    "id": 769297,
-    "title": "Pope Clement X (1590–1676)",
-    "artist": "Giovanni Battista Gaulli (Il Baciccio)",
-    "date": "ca. 1670–71",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15413-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/769297",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.327,
+    "faceMetrics": {
+      "length_to_width": 1.243,
+      "jaw_to_forehead": 1.662,
+      "cheek_to_jaw": 1.209,
+      "jaw_angle_deg": 133.403
+    },
+    "faceValidation": {
+      "bbox_width": 992.505,
+      "bbox_height": 1228.74,
+      "bbox_area": 1219530.273,
+      "face_area_ratio": 0.119,
+      "face_aspect_ratio": 1.238,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 1.683
+    }
   },
   {
     "id": 436834,
@@ -303,9 +342,26 @@
     "date": "ca. 1508",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164793.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164793.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436834",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.349,
+    "faceMetrics": {
+      "length_to_width": 1.305,
+      "jaw_to_forehead": 1.654,
+      "cheek_to_jaw": 1.158,
+      "jaw_angle_deg": 136.733
+    },
+    "faceValidation": {
+      "bbox_width": 814.04,
+      "bbox_height": 977.502,
+      "bbox_area": 795725.221,
+      "face_area_ratio": 0.068,
+      "face_aspect_ratio": 1.201,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -23.802
+    }
   },
   {
     "id": 436432,
@@ -314,20 +370,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP162155.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP162155.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436432",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436243,
-    "title": "Salvator Mundi",
-    "artist": "Albrecht Dürer",
-    "date": "ca. 1505",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436243",
-    "faceShape": "round"
+    "faceShape": "oval",
+    "shapeConfidence": 0.34,
+    "faceMetrics": {
+      "length_to_width": 1.268,
+      "jaw_to_forehead": 1.512,
+      "cheek_to_jaw": 1.262,
+      "jaw_angle_deg": 138.278
+    },
+    "faceValidation": {
+      "bbox_width": 776.269,
+      "bbox_height": 959.472,
+      "bbox_area": 744808.674,
+      "face_area_ratio": 0.067,
+      "face_aspect_ratio": 1.236,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -7.747
+    }
   },
   {
     "id": 437021,
@@ -336,9 +398,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19581-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19581-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437021",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.248,
+    "faceMetrics": {
+      "length_to_width": 1.192,
+      "jaw_to_forehead": 1.648,
+      "cheek_to_jaw": 1.275,
+      "jaw_angle_deg": 136.765
+    },
+    "faceValidation": {
+      "bbox_width": 995.844,
+      "bbox_height": 1181.706,
+      "bbox_area": 1176795.45,
+      "face_area_ratio": 0.103,
+      "face_aspect_ratio": 1.187,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.493
+    }
   },
   {
     "id": 435664,
@@ -347,31 +426,26 @@
     "date": "probably ca. 1470",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161258.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP161258.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435664",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436522,
-    "title": "A Benedictine Monk",
-    "artist": "Hugo van der Goes",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19585-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436522",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435635,
-    "title": "Chancellor Leonhard von Eck (1480–1550)",
-    "artist": "Barthel Beham",
-    "date": "1527",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280850.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435635",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.337,
+    "faceMetrics": {
+      "length_to_width": 1.309,
+      "jaw_to_forehead": 1.646,
+      "cheek_to_jaw": 1.226,
+      "jaw_angle_deg": 138.88
+    },
+    "faceValidation": {
+      "bbox_width": 782.384,
+      "bbox_height": 932.361,
+      "bbox_area": 729464.569,
+      "face_area_ratio": 0.068,
+      "face_aspect_ratio": 1.192,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -33.465
+    }
   },
   {
     "id": 439327,
@@ -380,9 +454,26 @@
     "date": "ca. 1500–1505",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP218061.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP218061.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/439327",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.364,
+    "faceMetrics": {
+      "length_to_width": 1.171,
+      "jaw_to_forehead": 1.752,
+      "cheek_to_jaw": 1.191,
+      "jaw_angle_deg": 125.659
+    },
+    "faceValidation": {
+      "bbox_width": 1124.586,
+      "bbox_height": 1309.312,
+      "bbox_area": 1472433.462,
+      "face_area_ratio": 0.142,
+      "face_aspect_ratio": 1.164,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -0.714
+    }
   },
   {
     "id": 436102,
@@ -393,51 +484,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1977_1_1-IRRDetail.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436102",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436106,
-    "title": "Antoine Laurent Lavoisier (1743–1794) and Marie Anne Lavoisier (Marie Anne Pierrette Paulze, 1758–1836)",
-    "artist": "Jacques Louis David",
-    "date": "1788",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13140-002.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436106",
-    "faceShape": "oval"
-  },
-  {
-    "id": 440723,
-    "title": "Bashi-Bazouk",
-    "artist": "Jean-Léon Gérôme",
-    "date": "1868–69",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP243839.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/440723",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437175,
-    "title": "Virgin and Child",
-    "artist": "Bartolomé Estebán Murillo",
-    "date": "1670s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-010.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437175",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437398,
-    "title": "Flora",
-    "artist": "Rembrandt (Rembrandt van Rijn)",
-    "date": "ca. 1654",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP120785.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437398",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.289,
+    "faceMetrics": {
+      "length_to_width": 1.213,
+      "jaw_to_forehead": 1.497,
+      "cheek_to_jaw": 1.29,
+      "jaw_angle_deg": 143.094
+    },
+    "faceValidation": {
+      "bbox_width": 1779.718,
+      "bbox_height": 1748.176,
+      "bbox_area": 3111261.539,
+      "face_area_ratio": 0.199,
+      "face_aspect_ratio": 0.982,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -16.283
+    }
   },
   {
     "id": 761570,
@@ -448,51 +512,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-14882-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/761570",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437898,
-    "title": "Madame Grand (Noël Catherine Vorlée, 1761–1835)",
-    "artist": "Elisabeth Louise Vigée Le Brun",
-    "date": "1783",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP320094.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437898",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435844,
-    "title": "The Musicians",
-    "artist": "Caravaggio (Michelangelo Merisi)",
-    "date": "1597",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435844",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437831,
-    "title": "Jean Marc Nattier (1685–1766)",
-    "artist": "Louis Tocqué",
-    "date": "ca. 1740",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280391.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437831",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437875,
-    "title": "Portrait of a Man",
-    "artist": "Velázquez",
-    "date": "ca. 1650",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP276131.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437875",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.284,
+    "faceMetrics": {
+      "length_to_width": 1.379,
+      "jaw_to_forehead": 1.529,
+      "cheek_to_jaw": 1.203,
+      "jaw_angle_deg": 134.807
+    },
+    "faceValidation": {
+      "bbox_width": 928.103,
+      "bbox_height": 1165.657,
+      "bbox_area": 1081850.442,
+      "face_area_ratio": 0.084,
+      "face_aspect_ratio": 1.256,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -25.582
+    }
   },
   {
     "id": 437061,
@@ -501,75 +538,26 @@
     "date": "1480–85",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19586-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_54-IRR.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437061",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436657,
-    "title": "Benedikt von Hertenstein (born about 1495, died 1522)",
-    "artist": "Hans Holbein the Younger",
-    "date": "1517",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280366.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436657",
-    "faceShape": "oval"
-  },
-  {
-    "id": 439337,
-    "title": "Portrait of a \"Mamelouk\"",
-    "artist": "Horace Vernet",
-    "date": "1810",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP331536.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/439337",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435820,
-    "title": "Portrait of a Woman of the Slosgin Family of Cologne",
-    "artist": "Barthel Bruyn the Younger",
-    "date": "1557",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-29328-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435820",
-    "faceShape": "oval"
-  },
-  {
-    "id": 440840,
-    "title": "Portrait of an Old Man",
-    "artist": "Hugo van der Goes",
-    "date": "ca. 1470–75",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP234678.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/440840",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437261,
-    "title": "The Penitence of Saint Jerome",
-    "artist": "Joachim Patinir",
-    "date": "ca. 1515",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-17.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437261",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435804,
-    "title": "Katharina Merian",
-    "artist": "Hans Brosamer",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164865.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435804",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.344,
+    "faceMetrics": {
+      "length_to_width": 0.999,
+      "jaw_to_forehead": 1.55,
+      "cheek_to_jaw": 1.214,
+      "jaw_angle_deg": 131.07
+    },
+    "faceValidation": {
+      "bbox_width": 1032.489,
+      "bbox_height": 1018.333,
+      "bbox_area": 1051417.951,
+      "face_area_ratio": 0.066,
+      "face_aspect_ratio": 0.986,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.558
+    }
   },
   {
     "id": 440464,
@@ -580,7 +568,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP214443.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/440464",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.377,
+    "faceMetrics": {
+      "length_to_width": 1.225,
+      "jaw_to_forehead": 1.68,
+      "cheek_to_jaw": 1.159,
+      "jaw_angle_deg": 129.87
+    },
+    "faceValidation": {
+      "bbox_width": 425.625,
+      "bbox_height": 517.729,
+      "bbox_area": 220358.41,
+      "face_area_ratio": 0.077,
+      "face_aspect_ratio": 1.216,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -0.697
+    }
   },
   {
     "id": 437466,
@@ -589,31 +594,26 @@
     "date": "ca. 1573–82",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP283522.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP283523.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437466",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437030,
-    "title": "Young Man Holding a Book",
-    "artist": "Master of the View of Saint Gudula",
-    "date": "ca. 1480",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP282434.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437030",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437059,
-    "title": "Young Woman with a Pink",
-    "artist": "Hans Memling",
-    "date": "ca. 1485–90",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-45396-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437059",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.319,
+    "faceMetrics": {
+      "length_to_width": 1.243,
+      "jaw_to_forehead": 1.684,
+      "cheek_to_jaw": 1.215,
+      "jaw_angle_deg": 136.278
+    },
+    "faceValidation": {
+      "bbox_width": 280.477,
+      "bbox_height": 334.725,
+      "bbox_area": 93882.494,
+      "face_area_ratio": 0.054,
+      "face_aspect_ratio": 1.193,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 23.507
+    }
   },
   {
     "id": 436521,
@@ -624,40 +624,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP347299.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436521",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437236,
-    "title": "Head of a Donor",
-    "artist": "Albert van Ouwater",
-    "date": "ca. 1465–70",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-26281-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437236",
-    "faceShape": "oval"
-  },
-  {
-    "id": 687513,
-    "title": "The Lamentation",
-    "artist": "Luis de Morales",
-    "date": "ca. 1560",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP370255.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/687513",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436038,
-    "title": "Judith with the Head of Holofernes",
-    "artist": "Lucas Cranach the Elder",
-    "date": "ca. 1530",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280784.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436038",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.329,
+    "faceMetrics": {
+      "length_to_width": 1.259,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.202,
+      "jaw_angle_deg": 137.893
+    },
+    "faceValidation": {
+      "bbox_width": 957.018,
+      "bbox_height": 1132.644,
+      "bbox_area": 1083960.361,
+      "face_area_ratio": 0.086,
+      "face_aspect_ratio": 1.184,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 30.229
+    }
   },
   {
     "id": 436282,
@@ -666,42 +650,26 @@
     "date": "ca. 1436–38",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-33_92ab-5.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-33_92ab-18.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436282",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436284,
-    "title": "A Donor Presented by a Saint",
-    "artist": "Dieric Bouts",
-    "date": "ca. 1460–65",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-26282-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436284",
-    "faceShape": "oval"
-  },
-  {
-    "id": 816519,
-    "title": "Still Life of Grapes and Peaches",
-    "artist": "Panfilo Nuvolone",
-    "date": "ca. 1617",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-23243-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/816519",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437900,
-    "title": "Comtesse de la Châtre (Marie Charlotte Louise Perrette Aglaé Bontemps, 1762–1848)",
-    "artist": "Elisabeth Louise Vigée Le Brun",
-    "date": "1789",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP320086.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437900",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.339,
+    "faceMetrics": {
+      "length_to_width": 1.294,
+      "jaw_to_forehead": 1.607,
+      "cheek_to_jaw": 1.234,
+      "jaw_angle_deg": 138.041
+    },
+    "faceValidation": {
+      "bbox_width": 450.54,
+      "bbox_height": 484.778,
+      "bbox_area": 218411.757,
+      "face_area_ratio": 0.093,
+      "face_aspect_ratio": 1.076,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 14.924
+    }
   },
   {
     "id": 435762,
@@ -710,53 +678,26 @@
     "date": "ca. 1455–60",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-20589-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20589-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435762",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436485,
-    "title": "Vanitas Still Life",
-    "artist": "Jacques de Gheyn II",
-    "date": "1603",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP143209.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436485",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435914,
-    "title": "Guillaume Budé (1467–1540)",
-    "artist": "Jean Clouet",
-    "date": "ca. 1536",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-25742-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435914",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436703,
-    "title": "Madame Jacques-Louis Leblanc (Françoise Poncelle, 1788–1839)",
-    "artist": "Jean Auguste Dominique Ingres",
-    "date": "1823",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1926.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436703",
-    "faceShape": "oval"
-  },
-  {
-    "id": 747607,
-    "title": "Woman Playing a Guitar",
-    "artist": "Simon Vouet",
-    "date": "ca. 1618",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-12928-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/747607",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.297,
+    "faceMetrics": {
+      "length_to_width": 0.883,
+      "jaw_to_forehead": 1.64,
+      "cheek_to_jaw": 1.252,
+      "jaw_angle_deg": 130.055
+    },
+    "faceValidation": {
+      "bbox_width": 188.237,
+      "bbox_height": 201.766,
+      "bbox_area": 37979.804,
+      "face_area_ratio": 0.129,
+      "face_aspect_ratio": 1.072,
+      "face_count": 2.0,
+      "dominant_face_ratio": 0.639,
+      "yaw_deg": 7.938
+    }
   },
   {
     "id": 435802,
@@ -765,53 +706,26 @@
     "date": "1530s",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Bronzino detail of face.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435802",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436838,
-    "title": "The Fortune-Teller",
-    "artist": "Georges de La Tour",
-    "date": "probably 1630s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-015.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436838",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436001,
-    "title": "Jo, La Belle Irlandaise",
-    "artist": "Gustave Courbet",
-    "date": "1865–66",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-23236-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436001",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437057,
-    "title": "Virgin and Child",
-    "artist": "Hans Memling",
-    "date": "1480–85",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19587-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437057",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435876,
-    "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
-    "artist": "Paul Cézanne",
-    "date": "1888–90",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP320128.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435876",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.308,
+    "faceMetrics": {
+      "length_to_width": 1.224,
+      "jaw_to_forehead": 1.503,
+      "cheek_to_jaw": 1.232,
+      "jaw_angle_deg": 136.903
+    },
+    "faceValidation": {
+      "bbox_width": 3657.267,
+      "bbox_height": 4289.319,
+      "bbox_area": 15687185.46,
+      "face_area_ratio": 0.52,
+      "face_aspect_ratio": 1.173,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -17.908
+    }
   },
   {
     "id": 436803,
@@ -820,9 +734,26 @@
     "date": "1472–74",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-41_190_21-5.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-41_190_21-13.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436803",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.34,
+    "faceMetrics": {
+      "length_to_width": 1.256,
+      "jaw_to_forehead": 1.549,
+      "cheek_to_jaw": 1.27,
+      "jaw_angle_deg": 142.279
+    },
+    "faceValidation": {
+      "bbox_width": 259.771,
+      "bbox_height": 260.531,
+      "bbox_area": 67678.406,
+      "face_area_ratio": 0.166,
+      "face_aspect_ratio": 1.003,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -16.04
+    }
   },
   {
     "id": 437921,
@@ -831,9 +762,26 @@
     "date": "1643",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP143188.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143188.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437921",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.335,
+    "faceMetrics": {
+      "length_to_width": 1.305,
+      "jaw_to_forehead": 1.733,
+      "cheek_to_jaw": 1.189,
+      "jaw_angle_deg": 138.892
+    },
+    "faceValidation": {
+      "bbox_width": 137.62,
+      "bbox_height": 164.82,
+      "bbox_area": 22682.446,
+      "face_area_ratio": 0.069,
+      "face_aspect_ratio": 1.198,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -34.627
+    }
   },
   {
     "id": 437202,
@@ -842,163 +790,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-43_95-2.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-43_95-12.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437202",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437213,
-    "title": "The Last Supper",
-    "artist": "Netherlandish (Antwerp Mannerist) Painters",
-    "date": "1515–20",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-17_190_18a-c-4a.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437213",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436793,
-    "title": "The Holy Family",
-    "artist": "Joos van Cleve",
-    "date": "ca. 1512–13",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-25890-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436793",
-    "faceShape": "oval"
-  },
-  {
-    "id": 440209,
-    "title": "The Martyrdom of Saint John the Baptist",
-    "artist": "Bernard van Orley",
-    "date": "ca. 1514–15",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-L_2013_34_IRR_man.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/440209",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437984,
-    "title": "La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",
-    "artist": "Vincent van Gogh",
-    "date": "1889",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437984",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436739,
-    "title": "Portrait of a Woman",
-    "artist": "Italian (Florentine) Painter (possibly Jacopo Zucchi, Florence 1541–1590 Rome)",
-    "date": "mid-16th century",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP104987.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436739",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436259,
-    "title": "Study Head of a Young Woman",
-    "artist": "Anthony van Dyck",
-    "date": "ca. 1618–20",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT200196.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436259",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437675,
-    "title": "Saint Andrew",
-    "artist": "Simone Martini",
-    "date": "ca. 1326",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP343101.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437675",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436721,
-    "title": "Christ Crowned with Thorns (Ecce Homo), and the Mourning Virgin (Mater Dolorosa)",
-    "artist": "Adriaen Isenbrant",
-    "date": "ca. 1530–40",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-26164-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436721",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436619,
-    "title": "Petrus Scriverius (1576–1660)",
-    "artist": "Frans Hals",
-    "date": "1626",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP247208.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436619",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436122,
-    "title": "The Collector of Prints",
-    "artist": "Edgar Degas",
-    "date": "1866",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-25461-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436122",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436709,
-    "title": "Ingres (1780–1867) as a Young Man",
-    "artist": "Laurence-Augustine Jubé Héquet (Madame Héquet)",
-    "date": "ca. 1850–60",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1307.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436709",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437835,
-    "title": "The Englishman (William Tom Warrener, 1861–1934) at the Moulin Rouge",
-    "artist": "Henri de Toulouse-Lautrec",
-    "date": "1892",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1500.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437835",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436040,
-    "title": "Portrait of a Man with a Rosary",
-    "artist": "Lucas Cranach the Elder",
-    "date": "ca. 1508",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280790.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436040",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437869,
-    "title": "Juan de Pareja (ca. 1608–1670)",
-    "artist": "Velázquez (Diego Rodríguez de Silva y Velázquez)",
-    "date": "1650",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437869",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.334,
+    "faceMetrics": {
+      "length_to_width": 1.314,
+      "jaw_to_forehead": 1.706,
+      "cheek_to_jaw": 1.179,
+      "jaw_angle_deg": 135.673
+    },
+    "faceValidation": {
+      "bbox_width": 1754.561,
+      "bbox_height": 1646.728,
+      "bbox_area": 2889286.1,
+      "face_area_ratio": 0.271,
+      "face_aspect_ratio": 0.939,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -22.618
+    }
   },
   {
     "id": 435818,
@@ -1009,18 +820,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280346.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435818",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435819,
-    "title": "Portrait of a Woman",
-    "artist": "Barthel Bruyn the Elder",
-    "date": "1533",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280348.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435819",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.27,
+    "faceMetrics": {
+      "length_to_width": 1.133,
+      "jaw_to_forehead": 1.624,
+      "cheek_to_jaw": 1.229,
+      "jaw_angle_deg": 134.496
+    },
+    "faceValidation": {
+      "bbox_width": 702.627,
+      "bbox_height": 764.992,
+      "bbox_area": 537503.989,
+      "face_area_ratio": 0.051,
+      "face_aspect_ratio": 1.089,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 22.153
+    }
   },
   {
     "id": 856295,
@@ -1031,29 +848,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-23957-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/856295",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436096,
-    "title": "The Annunciation",
-    "artist": "Gerard David",
-    "date": "1506",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-50_145_9ab-12.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436096",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437229,
-    "title": "Virgin and Child with Angels",
-    "artist": "Bernard van Orley",
-    "date": "ca. 1518",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-14_40_632_Suppl_1.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437229",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.281,
+    "faceMetrics": {
+      "length_to_width": 1.21,
+      "jaw_to_forehead": 1.515,
+      "cheek_to_jaw": 1.248,
+      "jaw_angle_deg": 136.941
+    },
+    "faceValidation": {
+      "bbox_width": 1074.017,
+      "bbox_height": 1256.19,
+      "bbox_area": 1349169.813,
+      "face_area_ratio": 0.092,
+      "face_aspect_ratio": 1.17,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -17.639
+    }
   },
   {
     "id": 437216,
@@ -1062,20 +874,26 @@
     "date": "ca. 1515–20",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1987_290_3a-p-4.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1987_290_3a-p-6.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437216",
-    "faceShape": "round"
-  },
-  {
-    "id": 436959,
-    "title": "Emilie-Louise Delabigne (1848–1910), Called Valtesse de la Bigne",
-    "artist": "Edouard Manet",
-    "date": "1879",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT221017.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436959",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.276,
+    "faceMetrics": {
+      "length_to_width": 1.159,
+      "jaw_to_forehead": 1.614,
+      "cheek_to_jaw": 1.222,
+      "jaw_angle_deg": 132.514
+    },
+    "faceValidation": {
+      "bbox_width": 1348.339,
+      "bbox_height": 1556.296,
+      "bbox_area": 2098413.757,
+      "face_area_ratio": 0.146,
+      "face_aspect_ratio": 1.154,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -0.944
+    }
   },
   {
     "id": 437055,
@@ -1086,29 +904,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP336526.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437055",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436551,
-    "title": "Ferdinand VII (1784–1833), When Prince of Asturias",
-    "artist": "Goya",
-    "date": "ca. 1800",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-22708-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436551",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436707,
-    "title": "Madame Edmond Cavé (Marie-Elisabeth Blavot, ca. 1806–1883)",
-    "artist": "Jean Auguste Dominique Ingres",
-    "date": "ca. 1831–34",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1998.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436707",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.356,
+    "faceMetrics": {
+      "length_to_width": 1.254,
+      "jaw_to_forehead": 1.774,
+      "cheek_to_jaw": 1.169,
+      "jaw_angle_deg": 136.35
+    },
+    "faceValidation": {
+      "bbox_width": 1248.135,
+      "bbox_height": 1463.533,
+      "bbox_area": 1826686.679,
+      "face_area_ratio": 0.166,
+      "face_aspect_ratio": 1.173,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 25.625
+    }
   },
   {
     "id": 435765,
@@ -1119,7 +932,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT7240.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435765",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.309,
+    "faceMetrics": {
+      "length_to_width": 1.222,
+      "jaw_to_forehead": 1.502,
+      "cheek_to_jaw": 1.355,
+      "jaw_angle_deg": 143.847
+    },
+    "faceValidation": {
+      "bbox_width": 758.168,
+      "bbox_height": 805.648,
+      "bbox_area": 610816.342,
+      "face_area_ratio": 0.061,
+      "face_aspect_ratio": 1.063,
+      "face_count": 2.0,
+      "dominant_face_ratio": 0.755,
+      "yaw_deg": 12.654
+    }
   },
   {
     "id": 437879,
@@ -1130,18 +960,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP353256.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437879",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436941,
-    "title": "Sebastian Andorfer (1469–1537)",
-    "artist": "Hans Maler",
-    "date": "1517",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP281080.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436941",
-    "faceShape": "oval"
+    "faceShape": "square",
+    "shapeConfidence": 0.285,
+    "faceMetrics": {
+      "length_to_width": 1.169,
+      "jaw_to_forehead": 1.399,
+      "cheek_to_jaw": 1.31,
+      "jaw_angle_deg": 147.249
+    },
+    "faceValidation": {
+      "bbox_width": 1033.357,
+      "bbox_height": 1093.064,
+      "bbox_area": 1129525.555,
+      "face_area_ratio": 0.085,
+      "face_aspect_ratio": 1.058,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -32.934
+    }
   },
   {
     "id": 436043,
@@ -1152,7 +988,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP278968.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436043",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.378,
+    "faceMetrics": {
+      "length_to_width": 1.198,
+      "jaw_to_forehead": 1.847,
+      "cheek_to_jaw": 1.142,
+      "jaw_angle_deg": 127.948
+    },
+    "faceValidation": {
+      "bbox_width": 746.73,
+      "bbox_height": 830.1,
+      "bbox_area": 619861.093,
+      "face_area_ratio": 0.06,
+      "face_aspect_ratio": 1.112,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 29.675
+    }
   },
   {
     "id": 436246,
@@ -1163,29 +1016,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280389.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436246",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436286,
-    "title": "Portrait of a Man with a Moor's Head on His Signet Ring",
-    "artist": "Conrad Faber von Creuznach",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280792.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436286",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436706,
-    "title": "Jacques-Louis Leblanc (1774–1846)",
-    "artist": "Jean Auguste Dominique Ingres",
-    "date": "1823",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT403.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436706",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.317,
+    "faceMetrics": {
+      "length_to_width": 1.262,
+      "jaw_to_forehead": 1.601,
+      "cheek_to_jaw": 1.25,
+      "jaw_angle_deg": 136.221
+    },
+    "faceValidation": {
+      "bbox_width": 942.974,
+      "bbox_height": 1095.68,
+      "bbox_area": 1033197.337,
+      "face_area_ratio": 0.091,
+      "face_aspect_ratio": 1.162,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 24.033
+    }
   },
   {
     "id": 437032,
@@ -1196,73 +1044,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_63ab-10.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437032",
-    "faceShape": "round"
-  },
-  {
-    "id": 436045,
-    "title": "Johann I (1468–1532), the Constant, Elector of Saxony",
-    "artist": "Lucas Cranach the Elder and Workshop",
-    "date": "1532–33",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP278975.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436045",
-    "faceShape": "oval"
-  },
-  {
-    "id": 817504,
-    "title": "Portrait of a Boy",
-    "artist": "Louis Léopold Boilly",
-    "date": "ca. 1805",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-16594-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/817504",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436846,
-    "title": "Portrait of a Woman and an Enslaved Servant",
-    "artist": "Nicolas de Largillierre (or Largillière)",
-    "date": "1696",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP312828.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436846",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435645,
-    "title": "Madonna and Child",
-    "artist": "Jacopo Bellini",
-    "date": "probably 1440s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP255395.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435645",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435888,
-    "title": "Soap Bubbles",
-    "artist": "Jean Siméon Chardin",
-    "date": "ca. 1733–34",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435888",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436626,
-    "title": "Boy with a Lute",
-    "artist": "Frans Hals",
-    "date": "ca. 1625",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP145900.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436626",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.431,
+    "faceMetrics": {
+      "length_to_width": 0.966,
+      "jaw_to_forehead": 1.422,
+      "cheek_to_jaw": 1.277,
+      "jaw_angle_deg": 133.791
+    },
+    "faceValidation": {
+      "bbox_width": 3232.952,
+      "bbox_height": 2953.153,
+      "bbox_area": 9547401.686,
+      "face_area_ratio": 0.65,
+      "face_aspect_ratio": 0.913,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 22.914
+    }
   },
   {
     "id": 437870,
@@ -1273,18 +1072,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-24467-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437870",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437203,
-    "title": "Portrait of a Noblewoman, Probably Isabella of Portugal (1397–1472)",
-    "artist": "Netherlandish Painter",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP102430.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437203",
-    "faceShape": "oval"
+    "faceShape": "oblong",
+    "shapeConfidence": 0.277,
+    "faceMetrics": {
+      "length_to_width": 1.422,
+      "jaw_to_forehead": 1.544,
+      "cheek_to_jaw": 1.229,
+      "jaw_angle_deg": 138.557
+    },
+    "faceValidation": {
+      "bbox_width": 996.856,
+      "bbox_height": 1300.643,
+      "bbox_area": 1296553.505,
+      "face_area_ratio": 0.095,
+      "face_aspect_ratio": 1.305,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -31.236
+    }
   },
   {
     "id": 438615,
@@ -1295,95 +1100,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP161654.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/438615",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437092,
-    "title": "Portia",
-    "artist": "Sir John Everett Millais",
-    "date": "1886",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP169564.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437092",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437415,
-    "title": "The Sibyl",
-    "artist": "Willem Drost",
-    "date": "ca. 1654",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP145401.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437415",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435875,
-    "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
-    "artist": "Paul Cézanne",
-    "date": "1891",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317780.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435875",
-    "faceShape": "oval"
-  },
-  {
-    "id": 655744,
-    "title": "William Edward Dighton (1822–1853) in Middle Eastern Dress",
-    "artist": "Frederick Goodall",
-    "date": "ca. 1852–53",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP331534.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/655744",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436103,
-    "title": "Virgin and Child",
-    "artist": "Gerard David",
-    "date": "ca. 1520",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1482.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436103",
-    "faceShape": "oval"
-  },
-  {
-    "id": 438016,
-    "title": "The Streetwalker",
-    "artist": "Henri de Toulouse-Lautrec",
-    "date": "ca. 1890–91",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT10262.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/438016",
-    "faceShape": "oval"
-  },
-  {
-    "id": 438001,
-    "title": "Two Women",
-    "artist": "Paul Gauguin",
-    "date": "1901 or 1902",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1953.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/438001",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437389,
-    "title": "Bellona",
-    "artist": "Rembrandt (Rembrandt van Rijn)",
-    "date": "1633",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP146454.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437389",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.336,
+    "faceMetrics": {
+      "length_to_width": 1.296,
+      "jaw_to_forehead": 1.561,
+      "cheek_to_jaw": 1.25,
+      "jaw_angle_deg": 134.842
+    },
+    "faceValidation": {
+      "bbox_width": 770.065,
+      "bbox_height": 993.262,
+      "bbox_area": 764876.281,
+      "face_area_ratio": 0.062,
+      "face_aspect_ratio": 1.29,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -0.361
+    }
   },
   {
     "id": 435724,
@@ -1394,7 +1128,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Bosch_13_26_Fig3.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435724",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.318,
+    "faceMetrics": {
+      "length_to_width": 1.155,
+      "jaw_to_forehead": 1.52,
+      "cheek_to_jaw": 1.16,
+      "jaw_angle_deg": 135.64
+    },
+    "faceValidation": {
+      "bbox_width": 1464.425,
+      "bbox_height": 1649.255,
+      "bbox_area": 2415210.118,
+      "face_area_ratio": 0.768,
+      "face_aspect_ratio": 1.126,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 1.318
+    }
   },
   {
     "id": 641257,
@@ -1405,7 +1156,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP349354.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/641257",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.384,
+    "faceMetrics": {
+      "length_to_width": 1.199,
+      "jaw_to_forehead": 1.757,
+      "cheek_to_jaw": 1.192,
+      "jaw_angle_deg": 125.596
+    },
+    "faceValidation": {
+      "bbox_width": 884.867,
+      "bbox_height": 1034.609,
+      "bbox_area": 915491.748,
+      "face_area_ratio": 0.078,
+      "face_aspect_ratio": 1.169,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -9.813
+    }
   },
   {
     "id": 435763,
@@ -1414,20 +1182,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT241954.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Bouts_copy_diptych_Christ_IRR.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435763",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437640,
-    "title": "Baron Alexander von Humboldt (1769–1859)",
-    "artist": "Julius Schrader",
-    "date": "1859",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-1411-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437640",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.335,
+    "faceMetrics": {
+      "length_to_width": 1.249,
+      "jaw_to_forehead": 1.733,
+      "cheek_to_jaw": 1.199,
+      "jaw_angle_deg": 132.931
+    },
+    "faceValidation": {
+      "bbox_width": 1503.55,
+      "bbox_height": 1871.171,
+      "bbox_area": 2813399.198,
+      "face_area_ratio": 0.133,
+      "face_aspect_ratio": 1.245,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 0.247
+    }
   },
   {
     "id": 436044,
@@ -1436,9 +1210,26 @@
     "date": "1537",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280788.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280788.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436044",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.309,
+    "faceMetrics": {
+      "length_to_width": 1.204,
+      "jaw_to_forehead": 1.633,
+      "cheek_to_jaw": 1.221,
+      "jaw_angle_deg": 137.46
+    },
+    "faceValidation": {
+      "bbox_width": 117.914,
+      "bbox_height": 131.55,
+      "bbox_area": 15511.498,
+      "face_area_ratio": 0.052,
+      "face_aspect_ratio": 1.116,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 31.558
+    }
   },
   {
     "id": 436771,
@@ -1447,9 +1238,26 @@
     "date": "probably ca. 1545",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP312760.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1977_384_1_suppl_004.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436771",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.328,
+    "faceMetrics": {
+      "length_to_width": 1.283,
+      "jaw_to_forehead": 1.658,
+      "cheek_to_jaw": 1.225,
+      "jaw_angle_deg": 133.374
+    },
+    "faceValidation": {
+      "bbox_width": 683.048,
+      "bbox_height": 839.893,
+      "bbox_area": 573687.147,
+      "face_area_ratio": 0.051,
+      "face_aspect_ratio": 1.23,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 9.895
+    }
   },
   {
     "id": 436047,
@@ -1460,18 +1268,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP159769.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436047",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436664,
-    "title": "Lady Guildford (Mary Wotton, 1499–1558)",
-    "artist": "Hans Holbein the Younger",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164800.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436664",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.354,
+    "faceMetrics": {
+      "length_to_width": 1.209,
+      "jaw_to_forehead": 1.826,
+      "cheek_to_jaw": 1.174,
+      "jaw_angle_deg": 135.736
+    },
+    "faceValidation": {
+      "bbox_width": 593.174,
+      "bbox_height": 668.002,
+      "bbox_area": 396241.751,
+      "face_area_ratio": 0.153,
+      "face_aspect_ratio": 1.126,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 31.6
+    }
   },
   {
     "id": 436668,
@@ -1480,9 +1294,26 @@
     "date": "1535",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP278970.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat34_IRRnocap.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436668",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.26,
+    "faceMetrics": {
+      "length_to_width": 1.159,
+      "jaw_to_forehead": 1.59,
+      "cheek_to_jaw": 1.234,
+      "jaw_angle_deg": 139.072
+    },
+    "faceValidation": {
+      "bbox_width": 526.672,
+      "bbox_height": 595.093,
+      "bbox_area": 313419.054,
+      "face_area_ratio": 0.053,
+      "face_aspect_ratio": 1.13,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -7.376
+    }
   },
   {
     "id": 436796,
@@ -1493,7 +1324,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP350013.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436796",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.312,
+    "faceMetrics": {
+      "length_to_width": 1.291,
+      "jaw_to_forehead": 1.66,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 134.701
+    },
+    "faceValidation": {
+      "bbox_width": 723.445,
+      "bbox_height": 863.845,
+      "bbox_area": 624944.965,
+      "face_area_ratio": 0.052,
+      "face_aspect_ratio": 1.194,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -25.993
+    }
   },
   {
     "id": 436539,
@@ -1502,9 +1350,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164792.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-17_190_17-3.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436539",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.368,
+    "faceMetrics": {
+      "length_to_width": 1.356,
+      "jaw_to_forehead": 1.551,
+      "cheek_to_jaw": 1.264,
+      "jaw_angle_deg": 139.461
+    },
+    "faceValidation": {
+      "bbox_width": 1087.742,
+      "bbox_height": 1330.973,
+      "bbox_area": 1447754.846,
+      "face_area_ratio": 0.333,
+      "face_aspect_ratio": 1.224,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -26.277
+    }
   },
   {
     "id": 436046,
@@ -1515,18 +1380,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280599.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436046",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437437,
-    "title": "Young Woman (La Servante)",
-    "artist": "Auguste Renoir",
-    "date": "ca. 1875",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1488.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437437",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.338,
+    "faceMetrics": {
+      "length_to_width": 1.285,
+      "jaw_to_forehead": 1.639,
+      "cheek_to_jaw": 1.122,
+      "jaw_angle_deg": 134.786
+    },
+    "faceValidation": {
+      "bbox_width": 703.137,
+      "bbox_height": 811.714,
+      "bbox_area": 570745.988,
+      "face_area_ratio": 0.053,
+      "face_aspect_ratio": 1.154,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -31.903
+    }
   },
   {
     "id": 437404,
@@ -1537,7 +1408,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP145916.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437404",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.321,
+    "faceMetrics": {
+      "length_to_width": 1.327,
+      "jaw_to_forehead": 1.683,
+      "cheek_to_jaw": 1.192,
+      "jaw_angle_deg": 136.388
+    },
+    "faceValidation": {
+      "bbox_width": 1136.613,
+      "bbox_height": 1296.029,
+      "bbox_area": 1473082.64,
+      "face_area_ratio": 0.134,
+      "face_aspect_ratio": 1.14,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 28.646
+    }
   },
   {
     "id": 435760,
@@ -1548,18 +1436,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375525.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435760",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437060,
-    "title": "Virgin and Child",
-    "artist": "Hans Memling",
-    "date": "ca. 1490–94",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-42409-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437060",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.269,
+    "faceMetrics": {
+      "length_to_width": 1.151,
+      "jaw_to_forehead": 1.688,
+      "cheek_to_jaw": 1.213,
+      "jaw_angle_deg": 134.73
+    },
+    "faceValidation": {
+      "bbox_width": 167.789,
+      "bbox_height": 190.833,
+      "bbox_area": 32019.62,
+      "face_area_ratio": 0.123,
+      "face_aspect_ratio": 1.137,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 5.717
+    }
   },
   {
     "id": 435766,
@@ -1570,51 +1464,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-23268-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435766",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437407,
-    "title": "Christ with a Staff",
-    "artist": "Rembrandt",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1347.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437407",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436244,
-    "title": "Virgin and Child with Saint Anne",
-    "artist": "Albrecht Dürer",
-    "date": "probably 1519",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280846.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436244",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437892,
-    "title": "Madonna and Child",
-    "artist": "Andrea del Verrocchio",
-    "date": "ca. 1470",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19523-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437892",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437013,
-    "title": "Virgin and Child",
-    "artist": "Netherlandish (Antwerp) Painter",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19629-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437013",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.335,
+    "faceMetrics": {
+      "length_to_width": 1.404,
+      "jaw_to_forehead": 1.497,
+      "cheek_to_jaw": 1.296,
+      "jaw_angle_deg": 145.778
+    },
+    "faceValidation": {
+      "bbox_width": 864.674,
+      "bbox_height": 920.228,
+      "bbox_area": 795696.904,
+      "face_area_ratio": 0.068,
+      "face_aspect_ratio": 1.064,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 28.303
+    }
   },
   {
     "id": 435759,
@@ -1623,9 +1490,26 @@
     "date": "ca. 1500",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP345354.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-60_55_2_Supp3.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/435759",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.324,
+    "faceMetrics": {
+      "length_to_width": 1.336,
+      "jaw_to_forehead": 1.732,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 139.198
+    },
+    "faceValidation": {
+      "bbox_width": 1166.524,
+      "bbox_height": 1454.641,
+      "bbox_area": 1696873.134,
+      "face_area_ratio": 0.11,
+      "face_aspect_ratio": 1.247,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -29.359
+    }
   },
   {
     "id": 436271,
@@ -1636,73 +1520,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-88_3_88-6.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436271",
-    "faceShape": "oval"
-  },
-  {
-    "id": 441672,
-    "title": "The Dormition of the Virgin; (reverse) Christ Carrying the Cross",
-    "artist": "Hans Schäufelein",
-    "date": "ca. 1510",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Infrared head.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/441672",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436794,
-    "title": "The Last Judgment",
-    "artist": "Joos van Cleve",
-    "date": "ca. 1525–30",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-40_174_1-3.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436794",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435899,
-    "title": "The Annunciation",
-    "artist": "Petrus Christus",
-    "date": "ca. 1445",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_35-IRRdetail-Virgin.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435899",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436791,
-    "title": "The Annunciation",
-    "artist": "Joos van Cleve",
-    "date": "ca. 1525",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-19433-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436791",
-    "faceShape": "round"
-  },
-  {
-    "id": 437338,
-    "title": "The Crucifixion",
-    "artist": "Jan Provoost",
-    "date": "ca. 1495",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1982_60_21-11.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437338",
-    "faceShape": "oval"
-  },
-  {
-    "id": 828497,
-    "title": "An Old Man with a Dog",
-    "artist": "Giacomo Ceruti",
-    "date": "1740s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-18781-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/828497",
-    "faceShape": "oval"
+    "faceShape": "square",
+    "shapeConfidence": 0.367,
+    "faceMetrics": {
+      "length_to_width": 1.072,
+      "jaw_to_forehead": 2.176,
+      "cheek_to_jaw": 1.113,
+      "jaw_angle_deg": 109.984
+    },
+    "faceValidation": {
+      "bbox_width": 930.6,
+      "bbox_height": 831.721,
+      "bbox_area": 773999.907,
+      "face_area_ratio": 0.064,
+      "face_aspect_ratio": 0.894,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -20.365
+    }
   },
   {
     "id": 436283,
@@ -1713,18 +1548,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-89_15_24-2.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436283",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437405,
-    "title": "A Young Woman as a Shepherdess",
-    "artist": "Govert Flinck",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP146492.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437405",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.399,
+    "faceMetrics": {
+      "length_to_width": 1.308,
+      "jaw_to_forehead": 1.539,
+      "cheek_to_jaw": 1.274,
+      "jaw_angle_deg": 143.426
+    },
+    "faceValidation": {
+      "bbox_width": 232.084,
+      "bbox_height": 231.137,
+      "bbox_area": 53643.334,
+      "face_area_ratio": 0.134,
+      "face_aspect_ratio": 0.996,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -24.929
+    }
   },
   {
     "id": 437015,
@@ -1735,7 +1576,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT279163.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437015",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.244,
+    "faceMetrics": {
+      "length_to_width": 1.186,
+      "jaw_to_forehead": 1.516,
+      "cheek_to_jaw": 1.286,
+      "jaw_angle_deg": 138.203
+    },
+    "faceValidation": {
+      "bbox_width": 835.921,
+      "bbox_height": 871.439,
+      "bbox_area": 728453.99,
+      "face_area_ratio": 0.081,
+      "face_aspect_ratio": 1.042,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 16.647
+    }
   },
   {
     "id": 436344,
@@ -1746,18 +1604,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-44678-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436344",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435764,
-    "title": "Virgin and Child",
-    "artist": "Hans Traut",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164802.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435764",
-    "faceShape": "oval"
+    "faceShape": "square",
+    "shapeConfidence": 0.478,
+    "faceMetrics": {
+      "length_to_width": 1.052,
+      "jaw_to_forehead": 1.898,
+      "cheek_to_jaw": 1.229,
+      "jaw_angle_deg": 103.818
+    },
+    "faceValidation": {
+      "bbox_width": 733.35,
+      "bbox_height": 862.639,
+      "bbox_area": 632616.596,
+      "face_area_ratio": 0.052,
+      "face_aspect_ratio": 1.176,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 7.57
+    }
   },
   {
     "id": 437028,
@@ -1768,18 +1632,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_56-3.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437028",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437439,
-    "title": "A Young Girl with Daisies",
-    "artist": "Auguste Renoir",
-    "date": "1889",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-053.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437439",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.282,
+    "faceMetrics": {
+      "length_to_width": 1.222,
+      "jaw_to_forehead": 1.488,
+      "cheek_to_jaw": 1.301,
+      "jaw_angle_deg": 141.941
+    },
+    "faceValidation": {
+      "bbox_width": 316.236,
+      "bbox_height": 361.522,
+      "bbox_area": 114326.158,
+      "face_area_ratio": 0.072,
+      "face_aspect_ratio": 1.143,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -11.739
+    }
   },
   {
     "id": 436987,
@@ -1788,31 +1658,26 @@
     "date": "1537–40",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13614-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_52-6.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436987",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436797,
-    "title": "The Holy Family",
-    "artist": "Joos van Cleve",
-    "date": "ca. 1525",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT243291.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436797",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436523,
-    "title": "The Adoration of the Magi",
-    "artist": "Hugo van der Goes",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP332733.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436523",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.33,
+    "faceMetrics": {
+      "length_to_width": 1.223,
+      "jaw_to_forehead": 1.421,
+      "cheek_to_jaw": 1.332,
+      "jaw_angle_deg": 145.098
+    },
+    "faceValidation": {
+      "bbox_width": 1254.224,
+      "bbox_height": 1433.889,
+      "bbox_area": 1798417.868,
+      "face_area_ratio": 0.138,
+      "face_aspect_ratio": 1.143,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 27.937
+    }
   },
   {
     "id": 436039,
@@ -1823,62 +1688,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat9_IRR_detail_1nocap.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436039",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436616,
-    "title": "Young Man and Woman in an Inn",
-    "artist": "Frans Hals",
-    "date": "1623",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP145899.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436616",
-    "faceShape": "oval"
-  },
-  {
-    "id": 441227,
-    "title": "The Holy Family with the Infant Saint John the Baptist",
-    "artist": "Perino del Vaga (Pietro Buonaccorsi)",
-    "date": "ca. 1524–26",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP255071.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/441227",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436908,
-    "title": "Saint Catherine of Alexandria",
-    "artist": "Pietro Lorenzetti",
-    "date": "ca. 1342",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/SF Lorenzetti.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436908",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437248,
-    "title": "Madonna and Child",
-    "artist": "Paolo di Giovanni Fei",
-    "date": "1370s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP293270.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437248",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437699,
-    "title": "Salome with the Head of Saint John the Baptist",
-    "artist": "Andrea Solario",
-    "date": "ca. 1507–9",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP105662.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437699",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.353,
+    "faceMetrics": {
+      "length_to_width": 1.302,
+      "jaw_to_forehead": 1.482,
+      "cheek_to_jaw": 1.254,
+      "jaw_angle_deg": 137.944
+    },
+    "faceValidation": {
+      "bbox_width": 449.558,
+      "bbox_height": 405.004,
+      "bbox_area": 182072.954,
+      "face_area_ratio": 0.152,
+      "face_aspect_ratio": 0.901,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 18.437
+    }
   },
   {
     "id": 437804,
@@ -1889,84 +1716,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP287634.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/437804",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436004,
-    "title": "The Woman in the Waves",
-    "artist": "Gustave Courbet",
-    "date": "1868",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT887.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436004",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435852,
-    "title": "Two Children Teasing a Cat",
-    "artist": "Annibale Carracci",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP243404.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435852",
-    "faceShape": "round"
-  },
-  {
-    "id": 435768,
-    "title": "Madonna and Child",
-    "artist": "Bramantino (Bartolomeo Suardi)",
-    "date": "before 1508",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT5282.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435768",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435644,
-    "title": "Madonna and Child",
-    "artist": "Giovanni Bellini",
-    "date": "ca. 1510",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT301874.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435644",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437842,
-    "title": "Teasing a Sleeping Girl",
-    "artist": "Gaspare Traversi",
-    "date": "ca. 1760",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22991-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437842",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437769,
-    "title": "Clothing the Naked",
-    "artist": "Michiel Sweerts",
-    "date": "ca. 1661",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-15762-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437769",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437674,
-    "title": "Madonna and Child",
-    "artist": "Luca Signorelli (Luca d'Egidio di Luca di Ventura)",
-    "date": "ca. 1505–7",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-25976-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437674",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.411,
+    "faceMetrics": {
+      "length_to_width": 0.863,
+      "jaw_to_forehead": 1.712,
+      "cheek_to_jaw": 1.181,
+      "jaw_angle_deg": 121.337
+    },
+    "faceValidation": {
+      "bbox_width": 2851.78,
+      "bbox_height": 2482.685,
+      "bbox_area": 7080070.121,
+      "face_area_ratio": 0.478,
+      "face_aspect_ratio": 0.871,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 2.647
+    }
   },
   {
     "id": 436245,
@@ -1977,18 +1744,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP164788.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436245",
-    "faceShape": "round"
-  },
-  {
-    "id": 436984,
-    "title": "The Adoration of the Magi",
-    "artist": "Quinten Massys",
-    "date": "1526",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26501-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436984",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.322,
+    "faceMetrics": {
+      "length_to_width": 1.118,
+      "jaw_to_forehead": 1.502,
+      "cheek_to_jaw": 1.311,
+      "jaw_angle_deg": 139.921
+    },
+    "faceValidation": {
+      "bbox_width": 424.007,
+      "bbox_height": 421.31,
+      "bbox_area": 178638.273,
+      "face_area_ratio": 0.063,
+      "face_aspect_ratio": 0.994,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 12.862
+    }
   },
   {
     "id": 436660,
@@ -1997,20 +1770,26 @@
     "date": "1532–35",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280848.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat31_Xraynocap.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436660",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436310,
-    "title": "Portrait of a Prelate",
-    "artist": "Lavinia Fontana",
-    "date": "ca. 1580",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-26943-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436310",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.288,
+    "faceMetrics": {
+      "length_to_width": 1.005,
+      "jaw_to_forehead": 1.652,
+      "cheek_to_jaw": 1.169,
+      "jaw_angle_deg": 126.981
+    },
+    "faceValidation": {
+      "bbox_width": 1411.038,
+      "bbox_height": 1434.757,
+      "bbox_area": 2024496.311,
+      "face_area_ratio": 0.342,
+      "face_aspect_ratio": 1.017,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 6.76
+    }
   },
   {
     "id": 436991,
@@ -2019,86 +1798,26 @@
     "date": "",
     "culture": "",
     "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP155715.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_118_122-5.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436991",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437509,
-    "title": "Madonna and Child with Two Angels",
-    "artist": "Cosimo Rosselli",
-    "date": "early 1480s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-25979-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437509",
-    "faceShape": "oval"
-  },
-  {
-    "id": 437453,
-    "title": "Portrait of a Woman",
-    "artist": "Sir Joshua Reynolds",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP162172.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437453",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435641,
-    "title": "Madonna and Child",
-    "artist": "Giovanni Bellini",
-    "date": "late 1480s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT375.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435641",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436684,
-    "title": "Major Thomas Pechell (1753–1826)",
-    "artist": "John Hoppner",
-    "date": "1799",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP162152.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436684",
-    "faceShape": "oval"
-  },
-  {
-    "id": 435915,
-    "title": "Charles de Cossé (1506–1563), Count of Brissac",
-    "artist": "Jean Clouet",
-    "date": "ca. 1535",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT229154.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435915",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436942,
-    "title": "Ulrich Fugger the Younger (1490–1525)",
-    "artist": "Hans Maler",
-    "date": "1525",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280794.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436942",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436696,
-    "title": "Dr. Brian Walton (born about 1600, died 1661)",
-    "artist": "John Hoskins",
-    "date": "1657",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP327710.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436696",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.289,
+    "faceMetrics": {
+      "length_to_width": 0.996,
+      "jaw_to_forehead": 1.623,
+      "cheek_to_jaw": 1.272,
+      "jaw_angle_deg": 124.439
+    },
+    "faceValidation": {
+      "bbox_width": 1262.371,
+      "bbox_height": 1230.329,
+      "bbox_area": 1553131.069,
+      "face_area_ratio": 0.402,
+      "face_aspect_ratio": 0.975,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 2.086
+    }
   },
   {
     "id": 782304,
@@ -2109,29 +1828,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-17996-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/782304",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436665,
-    "title": "Lady Lee (Margaret Wyatt, born about 1509)",
-    "artist": "Hans Holbein the Younger",
-    "date": "early 1540s",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP349558.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436665",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436667,
-    "title": "Portrait of a Young Woman",
-    "artist": "Hans Holbein the Younger",
-    "date": "ca. 1540–45",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280856.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436667",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.251,
+    "faceMetrics": {
+      "length_to_width": 1.173,
+      "jaw_to_forehead": 1.577,
+      "cheek_to_jaw": 1.246,
+      "jaw_angle_deg": 137.391
+    },
+    "faceValidation": {
+      "bbox_width": 966.608,
+      "bbox_height": 1057.866,
+      "bbox_area": 1022541.66,
+      "face_area_ratio": 0.085,
+      "face_aspect_ratio": 1.094,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -29.789
+    }
   },
   {
     "id": 436669,
@@ -2142,29 +1856,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP280377.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436669",
-    "faceShape": "oval"
-  },
-  {
-    "id": 679844,
-    "title": "Fish Market",
-    "artist": "Joachim Beuckelaer",
-    "date": "1568",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2015_146-5.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/679844",
-    "faceShape": "oval"
-  },
-  {
-    "id": 436967,
-    "title": "The Holy Family with Saint Mary Magdalen",
-    "artist": "Andrea Mantegna",
-    "date": "ca. 1495–1500",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP213852.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436967",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.351,
+    "faceMetrics": {
+      "length_to_width": 1.352,
+      "jaw_to_forehead": 1.536,
+      "cheek_to_jaw": 1.269,
+      "jaw_angle_deg": 137.24
+    },
+    "faceValidation": {
+      "bbox_width": 836.459,
+      "bbox_height": 1043.071,
+      "bbox_area": 872485.788,
+      "face_area_ratio": 0.076,
+      "face_aspect_ratio": 1.247,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -31.042
+    }
   },
   {
     "id": 436568,
@@ -2175,7 +1884,24 @@
     "department": "European Paintings",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Detail heads of two women.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/436568",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.349,
+    "faceMetrics": {
+      "length_to_width": 1.28,
+      "jaw_to_forehead": 1.619,
+      "cheek_to_jaw": 1.236,
+      "jaw_angle_deg": 139.853
+    },
+    "faceValidation": {
+      "bbox_width": 758.526,
+      "bbox_height": 826.234,
+      "bbox_area": 626719.879,
+      "face_area_ratio": 0.077,
+      "face_aspect_ratio": 1.089,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -22.743
+    }
   },
   {
     "id": 53162,
@@ -2186,29 +1912,24 @@
     "department": "Asian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-27915-009.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/53162",
-    "faceShape": "round"
-  },
-  {
-    "id": 38012,
-    "title": "Melancholy Courtesan",
-    "artist": "",
-    "date": "ca. 1750",
-    "culture": "India (Rajasthan, Bundi, or Kota [?])",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DT3878.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/38012",
-    "faceShape": "oval"
-  },
-  {
-    "id": 733847,
-    "title": "Famous Women",
-    "artist": "Gai Qi",
-    "date": "dated 1799",
-    "culture": "China",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-14152-010.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/733847",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.351,
+    "faceMetrics": {
+      "length_to_width": 1.059,
+      "jaw_to_forehead": 1.779,
+      "cheek_to_jaw": 1.218,
+      "jaw_angle_deg": 133.86
+    },
+    "faceValidation": {
+      "bbox_width": 1099.513,
+      "bbox_height": 1170.48,
+      "bbox_area": 1286957.443,
+      "face_area_ratio": 0.107,
+      "face_aspect_ratio": 1.065,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -6.599
+    }
   },
   {
     "id": 78191,
@@ -2217,20 +1938,26 @@
     "date": "12th century",
     "culture": "Central Tibet",
     "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-15581-015.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-15581-018.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/78191",
-    "faceShape": "oval"
-  },
-  {
-    "id": 38634,
-    "title": "Crowned  Bodhisattva",
-    "artist": "",
-    "date": "3rd–early 4th century",
-    "culture": "North India (Uttar Pradesh, Mathura)",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP701395.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/38634",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.291,
+    "faceMetrics": {
+      "length_to_width": 0.975,
+      "jaw_to_forehead": 1.581,
+      "cheek_to_jaw": 1.222,
+      "jaw_angle_deg": 127.992
+    },
+    "faceValidation": {
+      "bbox_width": 940.72,
+      "bbox_height": 913.233,
+      "bbox_area": 859096.581,
+      "face_area_ratio": 0.064,
+      "face_aspect_ratio": 0.971,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -1.915
+    }
   },
   {
     "id": 53176,
@@ -2239,20 +1966,26 @@
     "date": "early 13th century",
     "culture": "Japan",
     "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-22243-004.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-22243-009.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/53176",
-    "faceShape": "oval"
-  },
-  {
-    "id": 53165,
-    "title": "Male and Female Shinto Deities",
-    "artist": "",
-    "date": "10th century",
-    "culture": "Japan",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-16151-005.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/53165",
-    "faceShape": "round"
+    "faceShape": "heart",
+    "shapeConfidence": 0.337,
+    "faceMetrics": {
+      "length_to_width": 1.064,
+      "jaw_to_forehead": 1.731,
+      "cheek_to_jaw": 1.183,
+      "jaw_angle_deg": 124.289
+    },
+    "faceValidation": {
+      "bbox_width": 1660.516,
+      "bbox_height": 1730.585,
+      "bbox_area": 2873664.896,
+      "face_area_ratio": 0.239,
+      "face_aspect_ratio": 1.042,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -14.042
+    }
   },
   {
     "id": 76084,
@@ -2263,18 +1996,24 @@
     "department": "Asian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/LC-TR_396_1a_c_2023_strm1-006.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/76084",
-    "faceShape": "oval"
-  },
-  {
-    "id": 40282,
-    "title": "Buddha Amitabha Descending from his Pure Land",
-    "artist": "Unidentified artist",
-    "date": "13th century",
-    "culture": "China",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP222082.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/40282",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.321,
+    "faceMetrics": {
+      "length_to_width": 1.07,
+      "jaw_to_forehead": 1.583,
+      "cheek_to_jaw": 1.205,
+      "jaw_angle_deg": 123.036
+    },
+    "faceValidation": {
+      "bbox_width": 288.202,
+      "bbox_height": 285.681,
+      "bbox_area": 82333.978,
+      "face_area_ratio": 0.099,
+      "face_aspect_ratio": 0.991,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 18.941
+    }
   },
   {
     "id": 908751,
@@ -2285,62 +2024,24 @@
     "department": "Asian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-33496-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/908751",
-    "faceShape": "oval"
-  },
-  {
-    "id": 38159,
-    "title": "Standing Ganesha",
-    "artist": "",
-    "date": "second half 7th century",
-    "culture": "Cambodia",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DT7384.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/38159",
-    "faceShape": "round"
-  },
-  {
-    "id": 38970,
-    "title": "Seated Ascetic, Deified King, Agni (The God of Fire)",
-    "artist": "",
-    "date": "ca. 3rd century",
-    "culture": "India (Kaushambi, Uttar Pradesh)",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP155519.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/38970",
-    "faceShape": "round"
-  },
-  {
-    "id": 53190,
-    "title": "Guardian Lion-Dogs",
-    "artist": "",
-    "date": "mid-13th century",
-    "culture": "Japan",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-23915-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/53190",
-    "faceShape": "round"
-  },
-  {
-    "id": 53187,
-    "title": "Kasuga Deer Mandala (Kasuga shika mandara zu)",
-    "artist": "",
-    "date": "late 14th century",
-    "culture": "Japan",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP361152.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/53187",
-    "faceShape": "round"
-  },
-  {
-    "id": 53892,
-    "title": "Albums of scenes from The Tale of Genji",
-    "artist": "Tosa Mitsunori",
-    "date": "early 17th century",
-    "culture": "Japan",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-13185-034.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/53892",
-    "faceShape": "round"
+    "faceShape": "oval",
+    "shapeConfidence": 0.362,
+    "faceMetrics": {
+      "length_to_width": 1.389,
+      "jaw_to_forehead": 1.454,
+      "cheek_to_jaw": 1.282,
+      "jaw_angle_deg": 143.765
+    },
+    "faceValidation": {
+      "bbox_width": 701.45,
+      "bbox_height": 814.203,
+      "bbox_area": 571122.731,
+      "face_area_ratio": 0.05,
+      "face_aspect_ratio": 1.161,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -28.146
+    }
   },
   {
     "id": 38777,
@@ -2351,7 +2052,24 @@
     "department": "Asian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP123377.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/38777",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.316,
+    "faceMetrics": {
+      "length_to_width": 1.075,
+      "jaw_to_forehead": 1.484,
+      "cheek_to_jaw": 1.266,
+      "jaw_angle_deg": 132.023
+    },
+    "faceValidation": {
+      "bbox_width": 1490.876,
+      "bbox_height": 1576.697,
+      "bbox_area": 2350659.63,
+      "face_area_ratio": 0.147,
+      "face_aspect_ratio": 1.058,
+      "face_count": 2.0,
+      "dominant_face_ratio": 0.665,
+      "yaw_deg": -0.264
+    }
   },
   {
     "id": 828457,
@@ -2362,7 +2080,24 @@
     "department": "Asian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-23917-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/828457",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.399,
+    "faceMetrics": {
+      "length_to_width": 1.066,
+      "jaw_to_forehead": 1.552,
+      "cheek_to_jaw": 1.271,
+      "jaw_angle_deg": 136.283
+    },
+    "faceValidation": {
+      "bbox_width": 1333.269,
+      "bbox_height": 1407.213,
+      "bbox_area": 1876193.391,
+      "face_area_ratio": 0.156,
+      "face_aspect_ratio": 1.055,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -0.389
+    }
   },
   {
     "id": 444863,
@@ -2373,18 +2108,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/wb-99.35.6552.JPG",
     "metUrl": "https://www.metmuseum.org/art/collection/search/444863",
-    "faceShape": "round"
-  },
-  {
-    "id": 452032,
-    "title": "Pierced Bowl Signed by Hasan al-Qashani",
-    "artist": "",
-    "date": "late 11th–early 12th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf68-223-9a.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/452032",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.389,
+    "faceMetrics": {
+      "length_to_width": 1.022,
+      "jaw_to_forehead": 1.559,
+      "cheek_to_jaw": 1.247,
+      "jaw_angle_deg": 132.488
+    },
+    "faceValidation": {
+      "bbox_width": 675.864,
+      "bbox_height": 641.963,
+      "bbox_area": 433879.564,
+      "face_area_ratio": 0.273,
+      "face_aspect_ratio": 0.95,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -8.796
+    }
   },
   {
     "id": 448959,
@@ -2395,18 +2136,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP170373.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/448959",
-    "faceShape": "round"
-  },
-  {
-    "id": 452740,
-    "title": "Seal Stone",
-    "artist": "",
-    "date": "10th–11th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/216013.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/452740",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.423,
+    "faceMetrics": {
+      "length_to_width": 0.939,
+      "jaw_to_forehead": 1.676,
+      "cheek_to_jaw": 1.226,
+      "jaw_angle_deg": 134.815
+    },
+    "faceValidation": {
+      "bbox_width": 694.312,
+      "bbox_height": 654.589,
+      "bbox_area": 454488.89,
+      "face_area_ratio": 0.162,
+      "face_aspect_ratio": 0.943,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -1.467
+    }
   },
   {
     "id": 453895,
@@ -2417,7 +2164,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/web-large/DP299968.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/453895",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.329,
+    "faceMetrics": {
+      "length_to_width": 1.141,
+      "jaw_to_forehead": 1.746,
+      "cheek_to_jaw": 1.186,
+      "jaw_angle_deg": 127.181
+    },
+    "faceValidation": {
+      "bbox_width": 159.04,
+      "bbox_height": 185.151,
+      "bbox_area": 29446.461,
+      "face_area_ratio": 0.108,
+      "face_aspect_ratio": 1.164,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -13.494
+    }
   },
   {
     "id": 447118,
@@ -2428,29 +2192,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP216120.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/447118",
-    "faceShape": "round"
-  },
-  {
-    "id": 454699,
-    "title": "Copper-Alloy Bracelet",
-    "artist": "",
-    "date": "6th–8th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/web-large/sf12-182-96a.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/454699",
-    "faceShape": "oval"
-  },
-  {
-    "id": 444717,
-    "title": "Footed Bowl with Eagle Emblem",
-    "artist": "",
-    "date": "mid-13th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP-17264-007.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/444717",
-    "faceShape": "round"
+    "faceShape": "heart",
+    "shapeConfidence": 0.306,
+    "faceMetrics": {
+      "length_to_width": 1.034,
+      "jaw_to_forehead": 1.701,
+      "cheek_to_jaw": 1.173,
+      "jaw_angle_deg": 126.029
+    },
+    "faceValidation": {
+      "bbox_width": 2432.959,
+      "bbox_height": 2488.294,
+      "bbox_area": 6053918.538,
+      "face_area_ratio": 0.459,
+      "face_aspect_ratio": 1.023,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -13.504
+    }
   },
   {
     "id": 453673,
@@ -2461,7 +2220,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/266006_1999.157.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/453673",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.313,
+    "faceMetrics": {
+      "length_to_width": 1.023,
+      "jaw_to_forehead": 1.535,
+      "cheek_to_jaw": 1.209,
+      "jaw_angle_deg": 129.564
+    },
+    "faceValidation": {
+      "bbox_width": 440.918,
+      "bbox_height": 447.206,
+      "bbox_area": 197181.043,
+      "face_area_ratio": 0.085,
+      "face_aspect_ratio": 1.014,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -3.236
+    }
   },
   {
     "id": 454621,
@@ -2470,9 +2246,26 @@
     "date": "12th–early 13th century",
     "culture": "",
     "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/ISL144.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP239899.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/454621",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.292,
+    "faceMetrics": {
+      "length_to_width": 0.955,
+      "jaw_to_forehead": 1.694,
+      "cheek_to_jaw": 1.188,
+      "jaw_angle_deg": 129.748
+    },
+    "faceValidation": {
+      "bbox_width": 1025.669,
+      "bbox_height": 976.654,
+      "bbox_area": 1001724.048,
+      "face_area_ratio": 0.089,
+      "face_aspect_ratio": 0.952,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 1.776
+    }
   },
   {
     "id": 450483,
@@ -2483,18 +2276,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP262928.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/450483",
-    "faceShape": "oval"
-  },
-  {
-    "id": 450578,
-    "title": "Dish with Horse and Rider",
-    "artist": "",
-    "date": "13th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf45-153-2a.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/450578",
-    "faceShape": "round"
+    "faceShape": "heart",
+    "shapeConfidence": 0.361,
+    "faceMetrics": {
+      "length_to_width": 0.863,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.172,
+      "jaw_angle_deg": 126.583
+    },
+    "faceValidation": {
+      "bbox_width": 579.844,
+      "bbox_height": 499.372,
+      "bbox_area": 289558.135,
+      "face_area_ratio": 0.119,
+      "face_aspect_ratio": 0.861,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -3.036
+    }
   },
   {
     "id": 444525,
@@ -2505,7 +2304,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf91-1-523e.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/444525",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.282,
+    "faceMetrics": {
+      "length_to_width": 0.873,
+      "jaw_to_forehead": 1.596,
+      "cheek_to_jaw": 1.256,
+      "jaw_angle_deg": 129.627
+    },
+    "faceValidation": {
+      "bbox_width": 582.103,
+      "bbox_height": 507.678,
+      "bbox_area": 295520.772,
+      "face_area_ratio": 0.317,
+      "face_aspect_ratio": 0.872,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 5.788
+    }
   },
   {
     "id": 444327,
@@ -2516,7 +2332,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP291561.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/444327",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.374,
+    "faceMetrics": {
+      "length_to_width": 1.053,
+      "jaw_to_forehead": 1.577,
+      "cheek_to_jaw": 1.222,
+      "jaw_angle_deg": 134.51
+    },
+    "faceValidation": {
+      "bbox_width": 472.99,
+      "bbox_height": 459.753,
+      "bbox_area": 217458.361,
+      "face_area_ratio": 0.062,
+      "face_aspect_ratio": 0.972,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 21.55
+    }
   },
   {
     "id": 452211,
@@ -2527,7 +2360,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf1971-39m.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/452211",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.343,
+    "faceMetrics": {
+      "length_to_width": 1.092,
+      "jaw_to_forehead": 1.525,
+      "cheek_to_jaw": 1.226,
+      "jaw_angle_deg": 138.76
+    },
+    "faceValidation": {
+      "bbox_width": 636.794,
+      "bbox_height": 602.129,
+      "bbox_area": 383431.935,
+      "face_area_ratio": 0.467,
+      "face_aspect_ratio": 0.946,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -33.932
+    }
   },
   {
     "id": 446680,
@@ -2538,7 +2388,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP119714.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/446680",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.446,
+    "faceMetrics": {
+      "length_to_width": 1.007,
+      "jaw_to_forehead": 1.356,
+      "cheek_to_jaw": 1.274,
+      "jaw_angle_deg": 134.277
+    },
+    "faceValidation": {
+      "bbox_width": 2167.075,
+      "bbox_height": 2085.314,
+      "bbox_area": 4519030.462,
+      "face_area_ratio": 0.282,
+      "face_aspect_ratio": 0.962,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.249
+    }
   },
   {
     "id": 664761,
@@ -2549,7 +2416,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP353091.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/664761",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.274,
+    "faceMetrics": {
+      "length_to_width": 0.984,
+      "jaw_to_forehead": 1.676,
+      "cheek_to_jaw": 1.193,
+      "jaw_angle_deg": 127.188
+    },
+    "faceValidation": {
+      "bbox_width": 1995.155,
+      "bbox_height": 1939.141,
+      "bbox_area": 3868886.9,
+      "face_area_ratio": 0.336,
+      "face_aspect_ratio": 0.972,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -3.489
+    }
   },
   {
     "id": 444561,
@@ -2560,7 +2444,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP226019.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/444561",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.368,
+    "faceMetrics": {
+      "length_to_width": 0.946,
+      "jaw_to_forehead": 1.444,
+      "cheek_to_jaw": 1.235,
+      "jaw_angle_deg": 132.27
+    },
+    "faceValidation": {
+      "bbox_width": 1804.759,
+      "bbox_height": 1798.509,
+      "bbox_area": 3245875.682,
+      "face_area_ratio": 0.285,
+      "face_aspect_ratio": 0.997,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 23.053
+    }
   },
   {
     "id": 447009,
@@ -2571,40 +2472,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP201.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/447009",
-    "faceShape": "round"
-  },
-  {
-    "id": 453653,
-    "title": "Tusk Fragment with Christ Enthroned",
-    "artist": "",
-    "date": "810–1010",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/tem17-19048s1.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/453653",
-    "faceShape": "oval"
-  },
-  {
-    "id": 446642,
-    "title": "Silk Animal Carpet",
-    "artist": "",
-    "date": "second half 16th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/TP279.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/446642",
-    "faceShape": "round"
-  },
-  {
-    "id": 451378,
-    "title": "Bowl with Enthroned Figure and Horsemen",
-    "artist": "",
-    "date": "late 12th–early 13th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf57-36-3a.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/451378",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.491,
+    "faceMetrics": {
+      "length_to_width": 0.989,
+      "jaw_to_forehead": 1.409,
+      "cheek_to_jaw": 1.309,
+      "jaw_angle_deg": 136.823
+    },
+    "faceValidation": {
+      "bbox_width": 1087.529,
+      "bbox_height": 1013.162,
+      "bbox_area": 1101843.237,
+      "face_area_ratio": 0.262,
+      "face_aspect_ratio": 0.932,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 18.914
+    }
   },
   {
     "id": 450492,
@@ -2615,40 +2500,24 @@
     "department": "Islamic Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP119718.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/450492",
-    "faceShape": "round"
-  },
-  {
-    "id": 453308,
-    "title": "Bottle",
-    "artist": "",
-    "date": "mid-17th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/wb-1980.24c.JPG",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/453308",
-    "faceShape": "oval"
-  },
-  {
-    "id": 444532,
-    "title": "Ewer Base with Zodiac Medallions",
-    "artist": "",
-    "date": "first half 13th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP241087.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/444532",
-    "faceShape": "round"
-  },
-  {
-    "id": 544454,
-    "title": "Upper Part of the Seated Statue of a Queen",
-    "artist": "",
-    "date": "ca. 1580–1550 B.C.",
-    "culture": "",
-    "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP115767.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/544454",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.412,
+    "faceMetrics": {
+      "length_to_width": 0.97,
+      "jaw_to_forehead": 1.463,
+      "cheek_to_jaw": 1.29,
+      "jaw_angle_deg": 133.008
+    },
+    "faceValidation": {
+      "bbox_width": 2240.558,
+      "bbox_height": 2188.247,
+      "bbox_area": 4902894.553,
+      "face_area_ratio": 0.341,
+      "face_aspect_ratio": 0.977,
+      "face_count": 2.0,
+      "dominant_face_ratio": 0.614,
+      "yaw_deg": 16.782
+    }
   },
   {
     "id": 552793,
@@ -2657,9 +2526,26 @@
     "date": "ca. 600 BC",
     "culture": "",
     "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC-1976_325_EGDP027653.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/1976.325_01.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/552793",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.413,
+    "faceMetrics": {
+      "length_to_width": 1.072,
+      "jaw_to_forehead": 1.498,
+      "cheek_to_jaw": 1.287,
+      "jaw_angle_deg": 139.469
+    },
+    "faceValidation": {
+      "bbox_width": 485.654,
+      "bbox_height": 509.894,
+      "bbox_area": 247632.349,
+      "face_area_ratio": 0.095,
+      "face_aspect_ratio": 1.05,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -8.974
+    }
   },
   {
     "id": 590941,
@@ -2670,7 +2556,24 @@
     "department": "Egyptian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212C.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/590941",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.336,
+    "faceMetrics": {
+      "length_to_width": 0.965,
+      "jaw_to_forehead": 1.575,
+      "cheek_to_jaw": 1.129,
+      "jaw_angle_deg": 124.206
+    },
+    "faceValidation": {
+      "bbox_width": 840.18,
+      "bbox_height": 777.106,
+      "bbox_area": 652909.143,
+      "face_area_ratio": 0.202,
+      "face_aspect_ratio": 0.925,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 10.469
+    }
   },
   {
     "id": 547768,
@@ -2681,7 +2584,24 @@
     "department": "Egyptian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP112592.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/547768",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.392,
+    "faceMetrics": {
+      "length_to_width": 1.289,
+      "jaw_to_forehead": 1.405,
+      "cheek_to_jaw": 1.317,
+      "jaw_angle_deg": 143.291
+    },
+    "faceValidation": {
+      "bbox_width": 1080.026,
+      "bbox_height": 1355.321,
+      "bbox_area": 1463781.943,
+      "face_area_ratio": 0.169,
+      "face_aspect_ratio": 1.255,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 6.801
+    }
   },
   {
     "id": 545108,
@@ -2690,9 +2610,26 @@
     "date": "ca. 1700–1600 B.C.",
     "culture": "",
     "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/262112.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/262108.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/545108",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.322,
+    "faceMetrics": {
+      "length_to_width": 1.079,
+      "jaw_to_forehead": 1.523,
+      "cheek_to_jaw": 1.212,
+      "jaw_angle_deg": 134.086
+    },
+    "faceValidation": {
+      "bbox_width": 1855.874,
+      "bbox_height": 1991.696,
+      "bbox_area": 3696336.773,
+      "face_area_ratio": 0.293,
+      "face_aspect_ratio": 1.073,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -1.15
+    }
   },
   {
     "id": 544447,
@@ -2701,9 +2638,26 @@
     "date": "ca. 1479–1458 B.C.",
     "culture": "",
     "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP-40133-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP117949.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/544447",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.382,
+    "faceMetrics": {
+      "length_to_width": 0.986,
+      "jaw_to_forehead": 1.542,
+      "cheek_to_jaw": 1.238,
+      "jaw_angle_deg": 132.291
+    },
+    "faceValidation": {
+      "bbox_width": 1292.177,
+      "bbox_height": 1261.177,
+      "bbox_area": 1629664.173,
+      "face_area_ratio": 0.115,
+      "face_aspect_ratio": 0.976,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 2.465
+    }
   },
   {
     "id": 545879,
@@ -2714,7 +2668,24 @@
     "department": "Egyptian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP323866.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/545879",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.39,
+    "faceMetrics": {
+      "length_to_width": 1.019,
+      "jaw_to_forehead": 1.603,
+      "cheek_to_jaw": 1.239,
+      "jaw_angle_deg": 132.673
+    },
+    "faceValidation": {
+      "bbox_width": 1274.929,
+      "bbox_height": 1289.072,
+      "bbox_area": 1643475.342,
+      "face_area_ratio": 0.134,
+      "face_aspect_ratio": 1.011,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.018
+    }
   },
   {
     "id": 545549,
@@ -2725,18 +2696,24 @@
     "department": "Egyptian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/DP-13760-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/545549",
-    "faceShape": "oval"
-  },
-  {
-    "id": 591138,
-    "title": "Head of a lion",
-    "artist": "",
-    "date": "400–300 B.C.",
-    "culture": "",
-    "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/DP323402.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/591138",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.283,
+    "faceMetrics": {
+      "length_to_width": 1.146,
+      "jaw_to_forehead": 1.506,
+      "cheek_to_jaw": 1.258,
+      "jaw_angle_deg": 137.034
+    },
+    "faceValidation": {
+      "bbox_width": 148.036,
+      "bbox_height": 166.813,
+      "bbox_area": 24694.297,
+      "face_area_ratio": 0.092,
+      "face_aspect_ratio": 1.127,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -1.221
+    }
   },
   {
     "id": 547951,
@@ -2747,7 +2724,24 @@
     "department": "Egyptian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP-25887-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/547951",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.258,
+    "faceMetrics": {
+      "length_to_width": 1.172,
+      "jaw_to_forehead": 1.546,
+      "cheek_to_jaw": 1.283,
+      "jaw_angle_deg": 135.871
+    },
+    "faceValidation": {
+      "bbox_width": 951.229,
+      "bbox_height": 1099.225,
+      "bbox_area": 1045614.725,
+      "face_area_ratio": 0.119,
+      "face_aspect_ratio": 1.156,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 11.982
+    }
   },
   {
     "id": 547856,
@@ -2758,18 +2752,24 @@
     "department": "Egyptian Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT202005.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/547856",
-    "faceShape": "oval"
-  },
-  {
-    "id": 573572,
-    "title": "Block statue of Mersuptah",
-    "artist": "",
-    "date": "ca. 945–712 B.C. or earlier",
-    "culture": "",
-    "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/25.184.14.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/573572",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.255,
+    "faceMetrics": {
+      "length_to_width": 1.17,
+      "jaw_to_forehead": 1.503,
+      "cheek_to_jaw": 1.247,
+      "jaw_angle_deg": 141.458
+    },
+    "faceValidation": {
+      "bbox_width": 1156.084,
+      "bbox_height": 1331.059,
+      "bbox_area": 1538815.558,
+      "face_area_ratio": 0.181,
+      "face_aspect_ratio": 1.151,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -9.575
+    }
   },
   {
     "id": 248466,
@@ -2780,7 +2780,24 @@
     "department": "Greek and Roman Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP337229.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/248466",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.389,
+    "faceMetrics": {
+      "length_to_width": 1.054,
+      "jaw_to_forehead": 1.605,
+      "cheek_to_jaw": 1.212,
+      "jaw_angle_deg": 137.067
+    },
+    "faceValidation": {
+      "bbox_width": 921.665,
+      "bbox_height": 969.385,
+      "bbox_area": 893448.336,
+      "face_area_ratio": 0.08,
+      "face_aspect_ratio": 1.052,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -4.862
+    }
   },
   {
     "id": 248897,
@@ -2791,7 +2808,24 @@
     "department": "Greek and Roman Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP328517.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/248897",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.331,
+    "faceMetrics": {
+      "length_to_width": 1.221,
+      "jaw_to_forehead": 1.638,
+      "cheek_to_jaw": 1.207,
+      "jaw_angle_deg": 135.089
+    },
+    "faceValidation": {
+      "bbox_width": 717.516,
+      "bbox_height": 829.964,
+      "bbox_area": 595512.696,
+      "face_area_ratio": 0.053,
+      "face_aspect_ratio": 1.157,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 23.241
+    }
   },
   {
     "id": 257603,
@@ -2800,9 +2834,26 @@
     "date": "ca. 270–250 BCE",
     "culture": "Greek",
     "department": "Greek and Roman Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP333700.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP333701.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/257603",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.284,
+    "faceMetrics": {
+      "length_to_width": 1.149,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.201,
+      "jaw_angle_deg": 133.884
+    },
+    "faceValidation": {
+      "bbox_width": 1195.009,
+      "bbox_height": 1371.117,
+      "bbox_area": 1638496.752,
+      "face_area_ratio": 0.137,
+      "face_aspect_ratio": 1.147,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 1.477
+    }
   },
   {
     "id": 248783,
@@ -2813,7 +2864,24 @@
     "department": "Greek and Roman Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP337237.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/248783",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.302,
+    "faceMetrics": {
+      "length_to_width": 1.189,
+      "jaw_to_forehead": 1.503,
+      "cheek_to_jaw": 1.215,
+      "jaw_angle_deg": 137.204
+    },
+    "faceValidation": {
+      "bbox_width": 1554.331,
+      "bbox_height": 1750.184,
+      "bbox_area": 2720365.11,
+      "face_area_ratio": 0.241,
+      "face_aspect_ratio": 1.126,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -15.341
+    }
   },
   {
     "id": 256163,
@@ -2824,7 +2892,24 @@
     "department": "Greek and Roman Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP-14287-153.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/256163",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.316,
+    "faceMetrics": {
+      "length_to_width": 1.223,
+      "jaw_to_forehead": 1.601,
+      "cheek_to_jaw": 1.223,
+      "jaw_angle_deg": 134.582
+    },
+    "faceValidation": {
+      "bbox_width": 1618.711,
+      "bbox_height": 1885.187,
+      "bbox_area": 3051572.638,
+      "face_area_ratio": 0.229,
+      "face_aspect_ratio": 1.165,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -19.994
+    }
   },
   {
     "id": 253055,
@@ -2833,9 +2918,26 @@
     "date": "ca. 193–211 CE",
     "culture": "Roman",
     "department": "Greek and Roman Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP345017.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP345019.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/253055",
-    "faceShape": "oval"
+    "faceShape": "oval",
+    "shapeConfidence": 0.408,
+    "faceMetrics": {
+      "length_to_width": 1.333,
+      "jaw_to_forehead": 1.482,
+      "cheek_to_jaw": 1.284,
+      "jaw_angle_deg": 143.223
+    },
+    "faceValidation": {
+      "bbox_width": 1052.184,
+      "bbox_height": 1198.886,
+      "bbox_area": 1261448.843,
+      "face_area_ratio": 0.112,
+      "face_aspect_ratio": 1.139,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -28.044
+    }
   },
   {
     "id": 248501,
@@ -2846,18 +2948,24 @@
     "department": "Greek and Roman Art",
     "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP-19517-002.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/248501",
-    "faceShape": "oval"
-  },
-  {
-    "id": 318622,
-    "title": "Pendant mask of Ìyọ́bà Idià",
-    "artist": "Ìgbèsànmwà (ivory- and wood- carving guild) artists",
-    "date": "16th century",
-    "culture": "Edo peoples",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP231460.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/318622",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.286,
+    "faceMetrics": {
+      "length_to_width": 1.122,
+      "jaw_to_forehead": 1.5,
+      "cheek_to_jaw": 1.22,
+      "jaw_angle_deg": 137.138
+    },
+    "faceValidation": {
+      "bbox_width": 789.87,
+      "bbox_height": 886.361,
+      "bbox_area": 700110.216,
+      "face_area_ratio": 0.058,
+      "face_aspect_ratio": 1.122,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 2.605
+    }
   },
   {
     "id": 313256,
@@ -2866,53 +2974,26 @@
     "date": "410–650 CE",
     "culture": "Maya",
     "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24340-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24340-005.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/313256",
-    "faceShape": "oval"
-  },
-  {
-    "id": 309944,
-    "title": "Miniature female effigy",
-    "artist": "Inca artist(s)",
-    "date": "1400–1535 CE",
-    "culture": "Inca",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-13440-023.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/309944",
-    "faceShape": "round"
-  },
-  {
-    "id": 317753,
-    "title": "Female figurine",
-    "artist": "",
-    "date": "1400–1533",
-    "culture": "Inca",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-13440-036.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/317753",
-    "faceShape": "round"
-  },
-  {
-    "id": 310607,
-    "title": "Vessel, Seated Deities",
-    "artist": "",
-    "date": "6th–7th century",
-    "culture": "Maya",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-13003-005.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/310607",
-    "faceShape": "round"
-  },
-  {
-    "id": 313251,
-    "title": "Female figurine",
-    "artist": "",
-    "date": "1400–1533",
-    "culture": "Inca",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-13440-033.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/313251",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.356,
+    "faceMetrics": {
+      "length_to_width": 1.128,
+      "jaw_to_forehead": 1.915,
+      "cheek_to_jaw": 1.191,
+      "jaw_angle_deg": 119.247
+    },
+    "faceValidation": {
+      "bbox_width": 1251.697,
+      "bbox_height": 1420.902,
+      "bbox_area": 1778538.854,
+      "face_area_ratio": 0.112,
+      "face_aspect_ratio": 1.135,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 1.802
+    }
   },
   {
     "id": 315052,
@@ -2923,7 +3004,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24258-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/315052",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.293,
+    "faceMetrics": {
+      "length_to_width": 1.134,
+      "jaw_to_forehead": 1.408,
+      "cheek_to_jaw": 1.255,
+      "jaw_angle_deg": 137.395
+    },
+    "faceValidation": {
+      "bbox_width": 822.617,
+      "bbox_height": 904.919,
+      "bbox_area": 744401.579,
+      "face_area_ratio": 0.063,
+      "face_aspect_ratio": 1.1,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 11.715
+    }
   },
   {
     "id": 313658,
@@ -2932,20 +3030,26 @@
     "date": "Early 19th century",
     "culture": "Ha'apai Islands",
     "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-16434-001.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-16434-003.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/313658",
-    "faceShape": "round"
-  },
-  {
-    "id": 310563,
-    "title": "Drum",
-    "artist": "Nasca artist(s)",
-    "date": "100–400 CE",
-    "culture": "Nasca",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DT1271.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/310563",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.528,
+    "faceMetrics": {
+      "length_to_width": 1.037,
+      "jaw_to_forehead": 1.651,
+      "cheek_to_jaw": 1.286,
+      "jaw_angle_deg": 141.792
+    },
+    "faceValidation": {
+      "bbox_width": 1788.358,
+      "bbox_height": 1840.723,
+      "bbox_area": 3291872.826,
+      "face_area_ratio": 0.206,
+      "face_aspect_ratio": 1.029,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.037
+    }
   },
   {
     "id": 320598,
@@ -2956,7 +3060,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP239016.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/320598",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.29,
+    "faceMetrics": {
+      "length_to_width": 1.14,
+      "jaw_to_forehead": 1.361,
+      "cheek_to_jaw": 1.325,
+      "jaw_angle_deg": 137.1
+    },
+    "faceValidation": {
+      "bbox_width": 195.826,
+      "bbox_height": 219.169,
+      "bbox_area": 42919.056,
+      "face_area_ratio": 0.147,
+      "face_aspect_ratio": 1.119,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -3.481
+    }
   },
   {
     "id": 312807,
@@ -2967,7 +3088,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP102179.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/312807",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.34,
+    "faceMetrics": {
+      "length_to_width": 0.904,
+      "jaw_to_forehead": 1.609,
+      "cheek_to_jaw": 1.25,
+      "jaw_angle_deg": 131.212
+    },
+    "faceValidation": {
+      "bbox_width": 282.383,
+      "bbox_height": 253.266,
+      "bbox_area": 71517.978,
+      "face_area_ratio": 0.203,
+      "face_aspect_ratio": 0.897,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 0.423
+    }
   },
   {
     "id": 308458,
@@ -2978,7 +3116,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP234685.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/308458",
-    "faceShape": "oval"
+    "faceShape": "square",
+    "shapeConfidence": 0.255,
+    "faceMetrics": {
+      "length_to_width": 1.019,
+      "jaw_to_forehead": 1.88,
+      "cheek_to_jaw": 1.097,
+      "jaw_angle_deg": 117.01
+    },
+    "faceValidation": {
+      "bbox_width": 265.602,
+      "bbox_height": 247.682,
+      "bbox_area": 65784.873,
+      "face_area_ratio": 0.224,
+      "face_aspect_ratio": 0.933,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -10.531
+    }
   },
   {
     "id": 310568,
@@ -2989,18 +3144,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24255-004.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/310568",
-    "faceShape": "round"
-  },
-  {
-    "id": 309952,
-    "title": "Animal pendant",
-    "artist": "",
-    "date": "1–1000 CE",
-    "culture": "Central American Isthmus",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-43941-001.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/309952",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.484,
+    "faceMetrics": {
+      "length_to_width": 1.06,
+      "jaw_to_forehead": 1.415,
+      "cheek_to_jaw": 1.268,
+      "jaw_angle_deg": 142.495
+    },
+    "faceValidation": {
+      "bbox_width": 1711.299,
+      "bbox_height": 1798.407,
+      "bbox_area": 3077612.162,
+      "face_area_ratio": 0.201,
+      "face_aspect_ratio": 1.051,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.007
+    }
   },
   {
     "id": 317792,
@@ -3011,18 +3172,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP285728.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/317792",
-    "faceShape": "oval"
-  },
-  {
-    "id": 718242,
-    "title": "Plate with the god Chahk",
-    "artist": "Maya artist(s)",
-    "date": "600-800 CE",
-    "culture": "Maya",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-23101-003.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/718242",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.259,
+    "faceMetrics": {
+      "length_to_width": 1.159,
+      "jaw_to_forehead": 1.456,
+      "cheek_to_jaw": 1.26,
+      "jaw_angle_deg": 134.357
+    },
+    "faceValidation": {
+      "bbox_width": 676.807,
+      "bbox_height": 758.691,
+      "bbox_area": 513487.18,
+      "face_area_ratio": 0.051,
+      "face_aspect_ratio": 1.121,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -6.444
+    }
   },
   {
     "id": 733038,
@@ -3031,9 +3198,26 @@
     "date": "late 17th century",
     "culture": "",
     "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP167981.jpg",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP367372.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/733038",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.361,
+    "faceMetrics": {
+      "length_to_width": 1.212,
+      "jaw_to_forehead": 1.652,
+      "cheek_to_jaw": 1.16,
+      "jaw_angle_deg": 134.325
+    },
+    "faceValidation": {
+      "bbox_width": 881.998,
+      "bbox_height": 1041.067,
+      "bbox_area": 918218.621,
+      "face_area_ratio": 0.076,
+      "face_aspect_ratio": 1.18,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 7.692
+    }
   },
   {
     "id": 313010,
@@ -3044,7 +3228,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-23813-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/313010",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.448,
+    "faceMetrics": {
+      "length_to_width": 0.909,
+      "jaw_to_forehead": 1.478,
+      "cheek_to_jaw": 1.246,
+      "jaw_angle_deg": 135.414
+    },
+    "faceValidation": {
+      "bbox_width": 872.617,
+      "bbox_height": 778.726,
+      "bbox_area": 679529.509,
+      "face_area_ratio": 0.083,
+      "face_aspect_ratio": 0.892,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 5.433
+    }
   },
   {
     "id": 309717,
@@ -3055,7 +3256,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24358-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/309717",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.452,
+    "faceMetrics": {
+      "length_to_width": 0.919,
+      "jaw_to_forehead": 1.408,
+      "cheek_to_jaw": 1.241,
+      "jaw_angle_deg": 135.974
+    },
+    "faceValidation": {
+      "bbox_width": 1955.21,
+      "bbox_height": 1764.76,
+      "bbox_area": 3450476.718,
+      "face_area_ratio": 0.227,
+      "face_aspect_ratio": 0.903,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -2.263
+    }
   },
   {
     "id": 309958,
@@ -3066,7 +3284,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-41709-002.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/309958",
-    "faceShape": "oval"
+    "faceShape": "heart",
+    "shapeConfidence": 0.364,
+    "faceMetrics": {
+      "length_to_width": 1.066,
+      "jaw_to_forehead": 1.748,
+      "cheek_to_jaw": 1.143,
+      "jaw_angle_deg": 119.041
+    },
+    "faceValidation": {
+      "bbox_width": 1926.212,
+      "bbox_height": 2102.938,
+      "bbox_area": 4050705.55,
+      "face_area_ratio": 0.256,
+      "face_aspect_ratio": 1.092,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -0.743
+    }
   },
   {
     "id": 311024,
@@ -3077,7 +3312,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP231466.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/311024",
-    "faceShape": "round"
+    "faceShape": "round",
+    "shapeConfidence": 0.465,
+    "faceMetrics": {
+      "length_to_width": 0.997,
+      "jaw_to_forehead": 1.526,
+      "cheek_to_jaw": 1.271,
+      "jaw_angle_deg": 134.925
+    },
+    "faceValidation": {
+      "bbox_width": 204.735,
+      "bbox_height": 202.407,
+      "bbox_area": 41439.695,
+      "face_area_ratio": 0.134,
+      "face_aspect_ratio": 0.989,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -4.901
+    }
   },
   {
     "id": 812102,
@@ -3088,18 +3340,24 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-36767-001.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/812102",
-    "faceShape": "oval"
-  },
-  {
-    "id": 307606,
-    "title": "Macuilcoatl",
-    "artist": "Mexica artist(s)",
-    "date": "1450–1521 CE",
-    "culture": "Mexica (Aztec)",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DT5115.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/307606",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.261,
+    "faceMetrics": {
+      "length_to_width": 1.166,
+      "jaw_to_forehead": 1.417,
+      "cheek_to_jaw": 1.315,
+      "jaw_angle_deg": 144.191
+    },
+    "faceValidation": {
+      "bbox_width": 1724.506,
+      "bbox_height": 1969.915,
+      "bbox_area": 3397130.21,
+      "face_area_ratio": 0.286,
+      "face_aspect_ratio": 1.142,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": 0.863
+    }
   },
   {
     "id": 317826,
@@ -3110,6 +3368,23 @@
     "department": "The Michael C. Rockefeller Wing",
     "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DT4135.jpg",
     "metUrl": "https://www.metmuseum.org/art/collection/search/317826",
-    "faceShape": "oval"
+    "faceShape": "round",
+    "shapeConfidence": 0.253,
+    "faceMetrics": {
+      "length_to_width": 1.12,
+      "jaw_to_forehead": 1.573,
+      "cheek_to_jaw": 1.249,
+      "jaw_angle_deg": 132.212
+    },
+    "faceValidation": {
+      "bbox_width": 380.609,
+      "bbox_height": 429.458,
+      "bbox_area": 163455.686,
+      "face_area_ratio": 0.059,
+      "face_aspect_ratio": 1.128,
+      "face_count": 1.0,
+      "dominant_face_ratio": 1.0,
+      "yaw_deg": -13.829
+    }
   }
 ]

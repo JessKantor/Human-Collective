@@ -23,6 +23,12 @@ import mediapipe as mp
 from mediapipe.tasks import python as mp_tasks
 from mediapipe.tasks.python import vision
 
+import face_validation as fv
+from face_validation import (
+    face_area_from_landmarks,
+    validate_face_landmarks,
+)
+
 MODEL_PATH = Path("face_landmarker.task")
 
 # Landmarks needed by build_database.classify_face_shape
@@ -44,7 +50,23 @@ def prepare_image_for_detection(image_bgr: Any) -> Any:
     )
 
 
-def detect(image_path: Path) -> dict[str, Any]:
+def choose_dominant_face(
+    faces: list[list[Any]], width: int, height: int
+) -> tuple[list[Any], int, float]:
+    """
+    Pick the largest face and compute its share of total detected face area.
+    """
+    if len(faces) == 1:
+        return faces[0], 1, 1.0
+
+    areas = [face_area_from_landmarks(face, width, height) for face in faces]
+    total_area = sum(areas) or 1.0
+    best_index = max(range(len(faces)), key=lambda i: areas[i])
+    dominant_ratio = areas[best_index] / total_area
+    return faces[best_index], len(faces), dominant_ratio
+
+
+def detect(image_path: Path, *, artwork: bool = False) -> dict[str, Any]:
     image_bgr = cv2.imread(str(image_path))
     if image_bgr is None:
         return {"ok": False, "reason": "unreadable_image"}
@@ -53,6 +75,17 @@ def detect(image_path: Path) -> dict[str, Any]:
     height, width = image_bgr.shape[:2]
     image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
 
+    det_conf = (
+        fv.ARTWORK_MIN_FACE_DETECTION_CONFIDENCE
+        if artwork
+        else fv.MIN_FACE_DETECTION_CONFIDENCE
+    )
+    pres_conf = (
+        fv.ARTWORK_MIN_FACE_PRESENCE_CONFIDENCE
+        if artwork
+        else fv.MIN_FACE_PRESENCE_CONFIDENCE
+    )
+
     options = vision.FaceLandmarkerOptions(
         base_options=mp_tasks.BaseOptions(
             model_asset_path=str(MODEL_PATH),
@@ -60,8 +93,8 @@ def detect(image_path: Path) -> dict[str, Any]:
         ),
         running_mode=vision.RunningMode.IMAGE,
         num_faces=5,
-        min_face_detection_confidence=0.35,
-        min_face_presence_confidence=0.35,
+        min_face_detection_confidence=det_conf,
+        min_face_presence_confidence=pres_conf,
     )
 
     with vision.FaceLandmarker.create_from_options(options) as landmarker:
@@ -71,32 +104,44 @@ def detect(image_path: Path) -> dict[str, Any]:
     if not result.face_landmarks:
         return {"ok": False, "reason": "no_face"}
 
-    if len(result.face_landmarks) == 1:
-        chosen = result.face_landmarks[0]
-    else:
+    chosen, face_count, dominant_ratio = choose_dominant_face(
+        result.face_landmarks, width, height
+    )
 
-        def face_area(landmarks: list[Any]) -> float:
-            xs = [lm.x * width for lm in landmarks]
-            ys = [lm.y * height for lm in landmarks]
-            return (max(xs) - min(xs)) * (max(ys) - min(ys))
-
-        chosen = max(result.face_landmarks, key=face_area)
+    ok, rejection_reason, validation = validate_face_landmarks(
+        chosen,
+        width,
+        height,
+        face_count=face_count,
+        dominant_face_ratio=dominant_ratio,
+        artwork=artwork,
+    )
 
     landmarks = {
         str(index): {"x": chosen[index].x, "y": chosen[index].y, "z": chosen[index].z}
         for index in LANDMARK_INDICES
     }
-    return {
-        "ok": True,
+
+    payload: dict[str, Any] = {
+        "ok": ok,
         "width": width,
         "height": height,
         "landmarks": landmarks,
+        "validation": validation,
     }
+    if not ok:
+        payload["reason"] = rejection_reason
+    return payload
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--image", required=True, help="Path to a JPEG/PNG image file")
+    parser.add_argument(
+        "--artwork",
+        action="store_true",
+        help="Use relaxed validation thresholds for museum artwork portraits",
+    )
     args = parser.parse_args()
 
     image_path = Path(args.image)
@@ -107,9 +152,9 @@ def main() -> int:
         print(json.dumps({"ok": False, "reason": "missing_model"}))
         return 1
 
-    payload = detect(image_path)
+    payload = detect(image_path, artwork=args.artwork)
     print(json.dumps(payload))
-    return 0 if payload.get("ok") or payload.get("reason") == "no_face" else 1
+    return 0
 
 
 if __name__ == "__main__":
