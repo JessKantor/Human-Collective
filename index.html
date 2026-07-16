@@ -226,6 +226,14 @@
       font-weight: 300;
       letter-spacing: 0.06em;
       text-transform: capitalize;
+      margin-bottom: 0.35rem;
+    }
+
+    .face-shape-confidence {
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
       margin-bottom: 1rem;
     }
 
@@ -407,6 +415,7 @@
       <div class="face-result">
         <p class="face-shape-label">Your face shape</p>
         <h2 class="face-shape-name" id="result-shape"></h2>
+        <p class="face-shape-confidence" id="result-confidence"></p>
         <p class="face-shape-poem" id="result-poem"></p>
       </div>
       <h3 class="gallery-heading">Portraits that mirror your form</h3>
@@ -495,7 +504,28 @@
       return Math.acos(cosAngle) * (180 / Math.PI);
     }
 
-    function classifyFaceShape(landmarks, imageWidth, imageHeight) {
+    // -----------------------------------------------------------------------
+    // Face shape scoring — matches face_shape.py
+    // -----------------------------------------------------------------------
+
+    const FACE_SHAPES = ["oval", "round", "square", "heart", "oblong"];
+
+    const SHAPE_IDEALS = {
+      round: { length_to_width: 1.02, jaw_to_forehead: 0.96, cheek_to_jaw: 1.00, jaw_angle_deg: 135 },
+      oval: { length_to_width: 1.28, jaw_to_forehead: 0.88, cheek_to_jaw: 1.06, jaw_angle_deg: 128 },
+      square: { length_to_width: 1.12, jaw_to_forehead: 0.97, cheek_to_jaw: 1.00, jaw_angle_deg: 112 },
+      heart: { length_to_width: 1.22, jaw_to_forehead: 0.74, cheek_to_jaw: 1.14, jaw_angle_deg: 124 },
+      oblong: { length_to_width: 1.58, jaw_to_forehead: 0.94, cheek_to_jaw: 1.02, jaw_angle_deg: 130 }
+    };
+
+    const SHAPE_TOLERANCES = {
+      length_to_width: 0.22,
+      jaw_to_forehead: 0.14,
+      cheek_to_jaw: 0.12,
+      jaw_angle_deg: 18
+    };
+
+    function computeFaceShapeMetrics(landmarks, imageWidth, imageHeight) {
       const faceHeight = landmarkDistance(
         landmarks, LANDMARK_FOREHEAD_TOP, LANDMARK_CHIN, imageWidth, imageHeight
       );
@@ -509,11 +539,9 @@
         landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, imageWidth, imageHeight
       );
 
-      if (cheekWidth === 0 || foreheadWidth === 0 || jawWidth === 0) return "oval";
-
-      const lengthToWidth = faceHeight / cheekWidth;
-      const jawToForehead = jawWidth / foreheadWidth;
-      const cheekToJaw = cheekWidth / jawWidth;
+      if (cheekWidth === 0 || foreheadWidth === 0 || jawWidth === 0) {
+        return { length_to_width: 1.28, jaw_to_forehead: 0.88, cheek_to_jaw: 1.06, jaw_angle_deg: 128 };
+      }
 
       const leftJawAngle = angleAtVertex(
         landmarks, LANDMARK_LEFT_JAW, LANDMARK_CHIN, LANDMARK_LEFT_CHEEK, imageWidth, imageHeight
@@ -521,13 +549,41 @@
       const rightJawAngle = angleAtVertex(
         landmarks, LANDMARK_RIGHT_JAW, LANDMARK_CHIN, LANDMARK_RIGHT_CHEEK, imageWidth, imageHeight
       );
-      const jawAngleDeg = (leftJawAngle + rightJawAngle) / 2;
 
-      if (jawToForehead < 0.82 && cheekToJaw > 1.05) return "heart";
-      if (lengthToWidth > 1.45 && jawToForehead >= 0.85 && jawToForehead <= 1.05) return "oblong";
-      if (lengthToWidth >= 0.92 && lengthToWidth <= 1.12 && jawToForehead >= 0.88 && jawAngleDeg > 125) return "round";
-      if (lengthToWidth >= 1.0 && lengthToWidth <= 1.35 && jawToForehead >= 0.88 && jawToForehead <= 1.08 && jawAngleDeg <= 120) return "square";
-      return "oval";
+      return {
+        length_to_width: faceHeight / cheekWidth,
+        jaw_to_forehead: jawWidth / foreheadWidth,
+        cheek_to_jaw: cheekWidth / jawWidth,
+        jaw_angle_deg: (leftJawAngle + rightJawAngle) / 2
+      };
+    }
+
+    function metricCloseness(actual, ideal, tolerance) {
+      if (tolerance <= 0) return 0;
+      return Math.max(0, 1 - Math.abs(actual - ideal) / tolerance);
+    }
+
+    function scoreFaceShapes(metrics) {
+      const raw = {};
+      for (const shape of FACE_SHAPES) {
+        const ideals = SHAPE_IDEALS[shape];
+        const parts = Object.keys(SHAPE_TOLERANCES).map(
+          (key) => metricCloseness(metrics[key], ideals[key], SHAPE_TOLERANCES[key])
+        );
+        raw[shape] = parts.reduce((a, b) => a + b, 0) / parts.length;
+      }
+      const total = Object.values(raw).reduce((a, b) => a + b, 0);
+      if (total <= 0) {
+        return Object.fromEntries(FACE_SHAPES.map((s) => [s, 1 / FACE_SHAPES.length]));
+      }
+      return Object.fromEntries(FACE_SHAPES.map((s) => [s, raw[s] / total]));
+    }
+
+    function classifyFaceShapeDetailed(landmarks, imageWidth, imageHeight) {
+      const metrics = computeFaceShapeMetrics(landmarks, imageWidth, imageHeight);
+      const scores = scoreFaceShapes(metrics);
+      const shape = FACE_SHAPES.reduce((best, s) => scores[s] > scores[best] ? s : best, FACE_SHAPES[0]);
+      return { shape, confidence: scores[shape], scores, metrics };
     }
 
     function pickLargestFace(faces, width, height) {
@@ -639,8 +695,8 @@
       faceMesh.setOptions({
         maxNumFaces: 5,
         refineLandmarks: true,
-        minDetectionConfidence: 0.35,
-        minTrackingConfidence: 0.35
+        minDetectionConfidence: 0.6,
+        minTrackingConfidence: 0.6
       });
 
       faceMesh.onResults((results) => {
@@ -666,7 +722,7 @@
             return;
           }
           const landmarks = pickLargestFace(results.multiFaceLandmarks, width, height);
-          resolve(classifyFaceShape(landmarks, width, height));
+          resolve(classifyFaceShapeDetailed(landmarks, width, height));
         };
 
         faceMesh.send({ image: imageSource }).catch((err) => {
@@ -764,25 +820,27 @@
     async function processImage(imageSource, width, height) {
       hideError();
       try {
-        const shape = await analyzeImage(imageSource, width, height);
-        if (!shape) {
+        const result = await analyzeImage(imageSource, width, height);
+        if (!result) {
           showError("No face detected. Please try again with a clear, front-facing portrait.");
           showScreen("welcome");
           return;
         }
-        showResults(shape);
+        showResults(result);
       } catch (err) {
         showError("Face analysis failed. Please try again.");
         showScreen("welcome");
       }
     }
 
-    function showResults(shape) {
+    function showResults({ shape, confidence }) {
       hideError();
       const matches = artDatabase.filter((a) => a.faceShape === shape);
       const picks = sampleDiverseArtworks(matches, 6);
 
       $("#result-shape").textContent = shape;
+      $("#result-confidence").textContent =
+        `Match confidence ${Math.round(confidence * 100)}%`;
       $("#result-poem").textContent = FACE_SHAPE_POEMS[shape] || "";
 
       const gallery = $("#gallery");

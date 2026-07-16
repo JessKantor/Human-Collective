@@ -1,0 +1,2607 @@
+{
+  "audited_at": "2026-07-15T19:57:19Z",
+  "input_file": "art_database.json",
+  "output_clean": "art_database_clean.json",
+  "summary": {
+    "total_input": 283,
+    "kept": 121,
+    "rejected": 162,
+    "metadata_only": false,
+    "reclassified": 78,
+    "original_shape_counts": {
+      "oval": 237,
+      "round": 46
+    },
+    "new_shape_counts": {
+      "heart": 48,
+      "round": 47,
+      "oval": 21,
+      "square": 4,
+      "oblong": 1
+    },
+    "rejection_reasons": {
+      "no_face": 79,
+      "face_too_small": 49,
+      "profile_pose": 12,
+      "metadata:dog": 3,
+      "multiple_faces": 3,
+      "metadata:bowl": 3,
+      "metadata:still life": 2,
+      "metadata:animal": 2,
+      "metadata:cat": 1,
+      "metadata:fish": 1,
+      "metadata:dish": 1,
+      "metadata:fragment": 1,
+      "metadata:ewer": 1,
+      "metadata:lion": 1,
+      "metadata:mask": 1,
+      "metadata:vessel": 1,
+      "metadata:plate": 1
+    }
+  },
+  "shape_changes": [
+    {
+      "id": 437056,
+      "title": "Tommaso di Folco Portinari (1428–1501); Maria Portinari (Maria Maddalena Baroncelli, born 1456)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.302
+    },
+    {
+      "id": 436543,
+      "title": "Josefa de Castilla Portugal y van Asbrock de Garcini (1775–about 1850)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.458
+    },
+    {
+      "id": 435580,
+      "title": "Christ Crowned with Thorns",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.33
+    },
+    {
+      "id": 436986,
+      "title": "Portrait of a Woman",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.329
+    },
+    {
+      "id": 437508,
+      "title": "Self-Portrait",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.284
+    },
+    {
+      "id": 712539,
+      "title": "Saint Philip Neri (1515–1595)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.302
+    },
+    {
+      "id": 436638,
+      "title": "Jacob Willemsz van Veen (1456–1535), the Artist's Father",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.328
+    },
+    {
+      "id": 436872,
+      "title": "Study for a Portrait of a Woman",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.257
+    },
+    {
+      "id": 435897,
+      "title": "Head of Christ (Ecce Homo)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.327
+    },
+    {
+      "id": 436834,
+      "title": "Portrait of a Young Man; (reverse) Girl Making a Garland",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.349
+    },
+    {
+      "id": 437021,
+      "title": "Head of Christ",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.248
+    },
+    {
+      "id": 439327,
+      "title": "Christ Blessing",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.364
+    },
+    {
+      "id": 436102,
+      "title": "Virgin and Child with Four Angels",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.289
+    },
+    {
+      "id": 437061,
+      "title": "Salvator Mundi",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.344
+    },
+    {
+      "id": 440464,
+      "title": "Pope Benedict XIV (Prospero Lambertini, 1675–1758)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.377
+    },
+    {
+      "id": 437466,
+      "title": "Christ Blessing, Surrounded by a Donor Family",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.319
+    },
+    {
+      "id": 436521,
+      "title": "Portrait of a Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.329
+    },
+    {
+      "id": 435762,
+      "title": "Virgin and Child",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.297
+    },
+    {
+      "id": 435802,
+      "title": "Portrait of a Young Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.308
+    },
+    {
+      "id": 437921,
+      "title": "Portrait of a Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.335
+    },
+    {
+      "id": 437202,
+      "title": "Christ Bearing the Cross",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.334
+    },
+    {
+      "id": 435818,
+      "title": "Portrait of a Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.27
+    },
+    {
+      "id": 856295,
+      "title": "Bust-Length Study of a Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.281
+    },
+    {
+      "id": 437216,
+      "title": "The Fifteen Mysteries and the Virgin of the Rosary",
+      "oldFaceShape": "round",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.276
+    },
+    {
+      "id": 437055,
+      "title": "Portrait of an Old Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.356
+    },
+    {
+      "id": 435765,
+      "title": "Virgin and Child",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.309
+    },
+    {
+      "id": 437879,
+      "title": "Study of a Young Woman",
+      "oldFaceShape": "oval",
+      "newFaceShape": "square",
+      "shapeConfidence": 0.285
+    },
+    {
+      "id": 436043,
+      "title": "Friedrich III (1463–1525), the Wise, Elector of Saxony",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.378
+    },
+    {
+      "id": 437870,
+      "title": "María Teresa (1638–1683), Infanta of Spain",
+      "oldFaceShape": "oval",
+      "newFaceShape": "oblong",
+      "shapeConfidence": 0.277
+    },
+    {
+      "id": 435724,
+      "title": "The Adoration of the Magi",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.318
+    },
+    {
+      "id": 641257,
+      "title": "Head of Christ",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.384
+    },
+    {
+      "id": 435763,
+      "title": "The Mourning Virgin; Christ Crowned with Thorns",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.335
+    },
+    {
+      "id": 436044,
+      "title": "Portrait of a Man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.309
+    },
+    {
+      "id": 436047,
+      "title": "Martin Luther (1483–1546)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.354
+    },
+    {
+      "id": 436668,
+      "title": "Portrait of a Man (Sir Ralph Sadler?)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.26
+    },
+    {
+      "id": 436796,
+      "title": "Francis I (1494–1547), King of France",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.312
+    },
+    {
+      "id": 437404,
+      "title": "Head of Christ",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.321
+    },
+    {
+      "id": 435760,
+      "title": "The Man of Sorrows",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.269
+    },
+    {
+      "id": 435759,
+      "title": "Head of Saint John the Baptist on a Charger",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.324
+    },
+    {
+      "id": 436271,
+      "title": "The Crucifixion with Donors and Saints Peter and Margaret of Antioch",
+      "oldFaceShape": "oval",
+      "newFaceShape": "square",
+      "shapeConfidence": 0.367
+    },
+    {
+      "id": 437015,
+      "title": "Madonna and Child",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.244
+    },
+    {
+      "id": 436344,
+      "title": "Holy Family with Saint Anne",
+      "oldFaceShape": "oval",
+      "newFaceShape": "square",
+      "shapeConfidence": 0.478
+    },
+    {
+      "id": 437028,
+      "title": "Abner's Messenger before David; The Queen of Sheba Bringing Gifts to Solomon; The Annunciation",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.282
+    },
+    {
+      "id": 436987,
+      "title": "The Rest on the Flight into Egypt",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.33
+    },
+    {
+      "id": 437804,
+      "title": "Allegorical Figures Representing Virtue and Abundance",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.411
+    },
+    {
+      "id": 436660,
+      "title": "Portrait of a Man in Royal Livery",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.288
+    },
+    {
+      "id": 436991,
+      "title": "Jan (1438/41–1516), First Count of Egmond; Magdalena, Countess of Egmond (1464–1538)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.289
+    },
+    {
+      "id": 782304,
+      "title": "Young Woman with Her Hand over Her Mouth",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.251
+    },
+    {
+      "id": 78191,
+      "title": "Buddha Shakyamuni",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.291
+    },
+    {
+      "id": 53176,
+      "title": "Fudō Myōō, the Immovable Wisdom King (Achala Vidyaraja)",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.337
+    },
+    {
+      "id": 76084,
+      "title": "The Bodhisattva Jizō",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.321
+    },
+    {
+      "id": 453895,
+      "title": "Youth and Dervish",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.329
+    },
+    {
+      "id": 447118,
+      "title": "Kalamkari Hanging with Figures in an Architectural Setting",
+      "oldFaceShape": "round",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.306
+    },
+    {
+      "id": 450483,
+      "title": "Head of a Central Asian Figure in a Pointed Cap",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.361
+    },
+    {
+      "id": 444525,
+      "title": "Candlestick",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.282
+    },
+    {
+      "id": 590941,
+      "title": "Book of the Dead of Khamhor",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.336
+    },
+    {
+      "id": 545108,
+      "title": "Head from a Large Statue of a Priest or Dignitary",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.322
+    },
+    {
+      "id": 544447,
+      "title": "Large Kneeling Statue of Hatshepsut",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.382
+    },
+    {
+      "id": 545549,
+      "title": "Head of King Amenemhat III",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.283
+    },
+    {
+      "id": 547951,
+      "title": "Portrait of the Boy Eutyches",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.258
+    },
+    {
+      "id": 547856,
+      "title": "Portrait of a thin-faced, bearded man",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.255
+    },
+    {
+      "id": 248897,
+      "title": "Marble portrait bust of a woman",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.331
+    },
+    {
+      "id": 257603,
+      "title": "Marble head of a Ptolemaic queen",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.284
+    },
+    {
+      "id": 248783,
+      "title": "Marble portrait of the co-emperor Lucius Verus",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.302
+    },
+    {
+      "id": 256163,
+      "title": "Marble sarcophagus lid with reclining couple",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.316
+    },
+    {
+      "id": 248501,
+      "title": "Marble capital and finial in the form of a sphinx",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.286
+    },
+    {
+      "id": 313256,
+      "title": "Mirror-bearer",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.356
+    },
+    {
+      "id": 315052,
+      "title": "Effigy bottle",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.293
+    },
+    {
+      "id": 320598,
+      "title": "Nsodie (memorial head) of a queen mother",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.29
+    },
+    {
+      "id": 312807,
+      "title": "Guaíza",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.34
+    },
+    {
+      "id": 308458,
+      "title": "Spout-and-bridge bottle with fox",
+      "oldFaceShape": "oval",
+      "newFaceShape": "square",
+      "shapeConfidence": 0.255
+    },
+    {
+      "id": 317792,
+      "title": "Seated Male Figure",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.259
+    },
+    {
+      "id": 733038,
+      "title": "Arganonä Maryam (The Organ of Mary) prayer book",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.361
+    },
+    {
+      "id": 313010,
+      "title": "Standing figure",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.448
+    },
+    {
+      "id": 309717,
+      "title": "Head jar",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.452
+    },
+    {
+      "id": 309958,
+      "title": "Bead",
+      "oldFaceShape": "oval",
+      "newFaceShape": "heart",
+      "shapeConfidence": 0.364
+    },
+    {
+      "id": 812102,
+      "title": "Memorial head",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.261
+    },
+    {
+      "id": 317826,
+      "title": "Three-cornered stone",
+      "oldFaceShape": "oval",
+      "newFaceShape": "round",
+      "shapeConfidence": 0.253
+    }
+  ],
+  "rejected": [
+    {
+      "id": 643540,
+      "title": "Portrait of a Woman",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2014_277-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436258,
+      "title": "Self-Portrait",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-49_7_25-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436542,
+      "title": "Ignacio Garcini y Queralt (1752–1825), Brigadier of Engineers",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-55_145_1-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437487,
+      "title": "Francesco d'Este (born ca. 1429, died after 1486)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-26278-002.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436658,
+      "title": "Hermann von Wedigh III (died 1560)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-50_135_4-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437422,
+      "title": "Charity",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1974_348-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 441115,
+      "title": "Self-Portrait",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240926.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 100.00777751207352,
+        "bbox_height": 123.79912659525871,
+        "bbox_area": 12380.875508727657,
+        "face_area_ratio": 0.043537144646075276,
+        "face_aspect_ratio": 1.2378949885203976,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 16.616057786498125
+      }
+    },
+    {
+      "id": 435864,
+      "title": "A Woman with a Dog",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29214-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:dog"
+    },
+    {
+      "id": 437531,
+      "title": "Portrait of a Woman, Probably Susanna Lunden (Susanna Fourment, 1599–1628)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20395-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 100.858995616436,
+        "bbox_height": 111.38351440429688,
+        "bbox_area": 11234.029391046215,
+        "face_area_ratio": 0.03681646672646366,
+        "face_aspect_ratio": 1.1043488359519793,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 20.316157044794476
+      }
+    },
+    {
+      "id": 435837,
+      "title": "Man in Prayer",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-50_145_35-9.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 438688,
+      "title": "Saint Francis",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP104367.jpg",
+      "oldFaceShape": "oval",
+      "reason": "multiple_faces",
+      "validation": {
+        "bbox_width": 96.38514548540115,
+        "bbox_height": 111.4866235256195,
+        "bbox_area": 10745.654428192984,
+        "face_area_ratio": 0.03159743127556158,
+        "face_aspect_ratio": 1.1566784794914864,
+        "face_count": 2.0,
+        "dominant_face_ratio": 0.5158996007211574,
+        "yaw_deg": -45.0
+      }
+    },
+    {
+      "id": 437325,
+      "title": "Margherita Gonzaga (1591–1632), Princess of Mantua",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24151-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 84.78383243083954,
+        "bbox_height": 99.25373840332031,
+        "bbox_area": 8415.112324921492,
+        "face_area_ratio": 0.028693099853114745,
+        "face_aspect_ratio": 1.1706682224383318,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -28.09318508426746
+      }
+    },
+    {
+      "id": 437396,
+      "title": "Hendrickje Stoffels (1626–1663)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145920.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 104.51253607869148,
+        "bbox_height": 116.70379257202148,
+        "bbox_area": 12197.009331703523,
+        "face_area_ratio": 0.035474572257037096,
+        "face_aspect_ratio": 1.1166487480903797,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -27.1833457267568
+      }
+    },
+    {
+      "id": 437488,
+      "title": "Portrait of a Man in a Chaperon",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-Neth_49_7_24_Xray.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 769297,
+      "title": "Pope Clement X (1590–1676)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-15417-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436243,
+      "title": "Salvator Mundi",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat23_Xraynocap.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436522,
+      "title": "A Benedictine Monk",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-22_60_53-IRR.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 1058.6028137207031,
+        "bbox_height": 1333.097219467163,
+        "bbox_area": 1411220.4674911846,
+        "face_area_ratio": 0.11336925349382909,
+        "face_aspect_ratio": 1.2592987683281194,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -43.115218053810224
+      }
+    },
+    {
+      "id": 435635,
+      "title": "Chancellor Leonhard von Eck (1480–1550)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-12_194-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436106,
+      "title": "Antoine Laurent Lavoisier (1743–1794) and Marie Anne Lavoisier (Marie Anne Pierrette Paulze, 1758–1836)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1977_10-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 440723,
+      "title": "Bashi-Bazouk",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243839.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 105.43917420506477,
+        "bbox_height": 110.71860980987549,
+        "bbox_area": 11674.078787486054,
+        "face_area_ratio": 0.036755323370000426,
+        "face_aspect_ratio": 1.0500709119225737,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 437175,
+      "title": "Virgin and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-43_13-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437398,
+      "title": "Flora",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/SF Flora x-ray.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437898,
+      "title": "Madame Grand (Noël Catherine Vorlée, 1761–1835)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320094.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 75.17696902155876,
+        "bbox_height": 96.4713077545166,
+        "bbox_area": 7252.420514530556,
+        "face_area_ratio": 0.02347973489552757,
+        "face_aspect_ratio": 1.2832561489257592,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -20.47585702500566
+      }
+    },
+    {
+      "id": 435844,
+      "title": "The Musicians",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Caravaggio_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437831,
+      "title": "Jean Marc Nattier (1685–1766)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280391.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 101.5745439529419,
+        "bbox_height": 121.53885626792908,
+        "bbox_area": 12345.253897977049,
+        "face_area_ratio": 0.0419153829108847,
+        "face_aspect_ratio": 1.1965483824789445,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -18.4226414233914
+      }
+    },
+    {
+      "id": 437875,
+      "title": "Portrait of a Man",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-49_7_42-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436657,
+      "title": "Benedikt von Hertenstein (born about 1495, died 1522)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat29_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 439337,
+      "title": "Portrait of a \"Mamelouk\"",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP331536.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 106.64908647537231,
+        "bbox_height": 122.85005301237106,
+        "bbox_area": 13101.845927220435,
+        "face_area_ratio": 0.04031337208375518,
+        "face_aspect_ratio": 1.1519090980750213,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 14.125799358451001
+      }
+    },
+    {
+      "id": 435820,
+      "title": "Portrait of a Woman of the Slosgin Family of Cologne",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat7_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 440840,
+      "title": "Portrait of an Old Man",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2010_118_IRR.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 1655.557742625475,
+        "bbox_height": 1960.2375030517578,
+        "bbox_area": 3245286.375562166,
+        "face_area_ratio": 0.2687385206659627,
+        "face_aspect_ratio": 1.1840345115013051,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 437261,
+      "title": "The Penitence of Saint Jerome",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-19.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 435804,
+      "title": "Katharina Merian",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat5_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437030,
+      "title": "Young Man Holding a Book",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-50_145_27-XRAY.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437059,
+      "title": "Young Woman with a Pink",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-49_7_23-XRAY.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437236,
+      "title": "Head of a Donor",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-17_190_22-XRAY.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 619.1208589673042,
+        "bbox_height": 711.4814154803753,
+        "bbox_area": 440492.9850914834,
+        "face_area_ratio": 0.30882358082016115,
+        "face_aspect_ratio": 1.1491801724579733,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 41.82179022973743
+      }
+    },
+    {
+      "id": 687513,
+      "title": "The Lamentation",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2015_398-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436038,
+      "title": "Judith with the Head of Holofernes",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-11_15-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436284,
+      "title": "A Donor Presented by a Saint",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_41-Xray.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 816519,
+      "title": "Still Life of Grapes and Peaches",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-23243-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:still life"
+    },
+    {
+      "id": 437900,
+      "title": "Comtesse de la Châtre (Marie Charlotte Louise Perrette Aglaé Bontemps, 1762–1848)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-54_182-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436485,
+      "title": "Vanitas Still Life",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP143209.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:still life"
+    },
+    {
+      "id": 435914,
+      "title": "Guillaume Budé (1467–1540)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25742-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 116.49645054340363,
+        "bbox_height": 133.46954584121704,
+        "bbox_area": 15548.728346141885,
+        "face_area_ratio": 0.04547049979570783,
+        "face_aspect_ratio": 1.1456962441228171,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -32.47951617947338
+      }
+    },
+    {
+      "id": 436703,
+      "title": "Madame Jacques-Louis Leblanc (Françoise Poncelle, 1788–1839)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1926.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 75.57045042514801,
+        "bbox_height": 90.47340601682663,
+        "bbox_area": 6837.116044188884,
+        "face_area_ratio": 0.022325276878984113,
+        "face_aspect_ratio": 1.1972061236612568,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 9.160260860262579
+      }
+    },
+    {
+      "id": 747607,
+      "title": "Woman Playing a Guitar",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/2017_242_framed4.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436838,
+      "title": "The Fortune-Teller",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 64.61908221244812,
+        "bbox_height": 83.12171673774719,
+        "bbox_area": 5371.24904751631,
+        "face_area_ratio": 0.01804855190697685,
+        "face_aspect_ratio": 1.2863339108480056,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 18.160712968999263
+      }
+    },
+    {
+      "id": 436001,
+      "title": "Jo, La Belle Irlandaise",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23236-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 139.26308155059814,
+        "bbox_height": 154.568661570549,
+        "bbox_area": 21525.708121466174,
+        "face_area_ratio": 0.0704836546216967,
+        "face_aspect_ratio": 1.1099040739981754,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -45.0
+      }
+    },
+    {
+      "id": 437057,
+      "title": "Virgin and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_59-IRR.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 435876,
+      "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 64.6330044567585,
+        "bbox_height": 84.41072988510132,
+        "bbox_area": 5455.719080861992,
+        "face_area_ratio": 0.018252900945017636,
+        "face_aspect_ratio": 1.306000403270356,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 5.235961278797423
+      }
+    },
+    {
+      "id": 437213,
+      "title": "The Last Supper",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-17_190_18a_c-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436793,
+      "title": "The Holy Family",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_57_verso.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 440209,
+      "title": "The Martyrdom of Saint John the Baptist",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-L_2013_34_IRR_women.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437984,
+      "title": "La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 95.04116582870483,
+        "bbox_height": 104.15382528305054,
+        "bbox_area": 9898.900980420356,
+        "face_area_ratio": 0.031983111625117466,
+        "face_aspect_ratio": 1.09588118343129,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -31.888824589727555
+      }
+    },
+    {
+      "id": 436739,
+      "title": "Portrait of a Woman",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP104987.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 84.29103720188141,
+        "bbox_height": 88.58649587631226,
+        "bbox_area": 7467.04761949455,
+        "face_area_ratio": 0.024775201795318225,
+        "face_aspect_ratio": 1.0509598507388513,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -34.192829473385274
+      }
+    },
+    {
+      "id": 436259,
+      "title": "Study Head of a Young Woman",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200196.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 120.25042682886124,
+        "bbox_height": 154.0902636051178,
+        "bbox_area": 18529.419968687158,
+        "face_area_ratio": 0.06441341276171908,
+        "face_aspect_ratio": 1.2814113651705947,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 437675,
+      "title": "Saint Andrew",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP343102.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 600.2845543622971,
+        "bbox_height": 686.5344688594341,
+        "bbox_area": 412116.03769364173,
+        "face_area_ratio": 0.04040099418199716,
+        "face_aspect_ratio": 1.1436817153970642,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -36.08951706834697
+      }
+    },
+    {
+      "id": 436721,
+      "title": "Christ Crowned with Thorns (Ecce Homo), and the Mourning Virgin (Mater Dolorosa)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-04_32-XRAY.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436619,
+      "title": "Petrus Scriverius (1576–1660)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP247208.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 118.26444661617279,
+        "bbox_height": 133.83184576034546,
+        "bbox_area": 15827.549178468247,
+        "face_area_ratio": 0.054901866114677844,
+        "face_aspect_ratio": 1.1316321142117771,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 436122,
+      "title": "The Collector of Prints",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1921.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436709,
+      "title": "Ingres (1780–1867) as a Young Man",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1307.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 97.03157216310501,
+        "bbox_height": 112.15281128883362,
+        "bbox_area": 10882.363601867557,
+        "face_area_ratio": 0.03446578114506549,
+        "face_aspect_ratio": 1.1558383399200272,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 37.04953142755079
+      }
+    },
+    {
+      "id": 437835,
+      "title": "The Englishman (William Tom Warrener, 1861–1934) at the Moulin Rouge",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1500.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436040,
+      "title": "Portrait of a Man with a Rosary",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat8_IRR_detail of headnocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 436.2845665216446,
+        "bbox_height": 533.0398093163967,
+        "bbox_area": 232557.04214638422,
+        "face_area_ratio": 0.17888728030829082,
+        "face_aspect_ratio": 1.2217709500158356,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 35.34215596062285
+      }
+    },
+    {
+      "id": 437869,
+      "title": "Juan de Pareja (ca. 1608–1670)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1971_86-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 435819,
+      "title": "Portrait of a Woman",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat6b_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436096,
+      "title": "The Annunciation",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-50_145_9ab-13.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437229,
+      "title": "Virgin and Child with Angels",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-14_40_632_IRR_Detail_FullRes.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 997.3510503768921,
+        "bbox_height": 917.6304340362549,
+        "bbox_area": 915199.6772438622,
+        "face_area_ratio": 0.05719997982774139,
+        "face_aspect_ratio": 0.9200676468826986,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -41.8016216921754
+      }
+    },
+    {
+      "id": 436959,
+      "title": "Emilie-Louise Delabigne (1848–1910), Called Valtesse de la Bigne",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT221017.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 130.8173512816429,
+        "bbox_height": 138.58431243896484,
+        "bbox_area": 18129.23268245302,
+        "face_area_ratio": 0.07227178483564956,
+        "face_aspect_ratio": 1.0593725609120466,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 436551,
+      "title": "Ferdinand VII (1784–1833), When Prince of Asturias",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22708-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 82.19170969724655,
+        "bbox_height": 100.32873600721359,
+        "bbox_area": 8246.190344196586,
+        "face_area_ratio": 0.026282678387877564,
+        "face_aspect_ratio": 1.2206673443924556,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 12.762240383613364
+      }
+    },
+    {
+      "id": 436707,
+      "title": "Madame Edmond Cavé (Marie-Elisabeth Blavot, ca. 1806–1883)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1998.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 143.62536430358887,
+        "bbox_height": 180.75163793563843,
+        "bbox_area": 25960.519846976462,
+        "face_area_ratio": 0.08238296473399487,
+        "face_aspect_ratio": 1.2584938517793676,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 436941,
+      "title": "Sebastian Andorfer (1469–1537)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat42_Xray.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436286,
+      "title": "Portrait of a Man with a Moor's Head on His Signet Ring",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat26_Xraynocap1.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436706,
+      "title": "Jacques-Louis Leblanc (1774–1846)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT403.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 76.6112214922905,
+        "bbox_height": 94.94250512123108,
+        "bbox_area": 7273.661288875559,
+        "face_area_ratio": 0.023453739387851336,
+        "face_aspect_ratio": 1.239276743953042,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -1.1369511283342548
+      }
+    },
+    {
+      "id": 436045,
+      "title": "Johann I (1468–1532), the Constant, Elector of Saxony",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat17b_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 817504,
+      "title": "Portrait of a Boy",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2019_21-fig_1.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436846,
+      "title": "Portrait of a Woman and an Enslaved Servant",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP312828.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 435645,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP255395.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 104.47596144676208,
+        "bbox_height": 118.35911750793457,
+        "bbox_area": 12365.682597631756,
+        "face_area_ratio": 0.04384247574041211,
+        "face_aspect_ratio": 1.1328837358270873,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -13.632716250874331
+      }
+    },
+    {
+      "id": 435888,
+      "title": "Soap Bubbles",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 94.94283199310303,
+        "bbox_height": 99.35216426849365,
+        "bbox_area": 9432.775840294766,
+        "face_area_ratio": 0.027105677701996452,
+        "face_aspect_ratio": 1.0464419712665716,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 1.3715462395532998
+      }
+    },
+    {
+      "id": 436626,
+      "title": "Boy with a Lute",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145900.jpg",
+      "oldFaceShape": "round",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 115.42214965820312,
+        "bbox_height": 122.0517053604126,
+        "bbox_area": 14087.470202148455,
+        "face_area_ratio": 0.044093894613094875,
+        "face_aspect_ratio": 1.0574374651818685,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -17.549806781643515
+      }
+    },
+    {
+      "id": 437203,
+      "title": "Portrait of a Noblewoman, Probably Isabella of Portugal (1397–1472)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-50_145_15_brocadepattern_tracing.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 735.8894201517105,
+        "bbox_height": 902.1371096372604,
+        "bbox_area": 663873.1545083036,
+        "face_area_ratio": 0.0641336586846517,
+        "face_aspect_ratio": 1.2259139551853815,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -45.0
+      }
+    },
+    {
+      "id": 437092,
+      "title": "Portia",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/fig.198.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437415,
+      "title": "The Sibyl",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145401.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 101.12117606401443,
+        "bbox_height": 106.4143967628479,
+        "bbox_area": 10760.74895080183,
+        "face_area_ratio": 0.034979290030952015,
+        "face_aspect_ratio": 1.052345323747843,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 14.443306772700447
+      }
+    },
+    {
+      "id": 435875,
+      "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317780.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 83.45780676603317,
+        "bbox_height": 103.46339678764343,
+        "bbox_area": 8634.828176460564,
+        "face_area_ratio": 0.02784278806318863,
+        "face_aspect_ratio": 1.2397090313874917,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 3.0393059019519097
+      }
+    },
+    {
+      "id": 655744,
+      "title": "William Edward Dighton (1822–1853) in Middle Eastern Dress",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP331534.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 63.29055994749069,
+        "bbox_height": 82.04770946502686,
+        "bbox_area": 5192.845474450582,
+        "face_area_ratio": 0.01755668301163915,
+        "face_aspect_ratio": 1.2963656749616075,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 20.60944432696511
+      }
+    },
+    {
+      "id": 436103,
+      "title": "Virgin and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_53-11.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 438016,
+      "title": "The Streetwalker",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10262.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 100.27380752563477,
+        "bbox_height": 113.11240768432617,
+        "bbox_area": 11342.211796899253,
+        "face_area_ratio": 0.033911607219010875,
+        "face_aspect_ratio": 1.1280354309415173,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 2.2856475815386044
+      }
+    },
+    {
+      "id": 438001,
+      "title": "Two Women",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1953.jpg",
+      "oldFaceShape": "oval",
+      "reason": "multiple_faces",
+      "validation": {
+        "bbox_width": 94.8535367846489,
+        "bbox_height": 118.08049088716507,
+        "bbox_area": 11200.352185915111,
+        "face_area_ratio": 0.03928239006858458,
+        "face_aspect_ratio": 1.2448717769507065,
+        "face_count": 2.0,
+        "dominant_face_ratio": 0.5095908050431253,
+        "yaw_deg": -18.995834241717496
+      }
+    },
+    {
+      "id": 437389,
+      "title": "Bellona",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146454.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 65.6127476990223,
+        "bbox_height": 83.65096378326416,
+        "bbox_area": 5488.569581491362,
+        "face_area_ratio": 0.018362807068315945,
+        "face_aspect_ratio": 1.2749193825411256,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 5.699009468606705
+      }
+    },
+    {
+      "id": 437640,
+      "title": "Baron Alexander von Humboldt (1769–1859)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1411-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 70.26520538330078,
+        "bbox_height": 73.58483970165253,
+        "bbox_area": 5170.45387473388,
+        "face_area_ratio": 0.01520721727862906,
+        "face_aspect_ratio": 1.0472443551576196,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 0.5250293078561004
+      }
+    },
+    {
+      "id": 436664,
+      "title": "Lady Guildford (Mary Wotton, 1499–1558)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat39_Xray_Detail.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437437,
+      "title": "Young Woman (La Servante)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1488.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 75.3045225739479,
+        "bbox_height": 88.43670916557312,
+        "bbox_area": 6659.684161724566,
+        "face_area_ratio": 0.023769645371925385,
+        "face_aspect_ratio": 1.1743877544503334,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -7.726986016857766
+      }
+    },
+    {
+      "id": 437060,
+      "title": "Virgin and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_58_Photomicro_Dress.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437407,
+      "title": "Christ with a Staff",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1347.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 93.77862685918808,
+        "bbox_height": 112.4523754119873,
+        "bbox_area": 10545.629353190094,
+        "face_area_ratio": 0.03237556904285199,
+        "face_aspect_ratio": 1.1991258475221493,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -10.241359661826467
+      }
+    },
+    {
+      "id": 436244,
+      "title": "Virgin and Child with Saint Anne",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-14_40_633-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437892,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19523-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 104.8575689792633,
+        "bbox_height": 109.19719934463501,
+        "bbox_area": 11450.152862622432,
+        "face_area_ratio": 0.03920855544126134,
+        "face_aspect_ratio": 1.0413859524650044,
+        "face_count": 2.0,
+        "dominant_face_ratio": 0.6562269544475307,
+        "yaw_deg": -24.94389946455555
+      }
+    },
+    {
+      "id": 437013,
+      "title": "Virgin and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-45_170_1-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 441672,
+      "title": "The Dormition of the Virgin; (reverse) Christ Carrying the Cross",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2011_485-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436794,
+      "title": "The Last Judgment",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-40_174_1-4.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 435899,
+      "title": "The Annunciation",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_35-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436791,
+      "title": "The Annunciation",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_60-1.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437338,
+      "title": "The Crucifixion",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1982_60_21-13.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 828497,
+      "title": "An Old Man with a Dog",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-18781-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:dog"
+    },
+    {
+      "id": 437405,
+      "title": "A Young Woman as a Shepherdess",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146492.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 96.28242403268814,
+        "bbox_height": 117.03745365142822,
+        "bbox_area": 11268.649740172898,
+        "face_area_ratio": 0.03801838643783029,
+        "face_aspect_ratio": 1.2155640536396726,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 20.84609417394421
+      }
+    },
+    {
+      "id": 435764,
+      "title": "Virgin and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat53_IRR.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437439,
+      "title": "A Young Girl with Daisies",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-053.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 95.45118641853333,
+        "bbox_height": 107.01087498664856,
+        "bbox_area": 10214.314977160957,
+        "face_area_ratio": 0.03135841861050004,
+        "face_aspect_ratio": 1.1211057609847659,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 436797,
+      "title": "The Holy Family",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-41_190_19-Xray.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436523,
+      "title": "The Adoration of the Magi",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332733.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 53.81858414411545,
+        "bbox_height": 73.18103268742561,
+        "bbox_area": 3938.4995654414784,
+        "face_area_ratio": 0.01077889259542264,
+        "face_aspect_ratio": 1.3597725367776563,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -37.98669440929864
+      }
+    },
+    {
+      "id": 436616,
+      "title": "Young Man and Woman in an Inn",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145899.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 82.11244201660156,
+        "bbox_height": 91.28598496317863,
+        "bbox_area": 7495.715147217368,
+        "face_area_ratio": 0.02535548464175008,
+        "face_aspect_ratio": 1.1117192805533949,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 5.0158469402921595
+      }
+    },
+    {
+      "id": 441227,
+      "title": "The Holy Family with the Infant Saint John the Baptist",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Perino Evidence.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436908,
+      "title": "Saint Catherine of Alexandria",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/SF Lorenzetti.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 102.63369333744049,
+        "bbox_height": 122.40911304950714,
+        "bbox_area": 12563.299370431201,
+        "face_area_ratio": 0.0489688426760182,
+        "face_aspect_ratio": 1.1926796071446903,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -2.970493481775888
+      }
+    },
+    {
+      "id": 437248,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP293270.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 81.22688606381416,
+        "bbox_height": 99.17820811271667,
+        "bbox_area": 8055.937010384887,
+        "face_area_ratio": 0.030376836389083284,
+        "face_aspect_ratio": 1.2210022188318217,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 1.993770132691608
+      }
+    },
+    {
+      "id": 437699,
+      "title": "Salome with the Head of Saint John the Baptist",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP105662.jpg",
+      "oldFaceShape": "oval",
+      "reason": "multiple_faces",
+      "validation": {
+        "bbox_width": 124.52647885680199,
+        "bbox_height": 144.1347599029541,
+        "bbox_area": 17948.594131585443,
+        "face_area_ratio": 0.05598002068330742,
+        "face_aspect_ratio": 1.1574627438771514,
+        "face_count": 2.0,
+        "dominant_face_ratio": 0.5780004951129121,
+        "yaw_deg": -43.50435701993321
+      }
+    },
+    {
+      "id": 436004,
+      "title": "The Woman in the Waves",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT887.jpg",
+      "oldFaceShape": "oval",
+      "reason": "profile_pose",
+      "validation": {
+        "bbox_width": 124.75742554664612,
+        "bbox_height": 129.93374839425087,
+        "bbox_area": 16210.199941292403,
+        "face_area_ratio": 0.050264185864472566,
+        "face_aspect_ratio": 1.041491100228494,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 435852,
+      "title": "Two Children Teasing a Cat",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP243404.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:cat"
+    },
+    {
+      "id": 435768,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/BramantinoIRR.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 435644,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT301874.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 92.52655625343323,
+        "bbox_height": 90.65390396118164,
+        "bbox_area": 8387.893544457605,
+        "face_area_ratio": 0.026408913733746427,
+        "face_aspect_ratio": 0.9797609208850016,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -18.07716933359564
+      }
+    },
+    {
+      "id": 437842,
+      "title": "Teasing a Sleeping Girl",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22991-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 86.55001199245453,
+        "bbox_height": 95.88516443967819,
+        "bbox_area": 8298.862132152623,
+        "face_area_ratio": 0.028102490398644875,
+        "face_aspect_ratio": 1.107858476646283,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 5.6392174383332945
+      }
+    },
+    {
+      "id": 437769,
+      "title": "Clothing the Naked",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1984_459_1-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437674,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25976-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 119.57638800144196,
+        "bbox_height": 107.37579315900803,
+        "bbox_area": 12839.609504744121,
+        "face_area_ratio": 0.03604100913612385,
+        "face_aspect_ratio": 0.8979681938353348,
+        "face_count": 2.0,
+        "dominant_face_ratio": 0.6394324543123996,
+        "yaw_deg": 45.0
+      }
+    },
+    {
+      "id": 436984,
+      "title": "The Adoration of the Magi",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-11_143-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436310,
+      "title": "Portrait of a Prelate",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-62_122_141-IRR.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 516.513953089714,
+        "bbox_height": 686.5827140808105,
+        "bbox_area": 354629.55177294434,
+        "face_area_ratio": 0.030588431650897974,
+        "face_aspect_ratio": 1.3292626655558268,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 41.907424079525626
+      }
+    },
+    {
+      "id": 437509,
+      "title": "Madonna and Child with Two Angels",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_84-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 437453,
+      "title": "Portrait of a Woman",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP162172.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 103.55466020107269,
+        "bbox_height": 113.67072558403015,
+        "bbox_area": 11771.133362663622,
+        "face_area_ratio": 0.03620728555374164,
+        "face_aspect_ratio": 1.0976881712837938,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -45.0
+      }
+    },
+    {
+      "id": 435641,
+      "title": "Madonna and Child",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-08_183_1-2.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436684,
+      "title": "Major Thomas Pechell (1753–1826)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP162152.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 102.62906482815742,
+        "bbox_height": 129.66924619674683,
+        "bbox_area": 13307.833474144236,
+        "face_area_ratio": 0.04109182313788917,
+        "face_aspect_ratio": 1.2634748880725515,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -5.827751641630351
+      }
+    },
+    {
+      "id": 435915,
+      "title": "Charles de Cossé (1506–1563), Count of Brissac",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DT229154.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 68.76161694526672,
+        "bbox_height": 88.95471692085266,
+        "bbox_area": 6116.670170386307,
+        "face_area_ratio": 0.019573344545236182,
+        "face_aspect_ratio": 1.293668195610632,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -40.960860987939924
+      }
+    },
+    {
+      "id": 436942,
+      "title": "Ulrich Fugger the Younger (1490–1525)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-14_40_630-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436696,
+      "title": "Dr. Brian Walton (born about 1600, died 1661)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP327710.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 115.95922833681107,
+        "bbox_height": 138.36520671844482,
+        "bbox_area": 16044.722599734208,
+        "face_area_ratio": 0.04518927324065558,
+        "face_aspect_ratio": 1.1932229000054584,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 22.321538983556227
+      }
+    },
+    {
+      "id": 436665,
+      "title": "Lady Lee (Margaret Wyatt, born about 1509)",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat36_IRR_DetailOfHandsnocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 436667,
+      "title": "Portrait of a Young Woman",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat37_Xraynocap.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 679844,
+      "title": "Fish Market",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-2015_146-5.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:fish"
+    },
+    {
+      "id": 436967,
+      "title": "The Holy Family with Saint Mary Magdalen",
+      "department": "European Paintings",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-14_40_643-3.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 38012,
+      "title": "Melancholy Courtesan",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/LC-1995_232_001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 733847,
+      "title": "Famous Women",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-14487-002.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 38634,
+      "title": "Crowned  Bodhisattva",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP701397.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 53165,
+      "title": "Male and Female Shinto Deities",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-16151-008.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 40282,
+      "title": "Buddha Amitabha Descending from his Pure Land",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP222082.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 708.013664484024,
+        "bbox_height": 738.5520935058594,
+        "bbox_area": 522904.97413543105,
+        "face_area_ratio": 0.04356089421321485,
+        "face_aspect_ratio": 1.0431325418614494,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -29.80743516159791
+      }
+    },
+    {
+      "id": 38159,
+      "title": "Standing Ganesha",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DT7384.jpg",
+      "oldFaceShape": "round",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 107.272669672966,
+        "bbox_height": 103.429751470685,
+        "bbox_area": 11095.185563871762,
+        "face_area_ratio": 0.03550459380438964,
+        "face_aspect_ratio": 0.9641761670144259,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 8.850878349827344
+      }
+    },
+    {
+      "id": 38970,
+      "title": "Seated Ascetic, Deified King, Agni (The God of Fire)",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP155522.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 53190,
+      "title": "Guardian Lion-Dogs",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP-23915-001.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:dog"
+    },
+    {
+      "id": 53187,
+      "title": "Kasuga Deer Mandala (Kasuga shika mandara zu)",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/DP361159.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 53892,
+      "title": "Albums of scenes from The Tale of Genji",
+      "department": "Asian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/SC-2015_300_34ab.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 452032,
+      "title": "Pierced Bowl Signed by Hasan al-Qashani",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf68-223-9a.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:bowl"
+    },
+    {
+      "id": 452740,
+      "title": "Seal Stone",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/LC-1975_118.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 454699,
+      "title": "Copper-Alloy Bracelet",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf12-182-96s4.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 343.36235398054123,
+        "bbox_height": 333.8980385065079,
+        "bbox_area": 114648.01649107994,
+        "face_area_ratio": 0.03564628833513872,
+        "face_aspect_ratio": 0.9724363624482557,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -26.942011497566547
+      }
+    },
+    {
+      "id": 444717,
+      "title": "Footed Bowl with Eagle Emblem",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP-17264-007.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:bowl"
+    },
+    {
+      "id": 450578,
+      "title": "Dish with Horse and Rider",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf45-153-2a.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:dish"
+    },
+    {
+      "id": 453653,
+      "title": "Tusk Fragment with Christ Enthroned",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/tem17-19048s1.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:fragment"
+    },
+    {
+      "id": 446642,
+      "title": "Silk Animal Carpet",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/TP279.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:animal"
+    },
+    {
+      "id": 451378,
+      "title": "Bowl with Enthroned Figure and Horsemen",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/sf57-36-3a.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:bowl"
+    },
+    {
+      "id": 453308,
+      "title": "Bottle",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP214318.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 444532,
+      "title": "Ewer Base with Zodiac Medallions",
+      "department": "Islamic Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP241087.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:ewer"
+    },
+    {
+      "id": 544454,
+      "title": "Upper Part of the Seated Statue of a Queen",
+      "department": "Egyptian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP115768.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 591138,
+      "title": "Head of a lion",
+      "department": "Egyptian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/DP323402.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:lion"
+    },
+    {
+      "id": 573572,
+      "title": "Block statue of Mersuptah",
+      "department": "Egyptian Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/25.184.14.jpg",
+      "oldFaceShape": "round",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 101.13105571269989,
+        "bbox_height": 98.59024715423584,
+        "bbox_area": 9970.535777683877,
+        "face_area_ratio": 0.039846440699868424,
+        "face_aspect_ratio": 0.9748760799483578,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": 8.840018710754805
+      }
+    },
+    {
+      "id": 318622,
+      "title": "Pendant mask of Ìyọ́bà Idià",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP231460.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:mask"
+    },
+    {
+      "id": 309944,
+      "title": "Miniature female effigy",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/LC-1974_271_8-Image 6.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 317753,
+      "title": "Female figurine",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/LC-1995_481_5-image 6.jpg",
+      "oldFaceShape": "round",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 310607,
+      "title": "Vessel, Seated Deities",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-13003-005.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:vessel"
+    },
+    {
+      "id": 313251,
+      "title": "Female figurine",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/LC-1979_206_1058-image 6.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    },
+    {
+      "id": 310563,
+      "title": "Drum",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/ao1978.412.111.AV2.jpg",
+      "oldFaceShape": "oval",
+      "reason": "face_too_small",
+      "validation": {
+        "bbox_width": 328.4272059202194,
+        "bbox_height": 357.3596613407135,
+        "bbox_area": 117366.63508272638,
+        "face_area_ratio": 0.04553075677131879,
+        "face_aspect_ratio": 1.0880939669398835,
+        "face_count": 1.0,
+        "dominant_face_ratio": 1.0,
+        "yaw_deg": -11.79327330823626
+      }
+    },
+    {
+      "id": 309952,
+      "title": "Animal pendant",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-43941-001.jpg",
+      "oldFaceShape": "oval",
+      "reason": "metadata:animal"
+    },
+    {
+      "id": 718242,
+      "title": "Plate with the god Chahk",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-23101-003.jpg",
+      "oldFaceShape": "round",
+      "reason": "metadata:plate"
+    },
+    {
+      "id": 307606,
+      "title": "Macuilcoatl",
+      "department": "The Michael C. Rockefeller Wing",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/vs00_5_8.jpg",
+      "oldFaceShape": "oval",
+      "reason": "no_face",
+      "validation": null
+    }
+  ]
+}

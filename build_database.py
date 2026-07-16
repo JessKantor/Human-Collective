@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import sys
 import time
 from collections import Counter
@@ -23,6 +22,9 @@ import numpy as np
 import requests
 import subprocess
 import tempfile
+
+from face_validation import metadata_exclusion_reason
+from face_shape import classify_face_shape, classify_face_shape_detailed
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -86,165 +88,17 @@ FACE_LANDMARKER_MODEL_URL = (
 FACE_DETECT_WORKER = Path(__file__).resolve().parent / "face_detect_worker.py"
 FACE_DETECT_TIMEOUT = 120
 
-# ---------------------------------------------------------------------------
-# MediaPipe Face Mesh landmark indices
-# See: https://github.com/google/mediapipe/blob/master/mediapipe/modules/face_geometry/data/canonical_face_model_uv_visualization.png
-# ---------------------------------------------------------------------------
-
-# Vertical extent of the face (top of forehead to chin tip)
-LANDMARK_FOREHEAD_TOP = 10
-LANDMARK_CHIN = 152
-
-# Horizontal widths at different vertical levels
-LANDMARK_LEFT_CHEEK = 234   # widest part of mid-face (cheekbone level)
-LANDMARK_RIGHT_CHEEK = 454
-LANDMARK_LEFT_TEMPLE = 67   # forehead width (temple to temple)
-LANDMARK_RIGHT_TEMPLE = 297
-LANDMARK_LEFT_JAW = 172     # jaw angle (corner of mandible)
-LANDMARK_RIGHT_JAW = 397
-
-# ---------------------------------------------------------------------------
-# Face shape classification
-# ---------------------------------------------------------------------------
-
-
-def _landmark_distance(
-    landmarks: list[Any], idx_a: int, idx_b: int, width: int, height: int
-) -> float:
-    """Euclidean distance between two landmarks in pixel space."""
-    a = landmarks[idx_a]
-    b = landmarks[idx_b]
-    ax, ay = a.x * width, a.y * height
-    bx, by = b.x * width, b.y * height
-    return math.hypot(ax - bx, ay - by)
-
-
-def _angle_at_vertex(
-    landmarks: list[Any],
-    vertex_idx: int,
-    arm_a_idx: int,
-    arm_b_idx: int,
-    width: int,
-    height: int,
-) -> float:
-    """
-    Return the interior angle (degrees) at `vertex_idx` formed by rays toward
-    `arm_a_idx` and `arm_b_idx`. Used to measure how square vs. rounded the jaw is.
-    """
-    vertex = landmarks[vertex_idx]
-    arm_a = landmarks[arm_a_idx]
-    arm_b = landmarks[arm_b_idx]
-
-    vx, vy = vertex.x * width, vertex.y * height
-    ax, ay = arm_a.x * width, arm_a.y * height
-    bx, by = arm_b.x * width, arm_b.y * height
-
-    vec_a = (ax - vx, ay - vy)
-    vec_b = (bx - vx, by - vy)
-
-    mag_a = math.hypot(*vec_a)
-    mag_b = math.hypot(*vec_b)
-    if mag_a == 0 or mag_b == 0:
-        return 0.0
-
-    cos_angle = (vec_a[0] * vec_b[0] + vec_a[1] * vec_b[1]) / (mag_a * mag_b)
-    cos_angle = max(-1.0, min(1.0, cos_angle))
-    return math.degrees(math.acos(cos_angle))
-
-
-def classify_face_shape(
-    landmarks: list[Any], image_width: int, image_height: int
-) -> str:
-    """
-    Classify face shape from MediaPipe Face Landmarker landmarks.
-
-    We derive four geometric signals from the mesh:
-
-    1. length_to_width_ratio
-       Face height (forehead top → chin) divided by cheekbone width.
-       Long faces score higher; round faces stay near 1.0.
-
-    2. jaw_to_forehead_ratio
-       Jaw width divided by forehead width.
-       Values well below 1.0 mean the jaw tapers inward (heart shape).
-       Values near 1.0 mean forehead and jaw are similar (round/square).
-
-    3. jaw_angle_deg
-       Average interior angle at both jaw corners (chin–jaw–cheek).
-       Smaller angles look more angular/square; larger angles look softer/round.
-
-    4. cheek_to_jaw_ratio
-       Cheekbone width divided by jaw width.
-       Heart shapes often have wider cheeks relative to a narrow jaw.
-
-    Classification order matters: we test the most distinctive shapes first,
-    then fall back to oval as the balanced default.
-    """
-    face_height = _landmark_distance(
-        landmarks, LANDMARK_FOREHEAD_TOP, LANDMARK_CHIN, image_width, image_height
-    )
-    cheek_width = _landmark_distance(
-        landmarks, LANDMARK_LEFT_CHEEK, LANDMARK_RIGHT_CHEEK, image_width, image_height
-    )
-    forehead_width = _landmark_distance(
-        landmarks, LANDMARK_LEFT_TEMPLE, LANDMARK_RIGHT_TEMPLE, image_width, image_height
-    )
-    jaw_width = _landmark_distance(
-        landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, image_width, image_height
-    )
-
-    if cheek_width == 0 or forehead_width == 0 or jaw_width == 0:
-        return "oval"
-
-    length_to_width = face_height / cheek_width
-    jaw_to_forehead = jaw_width / forehead_width
-    cheek_to_jaw = cheek_width / jaw_width
-
-    left_jaw_angle = _angle_at_vertex(
-        landmarks,
-        LANDMARK_LEFT_JAW,
-        LANDMARK_CHIN,
-        LANDMARK_LEFT_CHEEK,
-        image_width,
-        image_height,
-    )
-    right_jaw_angle = _angle_at_vertex(
-        landmarks,
-        LANDMARK_RIGHT_JAW,
-        LANDMARK_CHIN,
-        LANDMARK_RIGHT_CHEEK,
-        image_width,
-        image_height,
-    )
-    jaw_angle_deg = (left_jaw_angle + right_jaw_angle) / 2.0
-
-    # --- Heart: wide forehead, noticeably narrower jaw, cheeks often widest ---
-    # Forehead dominates the lower face; chin comes to a point.
-    if jaw_to_forehead < 0.82 and cheek_to_jaw > 1.05:
-        return "heart"
-
-    # --- Oblong: clearly longer than wide, widths stay fairly uniform ---
-    # Jaw does not taper much, but vertical span is large.
-    if length_to_width > 1.45 and 0.85 <= jaw_to_forehead <= 1.05:
-        return "oblong"
-
-    # --- Round: height ≈ width, soft jaw, forehead and jaw similar width ---
-    if 0.92 <= length_to_width <= 1.12 and jaw_to_forehead >= 0.88 and jaw_angle_deg > 125:
-        return "round"
-
-    # --- Square: moderate height, forehead ≈ jaw, angular jaw corners ---
-    # Jaw angle below ~120° reads as a sharper, boxier mandible.
-    if (
-        1.0 <= length_to_width <= 1.35
-        and 0.88 <= jaw_to_forehead <= 1.08
-        and jaw_angle_deg <= 120
-    ):
-        return "square"
-
-    # --- Oval: balanced proportions, gentle taper forehead → jaw ---
-    # Default for faces that are longer than round but not extreme oblong,
-    # with a soft jaw taper and moderate angles.
-    return "oval"
+# Re-export landmark constants for any external tooling that imported them here.
+from face_shape import (  # noqa: E402
+    LANDMARK_CHIN,
+    LANDMARK_FOREHEAD_TOP,
+    LANDMARK_LEFT_CHEEK,
+    LANDMARK_LEFT_JAW,
+    LANDMARK_LEFT_TEMPLE,
+    LANDMARK_RIGHT_CHEEK,
+    LANDMARK_RIGHT_JAW,
+    LANDMARK_RIGHT_TEMPLE,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -517,7 +371,7 @@ def image_urls_to_try(obj: dict[str, Any]) -> list[str]:
     return urls
 
 
-def detect_face_in_image_file(image_path: Path) -> dict[str, Any] | None:
+def detect_face_in_image_file(image_path: Path, *, artwork: bool = False) -> dict[str, Any] | None:
     """
     Run face detection in a child process.
 
@@ -526,8 +380,11 @@ def detect_face_in_image_file(image_path: Path) -> dict[str, Any] | None:
     """
     ensure_face_landmarker_model()
     try:
+        cmd = [sys.executable, str(FACE_DETECT_WORKER), "--image", str(image_path)]
+        if artwork:
+            cmd.append("--artwork")
         completed = subprocess.run(
-            [sys.executable, str(FACE_DETECT_WORKER), "--image", str(image_path)],
+            cmd,
             capture_output=True,
             text=True,
             timeout=FACE_DETECT_TIMEOUT,
@@ -539,9 +396,11 @@ def detect_face_in_image_file(image_path: Path) -> dict[str, Any] | None:
 
     if completed.returncode != 0:
         stderr = (completed.stderr or "").strip()
-        if stderr:
-            print(f"  [warn] Face worker exited {completed.returncode}: {stderr[:200]}")
-        return None
+        stdout = (completed.stdout or "").strip()
+        if not stdout:
+            if stderr:
+                print(f"  [warn] Face worker exited {completed.returncode}: {stderr[:200]}")
+            return None
 
     stdout = (completed.stdout or "").strip()
     if not stdout:
@@ -553,20 +412,32 @@ def detect_face_in_image_file(image_path: Path) -> dict[str, Any] | None:
         print("  [warn] Face worker returned invalid JSON")
         return None
 
-    if payload.get("ok"):
-        return payload
-    return None
+    if completed.returncode != 0:
+        stderr = (completed.stderr or "").strip()
+        if stderr and payload.get("reason") not in {
+            "no_face",
+            "unreadable_image",
+            "profile_pose",
+            "face_too_small",
+            "multiple_faces",
+            "bad_face_aspect",
+        }:
+            print(f"  [warn] Face worker exited {completed.returncode}: {stderr[:200]}")
+
+    return payload
 
 
 def detect_face_in_object(
     obj: dict[str, Any],
     session: requests.Session,
-) -> tuple[list[Any] | None, int, int, str]:
+) -> tuple[list[Any] | None, int, int, str, str | None]:
     """
-    Try each available image URL until a face is detected.
+    Try each available image URL until a valid face is detected.
 
-    Returns (landmarks, width, height, image_url_used).
+    Returns (landmarks, width, height, image_url_used, rejection_reason).
+    rejection_reason is None when a valid face is found.
     """
+    last_reason = "no_face"
     for image_url in image_urls_to_try(obj):
         image = download_image(image_url, session)
         if image is None:
@@ -578,19 +449,23 @@ def detect_face_in_object(
                 temp_path = handle.name
                 cv2.imwrite(temp_path, image)
 
-            payload = detect_face_in_image_file(Path(temp_path))
-            if payload is not None:
+            payload = detect_face_in_image_file(Path(temp_path), artwork=True)
+            if payload is None:
+                continue
+            if payload.get("ok"):
                 return (
                     landmarks_from_worker_payload(payload),
                     int(payload["width"]),
                     int(payload["height"]),
                     image_url,
+                    None,
                 )
+            last_reason = payload.get("reason") or last_reason
         finally:
             if temp_path:
                 Path(temp_path).unlink(missing_ok=True)
 
-    return None, 0, 0, ""
+    return None, 0, 0, "", last_reason
 
 
 # ---------------------------------------------------------------------------
@@ -598,9 +473,15 @@ def detect_face_in_object(
 # ---------------------------------------------------------------------------
 
 
-def build_record(obj: dict[str, Any], face_shape: str) -> dict[str, Any]:
+def build_record(
+    obj: dict[str, Any],
+    face_shape: str,
+    *,
+    shape_confidence: float | None = None,
+    face_metrics: dict[str, float] | None = None,
+) -> dict[str, Any]:
     """Map Met API object fields to our database schema."""
-    return {
+    record: dict[str, Any] = {
         "id": obj["objectID"],
         "title": obj.get("title") or "",
         "artist": obj.get("artistDisplayName") or "",
@@ -611,6 +492,13 @@ def build_record(obj: dict[str, Any], face_shape: str) -> dict[str, Any]:
         "metUrl": obj.get("objectURL") or "",
         "faceShape": face_shape,
     }
+    if shape_confidence is not None:
+        record["shapeConfidence"] = round(shape_confidence, 3)
+    if face_metrics is not None:
+        record["faceMetrics"] = {
+            key: round(value, 3) for key, value in face_metrics.items()
+        }
+    return record
 
 
 # ---------------------------------------------------------------------------
@@ -794,6 +682,8 @@ def main() -> int:
     skipped_no_domain = 0
     skipped_no_image = 0
     skipped_no_face = 0
+    skipped_metadata = 0
+    skipped_face_quality: Counter[str] = Counter()
     api_errors = 0
     processed_this_run = 0
 
@@ -834,17 +724,34 @@ def main() -> int:
                     print("skipped (no image)")
                     continue
 
-                landmarks, width, height, image_url_used = detect_face_in_object(
+                metadata_reason = metadata_exclusion_reason(obj)
+                if metadata_reason:
+                    skipped_metadata += 1
+                    skipped_by_department[department] += 1
+                    print(f"skipped ({metadata_reason})")
+                    continue
+
+                landmarks, width, height, image_url_used, face_reason = detect_face_in_object(
                     obj, session
                 )
                 if landmarks is None:
-                    skipped_no_face += 1
+                    if face_reason == "no_face":
+                        skipped_no_face += 1
+                    else:
+                        skipped_face_quality[face_reason or "face_quality"] += 1
                     skipped_by_department[department] += 1
-                    print("skipped (no face detected in any available image)")
+                    print(f"skipped ({face_reason or 'no face detected'})")
                     continue
 
-                face_shape = classify_face_shape(landmarks, width, height)
-                record = build_record(obj, face_shape)
+                face_shape, shape_confidence, _, face_metrics = classify_face_shape_detailed(
+                    landmarks, width, height
+                )
+                record = build_record(
+                    obj,
+                    face_shape,
+                    shape_confidence=shape_confidence,
+                    face_metrics=face_metrics,
+                )
                 if image_url_used and image_url_used != record["imageUrl"]:
                     record["imageUrl"] = image_url_used
                 results.append(record)
@@ -872,6 +779,11 @@ def main() -> int:
     print(f"  Skipped (not domain):  {skipped_no_domain}")
     print(f"  Skipped (no image):    {skipped_no_image}")
     print(f"  Skipped (no face):     {skipped_no_face}")
+    print(f"  Skipped (metadata):    {skipped_metadata}")
+    if skipped_face_quality:
+        print("  Skipped (face quality):")
+        for reason, count in skipped_face_quality.most_common():
+            print(f"    {reason:<22} {count:>5}")
     print(f"  API errors:            {api_errors}")
     print(f"  Output file:           {OUTPUT_FILE.resolve()}")
 
