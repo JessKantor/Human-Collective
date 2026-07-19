@@ -35,15 +35,19 @@ MAX_FACE_ASPECT = 2.0
 METADATA_BLOCKLIST = (
     "animal",
     "animals",
+    "bead",
     "bird",
     "birds",
+    "book of the dead",
     "bowl",
     "carpet",
     "cattle",
     "cat ",
     " cats",
+    "codex",
     "dog",
     "dish ",
+    "drum",
     "ewer",
     "fish",
     "fragment",
@@ -53,17 +57,35 @@ METADATA_BLOCKLIST = (
     "landscape",
     "lion",
     "lions",
+    "manuscript",
     "mask",
     "masks",
+    "mirror bearer",
+    "mirror-bearer",
     "monkey",
+    "papyrus",
     "pendant",
     "plate",
+    "prayer book",
+    "scroll",
     "still life",
     "textile",
     "tile",
     "tusk",
     "vase",
     "vessel",
+)
+
+# Image URLs that are conservation/technical views, not visitor-facing portraits
+IMAGE_URL_BLOCKLIST = (
+    "irr",
+    "irrdetail",
+    "xray",
+    "x-ray",
+    "reflectography",
+    "nocap",
+    "_strm",
+    "technical",
 )
 
 METADATA_FIELDS = (
@@ -107,6 +129,26 @@ def metadata_exclusion_reason(obj: dict[str, Any]) -> str | None:
         if term in combined:
             return f"metadata:{term.strip()}"
     return None
+
+
+def image_url_exclusion_reason(image_url: str) -> str | None:
+    """Reject conservation/X-ray/study images that are not display portraits."""
+    lowered = (image_url or "").lower()
+    if not lowered:
+        return None
+    for term in IMAGE_URL_BLOCKLIST:
+        if term in lowered:
+            return f"image_url:{term}"
+    return None
+
+
+def artwork_exclusion_reason(obj: dict[str, Any], image_url: str = "") -> str | None:
+    """Combined metadata + image URL exclusion check for saved artworks."""
+    meta_reason = metadata_exclusion_reason(obj)
+    if meta_reason:
+        return meta_reason
+    url = image_url or obj.get("imageUrl") or obj.get("primaryImage") or ""
+    return image_url_exclusion_reason(url)
 
 
 def face_bbox_metrics(

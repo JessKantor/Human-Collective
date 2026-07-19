@@ -36,7 +36,7 @@ from build_database import (
     met_get,
 )
 from face_shape import classify_face_shape_detailed
-from face_validation import metadata_exclusion_reason
+from face_validation import artwork_exclusion_reason, metadata_exclusion_reason
 
 INPUT_FILE = Path("art_database.json")
 OUTPUT_CLEAN = Path("art_database_clean.json")
@@ -291,7 +291,7 @@ def main() -> int:
         old_shape = record.get("faceShape")
         print(f"[{index}/{len(records)}] {record_id} — {title!r}...", end=" ", flush=True)
 
-        metadata_reason = metadata_exclusion_reason(record_as_metadata_obj(record))
+        metadata_reason = artwork_exclusion_reason(record_as_metadata_obj(record), record.get("imageUrl") or "")
         if metadata_reason:
             rejected.append(rejection_entry(record, metadata_reason))
             print(f"REJECT ({metadata_reason})")

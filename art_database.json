@@ -90,42 +90,6 @@
     }
   },
   {
-    "id": 435896,
-    "title": "Portrait of a Carthusian",
-    "artist": "Petrus Christus",
-    "date": "1446",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-49_7_19_IRR.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435896",
-    "faceShape": "oval",
-    "shapeConfidence": 0.337,
-    "faceMetrics": {
-      "length_to_width": 1.374,
-      "jaw_to_forehead": 1.474,
-      "cheek_to_jaw": 1.228,
-      "jaw_angle_deg": 144.393
-    }
-  },
-  {
-    "id": 436102,
-    "title": "Virgin and Child with Four Angels",
-    "artist": "Gerard David",
-    "date": "ca. 1510–15",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-1977_1_1-IRRDetail.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436102",
-    "faceShape": "heart",
-    "shapeConfidence": 0.289,
-    "faceMetrics": {
-      "length_to_width": 1.213,
-      "jaw_to_forehead": 1.497,
-      "cheek_to_jaw": 1.29,
-      "jaw_angle_deg": 143.094
-    }
-  },
-  {
     "id": 437508,
     "title": "Self-Portrait",
     "artist": "Salvator Rosa",
@@ -339,24 +303,6 @@
       "jaw_to_forehead": 1.529,
       "cheek_to_jaw": 1.203,
       "jaw_angle_deg": 134.807
-    }
-  },
-  {
-    "id": 437061,
-    "title": "Salvator Mundi",
-    "artist": "Hans Memling",
-    "date": "1480–85",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/LC-32_100_54-IRR.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/437061",
-    "faceShape": "round",
-    "shapeConfidence": 0.344,
-    "faceMetrics": {
-      "length_to_width": 0.999,
-      "jaw_to_forehead": 1.55,
-      "cheek_to_jaw": 1.214,
-      "jaw_angle_deg": 131.07
     }
   },
   {
@@ -702,24 +648,6 @@
     }
   },
   {
-    "id": 435763,
-    "title": "The Mourning Virgin; Christ Crowned with Thorns",
-    "artist": "Dieric Bouts",
-    "date": "",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/Bouts_copy_diptych_Christ_IRR.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/435763",
-    "faceShape": "heart",
-    "shapeConfidence": 0.335,
-    "faceMetrics": {
-      "length_to_width": 1.249,
-      "jaw_to_forehead": 1.733,
-      "cheek_to_jaw": 1.199,
-      "jaw_angle_deg": 132.931
-    }
-  },
-  {
     "id": 436044,
     "title": "Portrait of a Man",
     "artist": "Lucas Cranach the Elder",
@@ -771,24 +699,6 @@
       "jaw_to_forehead": 1.826,
       "cheek_to_jaw": 1.174,
       "jaw_angle_deg": 135.736
-    }
-  },
-  {
-    "id": 436668,
-    "title": "Portrait of a Man (Sir Ralph Sadler?)",
-    "artist": "Hans Holbein the Younger",
-    "date": "1535",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat34_IRRnocap.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436668",
-    "faceShape": "round",
-    "shapeConfidence": 0.26,
-    "faceMetrics": {
-      "length_to_width": 1.159,
-      "jaw_to_forehead": 1.59,
-      "cheek_to_jaw": 1.234,
-      "jaw_angle_deg": 139.072
     }
   },
   {
@@ -990,24 +900,6 @@
     }
   },
   {
-    "id": 436039,
-    "title": "The Martyrdom of Saint Barbara",
-    "artist": "Lucas Cranach the Elder",
-    "date": "ca. 1510",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat9_IRR_detail_1nocap.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436039",
-    "faceShape": "oval",
-    "shapeConfidence": 0.353,
-    "faceMetrics": {
-      "length_to_width": 1.302,
-      "jaw_to_forehead": 1.482,
-      "cheek_to_jaw": 1.254,
-      "jaw_angle_deg": 137.944
-    }
-  },
-  {
     "id": 437804,
     "title": "Allegorical Figures Representing Virtue and Abundance",
     "artist": "Giovanni Battista Tiepolo",
@@ -1041,24 +933,6 @@
       "jaw_to_forehead": 1.502,
       "cheek_to_jaw": 1.311,
       "jaw_angle_deg": 139.921
-    }
-  },
-  {
-    "id": 436660,
-    "title": "Portrait of a Man in Royal Livery",
-    "artist": "Hans Holbein the Younger",
-    "date": "1532–35",
-    "culture": "",
-    "department": "European Paintings",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/GermanCat31_Xraynocap.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/436660",
-    "faceShape": "heart",
-    "shapeConfidence": 0.288,
-    "faceMetrics": {
-      "length_to_width": 1.005,
-      "jaw_to_forehead": 1.652,
-      "cheek_to_jaw": 1.169,
-      "jaw_angle_deg": 126.981
     }
   },
   {
@@ -1188,24 +1062,6 @@
     }
   },
   {
-    "id": 76084,
-    "title": "The Bodhisattva Jizō",
-    "artist": "Intan",
-    "date": "1291",
-    "culture": "Japan",
-    "department": "Asian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/as/original/LC-TR_396_1a_c_2023_strm1-006.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/76084",
-    "faceShape": "heart",
-    "shapeConfidence": 0.321,
-    "faceMetrics": {
-      "length_to_width": 1.07,
-      "jaw_to_forehead": 1.583,
-      "cheek_to_jaw": 1.205,
-      "jaw_angle_deg": 123.036
-    }
-  },
-  {
     "id": 908751,
     "title": "Woman Applying Makeup",
     "artist": "Hashiguchi Goyō",
@@ -1275,24 +1131,6 @@
       "jaw_to_forehead": 1.559,
       "cheek_to_jaw": 1.247,
       "jaw_angle_deg": 132.488
-    }
-  },
-  {
-    "id": 448959,
-    "title": "Head from a Figure with a Beaded Headdress",
-    "artist": "",
-    "date": "12th–early 13th century",
-    "culture": "",
-    "department": "Islamic Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/is/original/DP170373.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/448959",
-    "faceShape": "round",
-    "shapeConfidence": 0.423,
-    "faceMetrics": {
-      "length_to_width": 0.939,
-      "jaw_to_forehead": 1.676,
-      "cheek_to_jaw": 1.226,
-      "jaw_angle_deg": 134.815
     }
   },
   {
@@ -1455,24 +1293,6 @@
       "jaw_to_forehead": 1.498,
       "cheek_to_jaw": 1.287,
       "jaw_angle_deg": 139.469
-    }
-  },
-  {
-    "id": 590941,
-    "title": "Book of the Dead of Khamhor",
-    "artist": "",
-    "date": "ca. 630 B.C.",
-    "culture": "",
-    "department": "Egyptian Art",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212C.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/590941",
-    "faceShape": "heart",
-    "shapeConfidence": 0.336,
-    "faceMetrics": {
-      "length_to_width": 0.965,
-      "jaw_to_forehead": 1.575,
-      "cheek_to_jaw": 1.129,
-      "jaw_angle_deg": 124.206
     }
   },
   {
@@ -1728,24 +1548,6 @@
     }
   },
   {
-    "id": 313256,
-    "title": "Mirror-bearer",
-    "artist": "Maya artist(s)",
-    "date": "410–650 CE",
-    "culture": "Maya",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-24340-005.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/313256",
-    "faceShape": "heart",
-    "shapeConfidence": 0.356,
-    "faceMetrics": {
-      "length_to_width": 1.128,
-      "jaw_to_forehead": 1.915,
-      "cheek_to_jaw": 1.191,
-      "jaw_angle_deg": 119.247
-    }
-  },
-  {
     "id": 317792,
     "title": "Seated Male Figure",
     "artist": "",
@@ -1872,42 +1674,6 @@
     }
   },
   {
-    "id": 309958,
-    "title": "Bead",
-    "artist": "Moche artist(s)",
-    "date": "3rd–6th century",
-    "culture": "Moche",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP-41709-002.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/309958",
-    "faceShape": "heart",
-    "shapeConfidence": 0.364,
-    "faceMetrics": {
-      "length_to_width": 1.066,
-      "jaw_to_forehead": 1.748,
-      "cheek_to_jaw": 1.143,
-      "jaw_angle_deg": 119.041
-    }
-  },
-  {
-    "id": 307602,
-    "title": "Prayer book with case (mahdar)",
-    "artist": "Wäldä Maryam",
-    "date": "19th century",
-    "culture": "",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/vs95.67ab2.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/307602",
-    "faceShape": "heart",
-    "shapeConfidence": 0.417,
-    "faceMetrics": {
-      "length_to_width": 1.309,
-      "jaw_to_forehead": 1.24,
-      "cheek_to_jaw": 1.191,
-      "jaw_angle_deg": 112.843
-    }
-  },
-  {
     "id": 308458,
     "title": "Spout-and-bridge bottle with fox",
     "artist": "Topará artist(s)",
@@ -1923,24 +1689,6 @@
       "jaw_to_forehead": 1.88,
       "cheek_to_jaw": 1.097,
       "jaw_angle_deg": 117.01
-    }
-  },
-  {
-    "id": 733038,
-    "title": "Arganonä Maryam (The Organ of Mary) prayer book",
-    "artist": "Baselyos, also known as \"The Ground Hornbill Master\"",
-    "date": "late 17th century",
-    "culture": "",
-    "department": "The Michael C. Rockefeller Wing",
-    "imageUrl": "https://images.metmuseum.org/CRDImages/ao/original/DP367372.jpg",
-    "metUrl": "https://www.metmuseum.org/art/collection/search/733038",
-    "faceShape": "heart",
-    "shapeConfidence": 0.361,
-    "faceMetrics": {
-      "length_to_width": 1.212,
-      "jaw_to_forehead": 1.652,
-      "cheek_to_jaw": 1.16,
-      "jaw_angle_deg": 134.325
     }
   },
   {

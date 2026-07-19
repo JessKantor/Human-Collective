@@ -432,6 +432,7 @@
     // -----------------------------------------------------------------------
     const LANDMARK_FOREHEAD_TOP = 10;
     const LANDMARK_CHIN = 152;
+    const LANDMARK_NOSE_TIP = 1;
     const LANDMARK_LEFT_CHEEK = 234;
     const LANDMARK_RIGHT_CHEEK = 454;
     const LANDMARK_LEFT_TEMPLE = 67;
@@ -586,17 +587,87 @@
       return { shape, confidence: scores[shape], scores, metrics };
     }
 
-    function pickLargestFace(faces, width, height) {
-      if (faces.length === 1) return faces[0];
-      let best = faces[0];
-      let bestArea = 0;
-      for (const lm of faces) {
-        const xs = lm.map((p) => p.x * width);
-        const ys = lm.map((p) => p.y * height);
-        const area = (Math.max(...xs) - Math.min(...xs)) * (Math.max(...ys) - Math.min(...ys));
-        if (area > bestArea) { bestArea = area; best = lm; }
+    // -----------------------------------------------------------------------
+    // Face quality validation — matches face_validation.py (visitor mode)
+    // -----------------------------------------------------------------------
+
+    const MIN_FACE_AREA_RATIO = 0.10;
+    const MIN_DOMINANT_FACE_RATIO = 0.60;
+    const MAX_ABS_YAW_DEG = 25.0;
+    const MIN_FACE_ASPECT = 0.75;
+    const MAX_FACE_ASPECT = 2.0;
+
+    const VALIDATION_MESSAGES = {
+      multiple_faces: "Multiple faces detected. Please take a solo portrait with only your face in frame.",
+      face_too_small: "Your face fills too little of the frame. Move closer or crop tighter on your face.",
+      profile_pose: "Please face the camera directly — profile views cannot be measured reliably.",
+      bad_face_aspect: "We couldn't measure your face clearly. Try a front-facing photo with your full face visible."
+    };
+
+    function faceBboxMetrics(landmarks, width, height) {
+      const xs = landmarks.map((p) => p.x * width);
+      const ys = landmarks.map((p) => p.y * height);
+      const bboxWidth = Math.max(Math.max(...xs) - Math.min(...xs), 1);
+      const bboxHeight = Math.max(Math.max(...ys) - Math.min(...ys), 1);
+      const area = bboxWidth * bboxHeight;
+      return {
+        bbox_area: area,
+        face_area_ratio: area / Math.max(width * height, 1),
+        face_aspect_ratio: bboxHeight / bboxWidth
+      };
+    }
+
+    function faceAreaFromLandmarks(landmarks, width, height) {
+      return faceBboxMetrics(landmarks, width, height).bbox_area;
+    }
+
+    function estimateYawDeg(landmarks, width, height) {
+      const nose = landmarks[LANDMARK_NOSE_TIP];
+      const left = landmarks[LANDMARK_LEFT_CHEEK];
+      const right = landmarks[LANDMARK_RIGHT_CHEEK];
+      const centerX = (left.x + right.x) / 2;
+      const halfWidth = Math.abs(right.x - left.x) / 2;
+      if (halfWidth <= 1e-6) return 0;
+      const offset = Math.max(-1, Math.min(1, (nose.x - centerX) / halfWidth));
+      return offset * 45;
+    }
+
+    function validateFaceLandmarks(landmarks, width, height, faceCount, dominantRatio) {
+      const metrics = faceBboxMetrics(landmarks, width, height);
+      metrics.face_count = faceCount;
+      metrics.dominant_face_ratio = dominantRatio;
+      metrics.yaw_deg = estimateYawDeg(landmarks, width, height);
+
+      if (faceCount > 1 && dominantRatio < MIN_DOMINANT_FACE_RATIO) {
+        return { ok: false, reason: "multiple_faces", metrics };
       }
-      return best;
+      if (metrics.face_area_ratio < MIN_FACE_AREA_RATIO) {
+        return { ok: false, reason: "face_too_small", metrics };
+      }
+      if (Math.abs(metrics.yaw_deg) > MAX_ABS_YAW_DEG) {
+        return { ok: false, reason: "profile_pose", metrics };
+      }
+      if (metrics.face_aspect_ratio < MIN_FACE_ASPECT || metrics.face_aspect_ratio > MAX_FACE_ASPECT) {
+        return { ok: false, reason: "bad_face_aspect", metrics };
+      }
+      return { ok: true, metrics };
+    }
+
+    function chooseDominantFace(faces, width, height) {
+      if (faces.length === 1) {
+        return { landmarks: faces[0], faceCount: 1, dominantRatio: 1.0 };
+      }
+      const areas = faces.map((lm) => faceAreaFromLandmarks(lm, width, height));
+      const totalArea = areas.reduce((a, b) => a + b, 0) || 1;
+      let bestIdx = 0;
+      for (let i = 1; i < faces.length; i++) {
+        if (areas[i] > areas[bestIdx]) bestIdx = i;
+      }
+      return {
+        landmarks: faces[bestIdx],
+        faceCount: faces.length,
+        dominantRatio: areas[bestIdx] / totalArea
+      };
     }
 
     // -----------------------------------------------------------------------
@@ -718,11 +789,21 @@
         analyzeCallback = (results) => {
           clearTimeout(timeout);
           if (!results.multiFaceLandmarks || results.multiFaceLandmarks.length === 0) {
-            resolve(null);
+            resolve({ ok: false, reason: "no_face" });
             return;
           }
-          const landmarks = pickLargestFace(results.multiFaceLandmarks, width, height);
-          resolve(classifyFaceShapeDetailed(landmarks, width, height));
+          const { landmarks, faceCount, dominantRatio } = chooseDominantFace(
+            results.multiFaceLandmarks, width, height
+          );
+          const validation = validateFaceLandmarks(
+            landmarks, width, height, faceCount, dominantRatio
+          );
+          if (!validation.ok) {
+            resolve({ ok: false, reason: validation.reason });
+            return;
+          }
+          const classification = classifyFaceShapeDetailed(landmarks, width, height);
+          resolve({ ok: true, ...classification, validation: validation.metrics });
         };
 
         faceMesh.send({ image: imageSource }).catch((err) => {
@@ -821,8 +902,11 @@
       hideError();
       try {
         const result = await analyzeImage(imageSource, width, height);
-        if (!result) {
-          showError("No face detected. Please try again with a clear, front-facing portrait.");
+        if (!result || !result.ok) {
+          const reason = result?.reason || "no_face";
+          const message = VALIDATION_MESSAGES[reason] ||
+            "No face detected. Please try again with a clear, front-facing portrait.";
+          showError(message);
           showScreen("welcome");
           return;
         }
