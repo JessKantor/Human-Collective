@@ -23,7 +23,7 @@ import requests
 import subprocess
 import tempfile
 
-from face_validation import metadata_exclusion_reason
+from face_validation import artwork_exclusion_reason
 from face_shape import classify_face_shape, classify_face_shape_detailed
 
 # ---------------------------------------------------------------------------
@@ -643,7 +643,7 @@ def main() -> int:
     resume = args.resume or (has_checkpoints and not args.fresh)
 
     print("=" * 60)
-    print("Beauty Collective — Met Museum art database builder")
+    print("Human Collective — Met Museum art database builder")
     print("=" * 60)
 
     if args.fresh:
@@ -655,7 +655,7 @@ def main() -> int:
         print("Resume mode — will skip finished candidates and keep existing saves.\n")
 
     session = requests.Session()
-    session.headers.update({"User-Agent": "BeautyCollectiveMVP/1.0 (educational project)"})
+    session.headers.update({"User-Agent": "HumanCollectiveMVP/1.0 (educational project)"})
 
     cached = load_cached_candidates() if resume else None
     if cached:
@@ -724,7 +724,7 @@ def main() -> int:
                     print("skipped (no image)")
                     continue
 
-                metadata_reason = metadata_exclusion_reason(obj)
+                metadata_reason = artwork_exclusion_reason(obj)
                 if metadata_reason:
                     skipped_metadata += 1
                     skipped_by_department[department] += 1
@@ -741,6 +741,13 @@ def main() -> int:
                         skipped_face_quality[face_reason or "face_quality"] += 1
                     skipped_by_department[department] += 1
                     print(f"skipped ({face_reason or 'no face detected'})")
+                    continue
+
+                url_reason = artwork_exclusion_reason(obj, image_url_used)
+                if url_reason:
+                    skipped_metadata += 1
+                    skipped_by_department[department] += 1
+                    print(f"skipped ({url_reason})")
                     continue
 
                 face_shape, shape_confidence, _, face_metrics = classify_face_shape_detailed(
