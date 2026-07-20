@@ -643,7 +643,7 @@ def main() -> int:
     resume = args.resume or (has_checkpoints and not args.fresh)
 
     print("=" * 60)
-    print("Beauty Collective — Met Museum art database builder")
+    print("Human Collective — Met Museum art database builder")
     print("=" * 60)
 
     if args.fresh:
@@ -655,7 +655,7 @@ def main() -> int:
         print("Resume mode — will skip finished candidates and keep existing saves.\n")
 
     session = requests.Session()
-    session.headers.update({"User-Agent": "BeautyCollectiveMVP/1.0 (educational project)"})
+    session.headers.update({"User-Agent": "HumanCollectiveMVP/1.0 (educational project)"})
 
     cached = load_cached_candidates() if resume else None
     if cached:

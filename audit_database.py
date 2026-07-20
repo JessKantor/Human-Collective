@@ -273,10 +273,10 @@ def main() -> int:
         PROGRESS_FILE.unlink()
 
     session = requests.Session()
-    session.headers.update({"User-Agent": "BeautyCollectiveMVP/1.0 (audit script)"})
+    session.headers.update({"User-Agent": "HumanCollectiveMVP/1.0 (audit script)"})
 
     print("=" * 60)
-    print("Beauty Collective — database audit")
+    print("Human Collective — database audit")
     print("=" * 60)
     print(f"Input:          {args.input} ({len(records)} records)")
     print(f"Metadata only:  {args.metadata_only}")
