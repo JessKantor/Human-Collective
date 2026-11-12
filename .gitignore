@@ -1,6 +1,12 @@
 __pycache__/
 .mplconfig/
 *.pyc
+.DS_Store
 face_landmarker.task
 art_database.partial.json
 build_*.json
+audit_run.log
+build_phase4.log
+
+# ICP prototype lives in its own repo (see beauty-collective-icp.md)
+Beauty-collective-/
